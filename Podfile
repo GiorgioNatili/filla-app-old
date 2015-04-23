@@ -1,0 +1,5 @@
+pod 'SVProgressHUD', '~> 1.1.3'
+pod 'AFNetworking', '~> 2.0'
+pod 'CocoaLumberjack', '~> 2.0'
+pod 'SAMCategories', '~> 0.4.0'
+pod 'ILPDFKit', '~> 0.1.1'
