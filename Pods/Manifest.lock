@@ -28,6 +28,12 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.0.0):
     - CocoaLumberjack/Default
+  - Fabric (1.2.3):
+    - Fabric/Core (= 1.2.3)
+  - Fabric/Core (1.2.3)
+  - Fabric/Crashlytics (1.2.3)
+  - Fabric/MoPub (1.2.3)
+  - Fabric/Twitter (1.2.3)
   - ILPDFKit (0.1.1)
   - SAMCategories (0.4.1)
   - SVProgressHUD (1.1.3)
@@ -35,6 +41,10 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - CocoaLumberjack (~> 2.0)
+  - Fabric (~> 1.2)
+  - Fabric/Crashlytics (~> 1.2)
+  - Fabric/MoPub (~> 1.2)
+  - Fabric/Twitter (~> 1.2)
   - ILPDFKit (~> 0.1.1)
   - SAMCategories (~> 0.4.0)
   - SVProgressHUD (~> 1.1.3)
@@ -42,6 +52,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
   CocoaLumberjack: a6f77d987d65dc7ba86b0f84db7d0b9084f77bcb
+  Fabric: 8a5b89c2131962830d92bbc88d482e80665846b2
   ILPDFKit: e11ecca803173252b397bfd3c0c39a0d78c9483e
   SAMCategories: da7fac173132cb58b91397df5bb4af07dbd4ab20
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1

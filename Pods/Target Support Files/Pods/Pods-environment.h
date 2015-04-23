@@ -72,6 +72,36 @@
 #define COCOAPODS_VERSION_MINOR_CocoaLumberjack_Extensions 0
 #define COCOAPODS_VERSION_PATCH_CocoaLumberjack_Extensions 0
 
+// Fabric
+#define COCOAPODS_POD_AVAILABLE_Fabric
+#define COCOAPODS_VERSION_MAJOR_Fabric 1
+#define COCOAPODS_VERSION_MINOR_Fabric 2
+#define COCOAPODS_VERSION_PATCH_Fabric 3
+
+// Fabric/Core
+#define COCOAPODS_POD_AVAILABLE_Fabric_Core
+#define COCOAPODS_VERSION_MAJOR_Fabric_Core 1
+#define COCOAPODS_VERSION_MINOR_Fabric_Core 2
+#define COCOAPODS_VERSION_PATCH_Fabric_Core 3
+
+// Fabric/Crashlytics
+#define COCOAPODS_POD_AVAILABLE_Fabric_Crashlytics
+#define COCOAPODS_VERSION_MAJOR_Fabric_Crashlytics 1
+#define COCOAPODS_VERSION_MINOR_Fabric_Crashlytics 2
+#define COCOAPODS_VERSION_PATCH_Fabric_Crashlytics 3
+
+// Fabric/MoPub
+#define COCOAPODS_POD_AVAILABLE_Fabric_MoPub
+#define COCOAPODS_VERSION_MAJOR_Fabric_MoPub 1
+#define COCOAPODS_VERSION_MINOR_Fabric_MoPub 2
+#define COCOAPODS_VERSION_PATCH_Fabric_MoPub 3
+
+// Fabric/Twitter
+#define COCOAPODS_POD_AVAILABLE_Fabric_Twitter
+#define COCOAPODS_VERSION_MAJOR_Fabric_Twitter 1
+#define COCOAPODS_VERSION_MINOR_Fabric_Twitter 2
+#define COCOAPODS_VERSION_PATCH_Fabric_Twitter 3
+
 // ILPDFKit
 #define COCOAPODS_POD_AVAILABLE_ILPDFKit
 #define COCOAPODS_VERSION_MAJOR_ILPDFKit 0
