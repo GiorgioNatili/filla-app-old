@@ -14,6 +14,15 @@
 		591762B71AE90AE5009D3E60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591762B61AE90AE5009D3E60 /* Images.xcassets */; };
 		591762BA1AE90AE5009D3E60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 591762B81AE90AE5009D3E60 /* LaunchScreen.xib */; };
 		591762C61AE90AE5009D3E60 /* SignMyPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591762C51AE90AE5009D3E60 /* SignMyPadTests.swift */; };
+		59A903471AF2C844005FC6DF /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A903451AF2C844005FC6DF /* AppDependencies.swift */; };
+		59A903511AF2C923005FC6DF /* MainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A903491AF2C923005FC6DF /* MainWireframe.swift */; };
+		59A903521AF2C923005FC6DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034A1AF2C923005FC6DF /* MainViewController.swift */; };
+		59A903531AF2C923005FC6DF /* MainViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034B1AF2C923005FC6DF /* MainViewInterface.swift */; };
+		59A903541AF2C923005FC6DF /* MainDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034C1AF2C923005FC6DF /* MainDataManager.swift */; };
+		59A903551AF2C923005FC6DF /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034D1AF2C923005FC6DF /* MainInteractor.swift */; };
+		59A903561AF2C923005FC6DF /* MainInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034E1AF2C923005FC6DF /* MainInteractorIO.swift */; };
+		59A903571AF2C923005FC6DF /* MainModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034F1AF2C923005FC6DF /* MainModuleInterface.swift */; };
+		59A903581AF2C923005FC6DF /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A903501AF2C923005FC6DF /* MainPresenter.swift */; };
 		6B2A3D0D1AEF8C8A00D3970C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2A3D0C1AEF8C8A00D3970C /* Social.framework */; };
 		6B2A3D0F1AEF8C9B00D3970C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */; };
 		98FACC75DF8C61BB74224F8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D18719D1D89A392D3C399C5C /* libPods.a */; };
@@ -42,6 +51,16 @@
 		591762BF1AE90AE5009D3E60 /* SignMyPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignMyPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		591762C41AE90AE5009D3E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591762C51AE90AE5009D3E60 /* SignMyPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignMyPadTests.swift; sourceTree = "<group>"; };
+		59A903451AF2C844005FC6DF /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		59A903461AF2C844005FC6DF /* SignMyPad-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SignMyPad-Bridging-Header.h"; sourceTree = "<group>"; };
+		59A903491AF2C923005FC6DF /* MainWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWireframe.swift; sourceTree = "<group>"; };
+		59A9034A1AF2C923005FC6DF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		59A9034B1AF2C923005FC6DF /* MainViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewInterface.swift; sourceTree = "<group>"; };
+		59A9034C1AF2C923005FC6DF /* MainDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDataManager.swift; sourceTree = "<group>"; };
+		59A9034D1AF2C923005FC6DF /* MainInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		59A9034E1AF2C923005FC6DF /* MainInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractorIO.swift; sourceTree = "<group>"; };
+		59A9034F1AF2C923005FC6DF /* MainModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModuleInterface.swift; sourceTree = "<group>"; };
+		59A903501AF2C923005FC6DF /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		6B2A3D0C1AEF8C8A00D3970C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		913E5245595705CD288EB0BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,17 +121,19 @@
 		591762A91AE90AE5009D3E60 /* SignMyPad */ = {
 			isa = PBXGroup;
 			children = (
-				592013341AF2892E00281296 /* components */,
-				592013331AF2892800281296 /* utils */,
-				5920132E1AF288E800281296 /* model */,
-				5920132D1AF288DA00281296 /* views */,
 				591762AC1AE90AE5009D3E60 /* AppDelegate.swift */,
-				591762B11AE90AE5009D3E60 /* ViewController.swift */,
-				591762B31AE90AE5009D3E60 /* Main.storyboard */,
+				59A903451AF2C844005FC6DF /* AppDependencies.swift */,
+				592013341AF2892E00281296 /* components */,
 				591762B61AE90AE5009D3E60 /* Images.xcassets */,
 				591762B81AE90AE5009D3E60 /* LaunchScreen.xib */,
+				591762B31AE90AE5009D3E60 /* Main.storyboard */,
+				5920132E1AF288E800281296 /* model */,
+				59A903461AF2C844005FC6DF /* SignMyPad-Bridging-Header.h */,
 				591762AE1AE90AE5009D3E60 /* SignMyPad.xcdatamodeld */,
 				591762AA1AE90AE5009D3E60 /* Supporting Files */,
+				592013331AF2892800281296 /* utils */,
+				591762B11AE90AE5009D3E60 /* ViewController.swift */,
+				5920132D1AF288DA00281296 /* views */,
 			);
 			path = SignMyPad;
 			sourceTree = "<group>";
@@ -145,6 +166,7 @@
 		5920132D1AF288DA00281296 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				59A903481AF2C90C005FC6DF /* main */,
 				5920133E1AF289B600281296 /* tools */,
 				5920133D1AF2898900281296 /* navigationbar */,
 				5920133C1AF2897C00281296 /* filesmanager */,
@@ -281,6 +303,21 @@
 			children = (
 			);
 			name = tools;
+			sourceTree = "<group>";
+		};
+		59A903481AF2C90C005FC6DF /* main */ = {
+			isa = PBXGroup;
+			children = (
+				59A903491AF2C923005FC6DF /* MainWireframe.swift */,
+				59A9034A1AF2C923005FC6DF /* MainViewController.swift */,
+				59A9034B1AF2C923005FC6DF /* MainViewInterface.swift */,
+				59A9034C1AF2C923005FC6DF /* MainDataManager.swift */,
+				59A9034D1AF2C923005FC6DF /* MainInteractor.swift */,
+				59A9034E1AF2C923005FC6DF /* MainInteractorIO.swift */,
+				59A9034F1AF2C923005FC6DF /* MainModuleInterface.swift */,
+				59A903501AF2C923005FC6DF /* MainPresenter.swift */,
+			);
+			name = main;
 			sourceTree = "<group>";
 		};
 		DA70A6A5B19E31D9ADE82D4D /* Pods */ = {
@@ -441,7 +478,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A903511AF2C923005FC6DF /* MainWireframe.swift in Sources */,
+				59A903561AF2C923005FC6DF /* MainInteractorIO.swift in Sources */,
+				59A903571AF2C923005FC6DF /* MainModuleInterface.swift in Sources */,
+				59A903471AF2C844005FC6DF /* AppDependencies.swift in Sources */,
+				59A903541AF2C923005FC6DF /* MainDataManager.swift in Sources */,
 				591762B21AE90AE5009D3E60 /* ViewController.swift in Sources */,
+				59A903521AF2C923005FC6DF /* MainViewController.swift in Sources */,
+				59A903581AF2C923005FC6DF /* MainPresenter.swift in Sources */,
+				59A903551AF2C923005FC6DF /* MainInteractor.swift in Sources */,
+				59A903531AF2C923005FC6DF /* MainViewInterface.swift in Sources */,
 				591762B01AE90AE5009D3E60 /* SignMyPad.xcdatamodeld in Sources */,
 				591762AD1AE90AE5009D3E60 /* AppDelegate.swift in Sources */,
 			);
