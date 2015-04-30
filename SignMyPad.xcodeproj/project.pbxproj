@@ -102,6 +102,10 @@
 		591762A91AE90AE5009D3E60 /* SignMyPad */ = {
 			isa = PBXGroup;
 			children = (
+				592013341AF2892E00281296 /* components */,
+				592013331AF2892800281296 /* utils */,
+				5920132E1AF288E800281296 /* model */,
+				5920132D1AF288DA00281296 /* views */,
 				591762AC1AE90AE5009D3E60 /* AppDelegate.swift */,
 				591762B11AE90AE5009D3E60 /* ViewController.swift */,
 				591762B31AE90AE5009D3E60 /* Main.storyboard */,
@@ -136,6 +140,147 @@
 				591762C41AE90AE5009D3E60 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5920132D1AF288DA00281296 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5920133E1AF289B600281296 /* tools */,
+				5920133D1AF2898900281296 /* navigationbar */,
+				5920133C1AF2897C00281296 /* filesmanager */,
+				592013391AF2895700281296 /* signatures */,
+				592013351AF2893800281296 /* pdf */,
+			);
+			name = views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5920132E1AF288E800281296 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				592013321AF2891700281296 /* services */,
+				592013311AF2890F00281296 /* vos */,
+				592013301AF2890000281296 /* aggregates */,
+				5920132F1AF288F900281296 /* entities */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		5920132F1AF288F900281296 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = entities;
+			sourceTree = "<group>";
+		};
+		592013301AF2890000281296 /* aggregates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = aggregates;
+			sourceTree = "<group>";
+		};
+		592013311AF2890F00281296 /* vos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = vos;
+			sourceTree = "<group>";
+		};
+		592013321AF2891700281296 /* services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
+		592013331AF2892800281296 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		592013341AF2892E00281296 /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		592013351AF2893800281296 /* pdf */ = {
+			isa = PBXGroup;
+			children = (
+				592013381AF2894900281296 /* annotator */,
+				592013371AF2894400281296 /* editor */,
+				592013361AF2893E00281296 /* viewer */,
+			);
+			name = pdf;
+			sourceTree = "<group>";
+		};
+		592013361AF2893E00281296 /* viewer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = viewer;
+			sourceTree = "<group>";
+		};
+		592013371AF2894400281296 /* editor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = editor;
+			sourceTree = "<group>";
+		};
+		592013381AF2894900281296 /* annotator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = annotator;
+			sourceTree = "<group>";
+		};
+		592013391AF2895700281296 /* signatures */ = {
+			isa = PBXGroup;
+			children = (
+				5920133B1AF2896D00281296 /* editor */,
+				5920133A1AF2895E00281296 /* manager */,
+			);
+			name = signatures;
+			sourceTree = "<group>";
+		};
+		5920133A1AF2895E00281296 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = manager;
+			sourceTree = "<group>";
+		};
+		5920133B1AF2896D00281296 /* editor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = editor;
+			sourceTree = "<group>";
+		};
+		5920133C1AF2897C00281296 /* filesmanager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = filesmanager;
+			sourceTree = "<group>";
+		};
+		5920133D1AF2898900281296 /* navigationbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = navigationbar;
+			sourceTree = "<group>";
+		};
+		5920133E1AF289B600281296 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tools;
 			sourceTree = "<group>";
 		};
 		DA70A6A5B19E31D9ADE82D4D /* Pods */ = {
