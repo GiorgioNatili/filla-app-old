@@ -12,7 +12,6 @@
 		591762B21AE90AE5009D3E60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591762B11AE90AE5009D3E60 /* ViewController.swift */; };
 		591762B51AE90AE5009D3E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591762B31AE90AE5009D3E60 /* Main.storyboard */; };
 		591762B71AE90AE5009D3E60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591762B61AE90AE5009D3E60 /* Images.xcassets */; };
-		591762BA1AE90AE5009D3E60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 591762B81AE90AE5009D3E60 /* LaunchScreen.xib */; };
 		591762C61AE90AE5009D3E60 /* SignMyPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591762C51AE90AE5009D3E60 /* SignMyPadTests.swift */; };
 		59A903471AF2C844005FC6DF /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A903451AF2C844005FC6DF /* AppDependencies.swift */; };
 		59A903511AF2C923005FC6DF /* MainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A903491AF2C923005FC6DF /* MainWireframe.swift */; };
@@ -37,6 +36,10 @@
 		59A903781AF3D563005FC6DF /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903691AF3D563005FC6DF /* Default-Landscape@2x.png */; };
 		59A903791AF3D563005FC6DF /* Default-Portrait@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9036A1AF3D563005FC6DF /* Default-Portrait@1x.png */; };
 		59A9037A1AF3D563005FC6DF /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9036B1AF3D563005FC6DF /* Default-Portrait@2x.png */; };
+		59A9037F1AF3E6E7005FC6DF /* Default-1242h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9037B1AF3E6E7005FC6DF /* Default-1242h@3x.png */; };
+		59A903801AF3E6E7005FC6DF /* Default-2208h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9037C1AF3E6E7005FC6DF /* Default-2208h@3x.png */; };
+		59A903811AF3E6E7005FC6DF /* Default-775h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9037D1AF3E6E7005FC6DF /* Default-775h@2x.png */; };
+		59A903821AF3E6E7005FC6DF /* Default-1334h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9037E1AF3E6E7005FC6DF /* Default-1334h@2x.png */; };
 		6B2A3D0D1AEF8C8A00D3970C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2A3D0C1AEF8C8A00D3970C /* Social.framework */; };
 		6B2A3D0F1AEF8C9B00D3970C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */; };
 		98FACC75DF8C61BB74224F8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D18719D1D89A392D3C399C5C /* libPods.a */; };
@@ -89,6 +92,10 @@
 		59A903691AF3D563005FC6DF /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
 		59A9036A1AF3D563005FC6DF /* Default-Portrait@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@1x.png"; sourceTree = "<group>"; };
 		59A9036B1AF3D563005FC6DF /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		59A9037B1AF3E6E7005FC6DF /* Default-1242h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-1242h@3x.png"; sourceTree = "<group>"; };
+		59A9037C1AF3E6E7005FC6DF /* Default-2208h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-2208h@3x.png"; sourceTree = "<group>"; };
+		59A9037D1AF3E6E7005FC6DF /* Default-775h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-775h@2x.png"; sourceTree = "<group>"; };
+		59A9037E1AF3E6E7005FC6DF /* Default-1334h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-1334h@2x.png"; sourceTree = "<group>"; };
 		6B2A3D0C1AEF8C8A00D3970C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		913E5245595705CD288EB0BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -398,6 +405,10 @@
 		59A9036C1AF3D563005FC6DF /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				59A9037B1AF3E6E7005FC6DF /* Default-1242h@3x.png */,
+				59A9037C1AF3E6E7005FC6DF /* Default-2208h@3x.png */,
+				59A9037D1AF3E6E7005FC6DF /* Default-775h@2x.png */,
+				59A9037E1AF3E6E7005FC6DF /* Default-1334h@2x.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -498,15 +509,18 @@
 				59A903771AF3D563005FC6DF /* Default-Landscape@1x.png in Resources */,
 				59A903701AF3D563005FC6DF /* Pro-Icon-29.png in Resources */,
 				59A903711AF3D563005FC6DF /* Pro-Icon-40.png in Resources */,
+				59A903811AF3E6E7005FC6DF /* Default-775h@2x.png in Resources */,
+				59A903801AF3E6E7005FC6DF /* Default-2208h@3x.png in Resources */,
 				591762B51AE90AE5009D3E60 /* Main.storyboard in Resources */,
 				59A9037A1AF3D563005FC6DF /* Default-Portrait@2x.png in Resources */,
-				591762BA1AE90AE5009D3E60 /* LaunchScreen.xib in Resources */,
 				59A9036F1AF3D563005FC6DF /* Pro-Icon-152.png in Resources */,
 				59A9036E1AF3D563005FC6DF /* Pro-Icon-144.png in Resources */,
+				59A903821AF3E6E7005FC6DF /* Default-1334h@2x.png in Resources */,
 				591762B71AE90AE5009D3E60 /* Images.xcassets in Resources */,
 				59A903721AF3D563005FC6DF /* Pro-Icon-50.png in Resources */,
 				59A903791AF3D563005FC6DF /* Default-Portrait@1x.png in Resources */,
 				59A903741AF3D563005FC6DF /* Pro-Icon-72.png in Resources */,
+				59A9037F1AF3E6E7005FC6DF /* Default-1242h@3x.png in Resources */,
 				59A903761AF3D563005FC6DF /* Pro-Icon-80.png in Resources */,
 				59A903731AF3D563005FC6DF /* Pro-Icon-58.png in Resources */,
 				59A903781AF3D563005FC6DF /* Default-Landscape@2x.png in Resources */,
