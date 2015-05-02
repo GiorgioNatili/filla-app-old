@@ -14,14 +14,6 @@
 		591762B71AE90AE5009D3E60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591762B61AE90AE5009D3E60 /* Images.xcassets */; };
 		591762C61AE90AE5009D3E60 /* SignMyPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591762C51AE90AE5009D3E60 /* SignMyPadTests.swift */; };
 		59A903471AF2C844005FC6DF /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A903451AF2C844005FC6DF /* AppDependencies.swift */; };
-		59A903511AF2C923005FC6DF /* MainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A903491AF2C923005FC6DF /* MainWireframe.swift */; };
-		59A903521AF2C923005FC6DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034A1AF2C923005FC6DF /* MainViewController.swift */; };
-		59A903531AF2C923005FC6DF /* MainViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034B1AF2C923005FC6DF /* MainViewInterface.swift */; };
-		59A903541AF2C923005FC6DF /* MainDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034C1AF2C923005FC6DF /* MainDataManager.swift */; };
-		59A903551AF2C923005FC6DF /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034D1AF2C923005FC6DF /* MainInteractor.swift */; };
-		59A903561AF2C923005FC6DF /* MainInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034E1AF2C923005FC6DF /* MainInteractorIO.swift */; };
-		59A903571AF2C923005FC6DF /* MainModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9034F1AF2C923005FC6DF /* MainModuleInterface.swift */; };
-		59A903581AF2C923005FC6DF /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A903501AF2C923005FC6DF /* MainPresenter.swift */; };
 		59A9036D1AF3D563005FC6DF /* Pro-Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9035D1AF3D563005FC6DF /* Pro-Icon-100.png */; };
 		59A9036E1AF3D563005FC6DF /* Pro-Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9035E1AF3D563005FC6DF /* Pro-Icon-144.png */; };
 		59A9036F1AF3D563005FC6DF /* Pro-Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9035F1AF3D563005FC6DF /* Pro-Icon-152.png */; };
@@ -138,14 +130,6 @@
 		591762C51AE90AE5009D3E60 /* SignMyPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignMyPadTests.swift; sourceTree = "<group>"; };
 		59A903451AF2C844005FC6DF /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 		59A903461AF2C844005FC6DF /* SignMyPad-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SignMyPad-Bridging-Header.h"; sourceTree = "<group>"; };
-		59A903491AF2C923005FC6DF /* MainWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWireframe.swift; sourceTree = "<group>"; };
-		59A9034A1AF2C923005FC6DF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		59A9034B1AF2C923005FC6DF /* MainViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewInterface.swift; sourceTree = "<group>"; };
-		59A9034C1AF2C923005FC6DF /* MainDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDataManager.swift; sourceTree = "<group>"; };
-		59A9034D1AF2C923005FC6DF /* MainInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
-		59A9034E1AF2C923005FC6DF /* MainInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractorIO.swift; sourceTree = "<group>"; };
-		59A9034F1AF2C923005FC6DF /* MainModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModuleInterface.swift; sourceTree = "<group>"; };
-		59A903501AF2C923005FC6DF /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		59A9035D1AF3D563005FC6DF /* Pro-Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pro-Icon-100.png"; sourceTree = "<group>"; };
 		59A9035E1AF3D563005FC6DF /* Pro-Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pro-Icon-144.png"; sourceTree = "<group>"; };
 		59A9035F1AF3D563005FC6DF /* Pro-Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pro-Icon-152.png"; sourceTree = "<group>"; };
@@ -346,7 +330,6 @@
 				6B2A3DFB1AF56D8500D3970C /* SignaturesManager */,
 				6B2A3E0C1AF56D8500D3970C /* SignaturesEditor */,
 				6B2A3D8D1AF561C700D3970C /* Tools */,
-				59A903481AF2C90C005FC6DF /* main */,
 			);
 			name = views;
 			path = ..;
@@ -403,21 +386,6 @@
 			children = (
 			);
 			name = components;
-			sourceTree = "<group>";
-		};
-		59A903481AF2C90C005FC6DF /* main */ = {
-			isa = PBXGroup;
-			children = (
-				59A903491AF2C923005FC6DF /* MainWireframe.swift */,
-				59A9034A1AF2C923005FC6DF /* MainViewController.swift */,
-				59A9034B1AF2C923005FC6DF /* MainViewInterface.swift */,
-				59A9034C1AF2C923005FC6DF /* MainDataManager.swift */,
-				59A9034D1AF2C923005FC6DF /* MainInteractor.swift */,
-				59A9034E1AF2C923005FC6DF /* MainInteractorIO.swift */,
-				59A9034F1AF2C923005FC6DF /* MainModuleInterface.swift */,
-				59A903501AF2C923005FC6DF /* MainPresenter.swift */,
-			);
-			name = main;
 			sourceTree = "<group>";
 		};
 		59A9035A1AF3D563005FC6DF /* images */ = {
@@ -1308,15 +1276,12 @@
 				6B2A3E301AF56D8500D3970C /* PDFViewerItem.swift in Sources */,
 				6B2A3E541AF56D8500D3970C /* SignaturesEditorWireFrame.swift in Sources */,
 				6B2A3E331AF56D8500D3970C /* PDFViewerView.swift in Sources */,
-				59A903511AF2C923005FC6DF /* MainWireframe.swift in Sources */,
 				6B2A3E2E1AF56D8500D3970C /* PDFViewerLocalDataManager.swift in Sources */,
-				59A903561AF2C923005FC6DF /* MainInteractorIO.swift in Sources */,
 				6B2A3E2F1AF56D8500D3970C /* PDFViewerInteractor.swift in Sources */,
 				6B2A3E311AF56D8500D3970C /* PDFViewerPresenter.swift in Sources */,
 				6B2A3E341AF56D8500D3970C /* PDFViewerWireFrame.swift in Sources */,
 				6B2A3E261AF56D8500D3970C /* BreadcrumbsLocalDataManager.swift in Sources */,
 				6B2A3E361AF56D8500D3970C /* PDFEditorLocalDataManager.swift in Sources */,
-				59A903571AF2C923005FC6DF /* MainModuleInterface.swift in Sources */,
 				6B2A3E271AF56D8500D3970C /* BreadcrumbsInteractor.swift in Sources */,
 				6B2A3E3C1AF56D8500D3970C /* PDFEditorWireFrame.swift in Sources */,
 				6B2A3DA01AF561C700D3970C /* ToolsInteractor.swift in Sources */,
@@ -1336,16 +1301,13 @@
 				6B2A3E3F1AF56D8500D3970C /* PDFAnnotatorInteractor.swift in Sources */,
 				59A903471AF2C844005FC6DF /* AppDependencies.swift in Sources */,
 				6B2A3E431AF56D8500D3970C /* PDFAnnotatorView.swift in Sources */,
-				59A903541AF2C923005FC6DF /* MainDataManager.swift in Sources */,
 				6B2A3E231AF56D8500D3970C /* NavigationBarView.swift in Sources */,
 				591762B21AE90AE5009D3E60 /* ViewController.swift in Sources */,
-				59A903521AF2C923005FC6DF /* MainViewController.swift in Sources */,
 				6B2A3E1D1AF56D8500D3970C /* NavigationBarAPIDataManager.swift in Sources */,
 				6B2A3DA41AF561C700D3970C /* ToolsView.swift in Sources */,
 				6B2A3E411AF56D8500D3970C /* PDFAnnotatorPresenter.swift in Sources */,
 				6B2A3E501AF56D8500D3970C /* SignaturesEditorItem.swift in Sources */,
 				6B2A3E481AF56D8500D3970C /* SignaturesManagerItem.swift in Sources */,
-				59A903581AF2C923005FC6DF /* MainPresenter.swift in Sources */,
 				6B2A3E1F1AF56D8500D3970C /* NavigationBarInteractor.swift in Sources */,
 				6B2A3E451AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift in Sources */,
 				6B2A3E531AF56D8500D3970C /* SignaturesEditorView.swift in Sources */,
@@ -1354,8 +1316,6 @@
 				6B2A3E521AF56D8500D3970C /* SignaturesEditorProtocols.swift in Sources */,
 				6B2A3E471AF56D8500D3970C /* SignaturesManagerInteractor.swift in Sources */,
 				6B2A3E381AF56D8500D3970C /* PDFEditorItem.swift in Sources */,
-				59A903551AF2C923005FC6DF /* MainInteractor.swift in Sources */,
-				59A903531AF2C923005FC6DF /* MainViewInterface.swift in Sources */,
 				6B2A3E1E1AF56D8500D3970C /* NavigationBarLocalDataManager.swift in Sources */,
 				6B2A3DA51AF561C700D3970C /* ToolsWireFrame.swift in Sources */,
 				6B2A3E4B1AF56D8500D3970C /* SignaturesManagerView.swift in Sources */,

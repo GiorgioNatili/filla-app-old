@@ -11,7 +11,7 @@ import UIKit
 
 class SignaturesEditorWireFrame: SignaturesEditorWireFrameProtocol {
     
-    static func presentSignaturesEditorModule(fromView view: UIView) {
+    static func presentSignaturesEditorModule(fromView view: AnyObject) {
         
         // Generating module components
         var view: SignaturesEditorViewProtocol = SignaturesEditorView()
