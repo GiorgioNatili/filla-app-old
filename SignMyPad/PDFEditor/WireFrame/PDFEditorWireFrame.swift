@@ -11,7 +11,7 @@ import UIKit
 
 class PDFEditorWireFrame: PDFEditorWireFrameProtocol {
     
-    static func presentPDFEditorModule(fromView view: UIView) {
+    static func presentPDFEditorModule(fromView view: AnyObject) {
         
         // Generating module components
         var view: PDFEditorViewProtocol = PDFEditorView()

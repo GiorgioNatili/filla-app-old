@@ -7,11 +7,10 @@
 //
 
 import Foundation
-import UIKit
 
 class SignaturesManagerWireFrame: SignaturesManagerWireFrameProtocol {
     
-    static func presentSignaturesManagerModule(fromView view: UIView) {
+    static func presentSignaturesManagerModule(fromView view: AnyObject) {
         
         // Generating module components
         var view: SignaturesManagerViewProtocol = SignaturesManagerView()

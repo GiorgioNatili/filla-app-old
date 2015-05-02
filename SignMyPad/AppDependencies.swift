@@ -11,7 +11,7 @@ import UIKit
 
 class AppDependencies {
     
-    var mainWireframe = MainWireframe()
+    var mainWireframe = MainWireFrame()
     
     init() {
         
@@ -21,7 +21,7 @@ class AppDependencies {
     
     func installRootViewControllerIntoWindow(window: UIWindow) {
         
-        mainWireframe.presentInterface(fromWindow: window)
+        MainWireFrame.presentMainModule(fromView: window)
     
     }
     

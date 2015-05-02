@@ -7,11 +7,10 @@
 //
 
 import Foundation
-import UIKit
 
 class PDFViewerWireFrame: PDFViewerWireFrameProtocol {
     
-    static func presentPDFViewerModule(fromView view: UIView) {
+    static func presentPDFViewerModule(fromView view: AnyObject) {
         
         // Generating module components
         var view: PDFViewerViewProtocol = PDFViewerView()

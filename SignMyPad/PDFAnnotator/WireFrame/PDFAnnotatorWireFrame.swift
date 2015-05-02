@@ -7,11 +7,10 @@
 //
 
 import Foundation
-import UIKit
 
 class PDFAnnotatorWireFrame: PDFAnnotatorWireFrameProtocol {
     
-    static func presentPDFAnnotatorModule(fromView view: UIView) {
+    static func presentPDFAnnotatorModule(fromView view: AnyObject) {
         
         // Generating module components
         var view: PDFAnnotatorViewProtocol = PDFAnnotatorView()
