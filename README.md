@@ -8,7 +8,14 @@ Undefined symbols for architecture x86_64:
    -[PF_Twitter getLocalTwitterAccountAsync] in Parse(PF_Twitter.o)
 ```
 
-go unnder Targets, General, Linked Frameworks and Libraries add:
+Go under Targets, General, Linked Frameworks and Libraries add:
 
 * Social.framework
 * Accounts.framework
+
+### Add new modules
+All the application is based on the [VIPER](http://www.objc.io/issue-13/viper.html) architecture for Swift, in order to add a new module to the app install [this](https://github.com/lonelyplanet/viper-module-generator) ruby gem and then run the command
+```
+$ vipergen generate MODULE_NAME --path=SignMyPad/EVENTUAL_SUBFOLDER --author="Giorgio Natili"
+```
+where `MODULE_NAME` is the name of the module without spaces and `EVENTUAL_SUBFOLDER` the subfolder you may want to create in the project source code directory. 
