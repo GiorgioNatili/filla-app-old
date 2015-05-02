@@ -39,30 +39,6 @@
 		59A9039A1AF3FBC3005FC6DF /* Default-Portrait-1136h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903991AF3FBC3005FC6DF /* Default-Portrait-1136h@2x.png */; };
 		6B2A3D0D1AEF8C8A00D3970C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2A3D0C1AEF8C8A00D3970C /* Social.framework */; };
 		6B2A3D0F1AEF8C9B00D3970C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */; };
-		6B2A3D9E1AF561C700D3970C /* ToolsAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D901AF561C700D3970C /* ToolsAPIDataManager.swift */; };
-		6B2A3D9F1AF561C700D3970C /* ToolsLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D921AF561C700D3970C /* ToolsLocalDataManager.swift */; };
-		6B2A3DA01AF561C700D3970C /* ToolsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D941AF561C700D3970C /* ToolsInteractor.swift */; };
-		6B2A3DA11AF561C700D3970C /* ToolsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D951AF561C700D3970C /* ToolsItem.swift */; };
-		6B2A3DA21AF561C700D3970C /* ToolsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D971AF561C700D3970C /* ToolsPresenter.swift */; };
-		6B2A3DA31AF561C700D3970C /* ToolsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D991AF561C700D3970C /* ToolsProtocols.swift */; };
-		6B2A3DA41AF561C700D3970C /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D9B1AF561C700D3970C /* ToolsView.swift */; };
-		6B2A3DA51AF561C700D3970C /* ToolsWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D9D1AF561C700D3970C /* ToolsWireFrame.swift */; };
-		6B2A3E1D1AF56D8500D3970C /* NavigationBarAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DA91AF56D8500D3970C /* NavigationBarAPIDataManager.swift */; };
-		6B2A3E1E1AF56D8500D3970C /* NavigationBarLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DAB1AF56D8500D3970C /* NavigationBarLocalDataManager.swift */; };
-		6B2A3E1F1AF56D8500D3970C /* NavigationBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DAD1AF56D8500D3970C /* NavigationBarInteractor.swift */; };
-		6B2A3E201AF56D8500D3970C /* NavigationBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DAE1AF56D8500D3970C /* NavigationBarItem.swift */; };
-		6B2A3E211AF56D8500D3970C /* NavigationBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DB01AF56D8500D3970C /* NavigationBarPresenter.swift */; };
-		6B2A3E221AF56D8500D3970C /* NavigationBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DB21AF56D8500D3970C /* NavigationBarProtocols.swift */; };
-		6B2A3E231AF56D8500D3970C /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DB41AF56D8500D3970C /* NavigationBarView.swift */; };
-		6B2A3E241AF56D8500D3970C /* NavigationBarWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DB61AF56D8500D3970C /* NavigationBarWireFrame.swift */; };
-		6B2A3E251AF56D8500D3970C /* BreadcrumbsAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DBA1AF56D8500D3970C /* BreadcrumbsAPIDataManager.swift */; };
-		6B2A3E261AF56D8500D3970C /* BreadcrumbsLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DBC1AF56D8500D3970C /* BreadcrumbsLocalDataManager.swift */; };
-		6B2A3E271AF56D8500D3970C /* BreadcrumbsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DBE1AF56D8500D3970C /* BreadcrumbsInteractor.swift */; };
-		6B2A3E281AF56D8500D3970C /* BreadcrumbsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DBF1AF56D8500D3970C /* BreadcrumbsItem.swift */; };
-		6B2A3E291AF56D8500D3970C /* BreadcrumbsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DC11AF56D8500D3970C /* BreadcrumbsPresenter.swift */; };
-		6B2A3E2A1AF56D8500D3970C /* BreadcrumbsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DC31AF56D8500D3970C /* BreadcrumbsProtocols.swift */; };
-		6B2A3E2B1AF56D8500D3970C /* BreadcrumbsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DC51AF56D8500D3970C /* BreadcrumbsView.swift */; };
-		6B2A3E2C1AF56D8500D3970C /* BreadcrumbsWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DC71AF56D8500D3970C /* BreadcrumbsWireFrame.swift */; };
 		6B2A3E2D1AF56D8500D3970C /* PDFViewerAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DCB1AF56D8500D3970C /* PDFViewerAPIDataManager.swift */; };
 		6B2A3E2E1AF56D8500D3970C /* PDFViewerLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DCD1AF56D8500D3970C /* PDFViewerLocalDataManager.swift */; };
 		6B2A3E2F1AF56D8500D3970C /* PDFViewerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DCF1AF56D8500D3970C /* PDFViewerInteractor.swift */; };
@@ -103,6 +79,78 @@
 		6B2A3E521AF56D8500D3970C /* SignaturesEditorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E181AF56D8500D3970C /* SignaturesEditorProtocols.swift */; };
 		6B2A3E531AF56D8500D3970C /* SignaturesEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E1A1AF56D8500D3970C /* SignaturesEditorView.swift */; };
 		6B2A3E541AF56D8500D3970C /* SignaturesEditorWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E1C1AF56D8500D3970C /* SignaturesEditorWireFrame.swift */; };
+		6B2A3E691AF581FD00D3970C /* MainAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E5B1AF581FD00D3970C /* MainAPIDataManager.swift */; };
+		6B2A3E6A1AF581FD00D3970C /* MainLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E5D1AF581FD00D3970C /* MainLocalDataManager.swift */; };
+		6B2A3E6B1AF581FD00D3970C /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E5F1AF581FD00D3970C /* MainInteractor.swift */; };
+		6B2A3E6C1AF581FD00D3970C /* MainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E601AF581FD00D3970C /* MainItem.swift */; };
+		6B2A3E6D1AF581FD00D3970C /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E621AF581FD00D3970C /* MainPresenter.swift */; };
+		6B2A3E6E1AF581FD00D3970C /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E641AF581FD00D3970C /* MainProtocols.swift */; };
+		6B2A3E6F1AF581FD00D3970C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E661AF581FD00D3970C /* MainView.swift */; };
+		6B2A3E701AF581FD00D3970C /* MainWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E681AF581FD00D3970C /* MainWireFrame.swift */; };
+		6B2A3EA41AF5872200D3970C /* FileExplorerAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E741AF5872200D3970C /* FileExplorerAPIDataManager.swift */; };
+		6B2A3EA51AF5872200D3970C /* FileExplorerLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E761AF5872200D3970C /* FileExplorerLocalDataManager.swift */; };
+		6B2A3EA61AF5872200D3970C /* FileExplorerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E781AF5872200D3970C /* FileExplorerInteractor.swift */; };
+		6B2A3EA71AF5872200D3970C /* FileExplorerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E791AF5872200D3970C /* FileExplorerItem.swift */; };
+		6B2A3EA81AF5872200D3970C /* FileExplorerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E7B1AF5872200D3970C /* FileExplorerPresenter.swift */; };
+		6B2A3EA91AF5872200D3970C /* FileExplorerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E7D1AF5872200D3970C /* FileExplorerProtocols.swift */; };
+		6B2A3EAA1AF5872200D3970C /* FileExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E7F1AF5872200D3970C /* FileExplorerView.swift */; };
+		6B2A3EAB1AF5872200D3970C /* FileExplorerWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E811AF5872200D3970C /* FileExplorerWireFrame.swift */; };
+		6B2A3EAC1AF5872200D3970C /* HelpAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E851AF5872200D3970C /* HelpAPIDataManager.swift */; };
+		6B2A3EAD1AF5872200D3970C /* HelpLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E871AF5872200D3970C /* HelpLocalDataManager.swift */; };
+		6B2A3EAE1AF5872200D3970C /* HelpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E891AF5872200D3970C /* HelpInteractor.swift */; };
+		6B2A3EAF1AF5872200D3970C /* HelpItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E8A1AF5872200D3970C /* HelpItem.swift */; };
+		6B2A3EB01AF5872200D3970C /* HelpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E8C1AF5872200D3970C /* HelpPresenter.swift */; };
+		6B2A3EB11AF5872200D3970C /* HelpProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E8E1AF5872200D3970C /* HelpProtocols.swift */; };
+		6B2A3EB21AF5872200D3970C /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E901AF5872200D3970C /* HelpView.swift */; };
+		6B2A3EB31AF5872200D3970C /* HelpWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E921AF5872200D3970C /* HelpWireFrame.swift */; };
+		6B2A3EB41AF5872200D3970C /* SettingsAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E961AF5872200D3970C /* SettingsAPIDataManager.swift */; };
+		6B2A3EB51AF5872200D3970C /* SettingsLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E981AF5872200D3970C /* SettingsLocalDataManager.swift */; };
+		6B2A3EB61AF5872200D3970C /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E9A1AF5872200D3970C /* SettingsInteractor.swift */; };
+		6B2A3EB71AF5872200D3970C /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E9B1AF5872200D3970C /* SettingsItem.swift */; };
+		6B2A3EB81AF5872200D3970C /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E9D1AF5872200D3970C /* SettingsPresenter.swift */; };
+		6B2A3EB91AF5872200D3970C /* SettingsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E9F1AF5872200D3970C /* SettingsProtocols.swift */; };
+		6B2A3EBA1AF5872200D3970C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EA11AF5872200D3970C /* SettingsView.swift */; };
+		6B2A3EBB1AF5872200D3970C /* SettingsWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EA31AF5872200D3970C /* SettingsWireFrame.swift */; };
+		6B2A3F121AF587DC00D3970C /* DropBoxAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC01AF587DB00D3970C /* DropBoxAPIDataManager.swift */; };
+		6B2A3F131AF587DC00D3970C /* DropBoxLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC21AF587DB00D3970C /* DropBoxLocalDataManager.swift */; };
+		6B2A3F141AF587DC00D3970C /* DropBoxInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC41AF587DB00D3970C /* DropBoxInteractor.swift */; };
+		6B2A3F151AF587DC00D3970C /* DropBoxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC51AF587DB00D3970C /* DropBoxItem.swift */; };
+		6B2A3F161AF587DC00D3970C /* DropBoxPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC71AF587DB00D3970C /* DropBoxPresenter.swift */; };
+		6B2A3F171AF587DC00D3970C /* DropBoxProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC91AF587DB00D3970C /* DropBoxProtocols.swift */; };
+		6B2A3F181AF587DC00D3970C /* DropBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ECB1AF587DB00D3970C /* DropBoxView.swift */; };
+		6B2A3F191AF587DC00D3970C /* DropBoxWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ECD1AF587DB00D3970C /* DropBoxWireFrame.swift */; };
+		6B2A3F1A1AF587DC00D3970C /* GoogleDriveAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ED11AF587DB00D3970C /* GoogleDriveAPIDataManager.swift */; };
+		6B2A3F1B1AF587DC00D3970C /* GoogleDriveLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ED31AF587DB00D3970C /* GoogleDriveLocalDataManager.swift */; };
+		6B2A3F1C1AF587DC00D3970C /* GoogleDriveInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ED51AF587DB00D3970C /* GoogleDriveInteractor.swift */; };
+		6B2A3F1D1AF587DC00D3970C /* GoogleDriveItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ED61AF587DB00D3970C /* GoogleDriveItem.swift */; };
+		6B2A3F1E1AF587DC00D3970C /* GoogleDrivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ED81AF587DB00D3970C /* GoogleDrivePresenter.swift */; };
+		6B2A3F1F1AF587DC00D3970C /* GoogleDriveProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EDA1AF587DB00D3970C /* GoogleDriveProtocols.swift */; };
+		6B2A3F201AF587DC00D3970C /* GoogleDriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EDC1AF587DB00D3970C /* GoogleDriveView.swift */; };
+		6B2A3F211AF587DC00D3970C /* GoogleDriveWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EDE1AF587DB00D3970C /* GoogleDriveWireFrame.swift */; };
+		6B2A3F221AF587DC00D3970C /* ITunesAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EE21AF587DC00D3970C /* ITunesAPIDataManager.swift */; };
+		6B2A3F231AF587DC00D3970C /* ITunesLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EE41AF587DC00D3970C /* ITunesLocalDataManager.swift */; };
+		6B2A3F241AF587DC00D3970C /* ITunesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EE61AF587DC00D3970C /* ITunesInteractor.swift */; };
+		6B2A3F251AF587DC00D3970C /* ITunesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EE71AF587DC00D3970C /* ITunesItem.swift */; };
+		6B2A3F261AF587DC00D3970C /* ITunesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EE91AF587DC00D3970C /* ITunesPresenter.swift */; };
+		6B2A3F271AF587DC00D3970C /* ITunesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EEB1AF587DC00D3970C /* ITunesProtocols.swift */; };
+		6B2A3F281AF587DC00D3970C /* ITunesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EED1AF587DC00D3970C /* ITunesView.swift */; };
+		6B2A3F291AF587DC00D3970C /* ITunesWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EEF1AF587DC00D3970C /* ITunesWireFrame.swift */; };
+		6B2A3F2A1AF587DC00D3970C /* ReomoteResourceAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EF31AF587DC00D3970C /* ReomoteResourceAPIDataManager.swift */; };
+		6B2A3F2B1AF587DC00D3970C /* ReomoteResourceLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EF51AF587DC00D3970C /* ReomoteResourceLocalDataManager.swift */; };
+		6B2A3F2C1AF587DC00D3970C /* ReomoteResourceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EF71AF587DC00D3970C /* ReomoteResourceInteractor.swift */; };
+		6B2A3F2D1AF587DC00D3970C /* ReomoteResourceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EF81AF587DC00D3970C /* ReomoteResourceItem.swift */; };
+		6B2A3F2E1AF587DC00D3970C /* ReomoteResourcePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EFA1AF587DC00D3970C /* ReomoteResourcePresenter.swift */; };
+		6B2A3F2F1AF587DC00D3970C /* ReomoteResourceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EFC1AF587DC00D3970C /* ReomoteResourceProtocols.swift */; };
+		6B2A3F301AF587DC00D3970C /* ReomoteResourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EFE1AF587DC00D3970C /* ReomoteResourceView.swift */; };
+		6B2A3F311AF587DC00D3970C /* ReomoteResourceWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F001AF587DC00D3970C /* ReomoteResourceWireFrame.swift */; };
+		6B2A3F321AF587DC00D3970C /* SignMyPadCloudsAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F041AF587DC00D3970C /* SignMyPadCloudsAPIDataManager.swift */; };
+		6B2A3F331AF587DC00D3970C /* SignMyPadCloudsLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F061AF587DC00D3970C /* SignMyPadCloudsLocalDataManager.swift */; };
+		6B2A3F341AF587DC00D3970C /* SignMyPadCloudsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F081AF587DC00D3970C /* SignMyPadCloudsInteractor.swift */; };
+		6B2A3F351AF587DC00D3970C /* SignMyPadCloudsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F091AF587DC00D3970C /* SignMyPadCloudsItem.swift */; };
+		6B2A3F361AF587DC00D3970C /* SignMyPadCloudsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F0B1AF587DC00D3970C /* SignMyPadCloudsPresenter.swift */; };
+		6B2A3F371AF587DC00D3970C /* SignMyPadCloudsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F0D1AF587DC00D3970C /* SignMyPadCloudsProtocols.swift */; };
+		6B2A3F381AF587DC00D3970C /* SignMyPadCloudsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F0F1AF587DC00D3970C /* SignMyPadCloudsView.swift */; };
+		6B2A3F391AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F111AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift */; };
 		98FACC75DF8C61BB74224F8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D18719D1D89A392D3C399C5C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -155,30 +203,6 @@
 		59A903991AF3FBC3005FC6DF /* Default-Portrait-1136h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-1136h@2x.png"; sourceTree = "<group>"; };
 		6B2A3D0C1AEF8C8A00D3970C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		6B2A3D901AF561C700D3970C /* ToolsAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsAPIDataManager.swift; sourceTree = "<group>"; };
-		6B2A3D921AF561C700D3970C /* ToolsLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsLocalDataManager.swift; sourceTree = "<group>"; };
-		6B2A3D941AF561C700D3970C /* ToolsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsInteractor.swift; sourceTree = "<group>"; };
-		6B2A3D951AF561C700D3970C /* ToolsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsItem.swift; sourceTree = "<group>"; };
-		6B2A3D971AF561C700D3970C /* ToolsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsPresenter.swift; sourceTree = "<group>"; };
-		6B2A3D991AF561C700D3970C /* ToolsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsProtocols.swift; sourceTree = "<group>"; };
-		6B2A3D9B1AF561C700D3970C /* ToolsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
-		6B2A3D9D1AF561C700D3970C /* ToolsWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsWireFrame.swift; sourceTree = "<group>"; };
-		6B2A3DA91AF56D8500D3970C /* NavigationBarAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarAPIDataManager.swift; sourceTree = "<group>"; };
-		6B2A3DAB1AF56D8500D3970C /* NavigationBarLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarLocalDataManager.swift; sourceTree = "<group>"; };
-		6B2A3DAD1AF56D8500D3970C /* NavigationBarInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarInteractor.swift; sourceTree = "<group>"; };
-		6B2A3DAE1AF56D8500D3970C /* NavigationBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarItem.swift; sourceTree = "<group>"; };
-		6B2A3DB01AF56D8500D3970C /* NavigationBarPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarPresenter.swift; sourceTree = "<group>"; };
-		6B2A3DB21AF56D8500D3970C /* NavigationBarProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarProtocols.swift; sourceTree = "<group>"; };
-		6B2A3DB41AF56D8500D3970C /* NavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
-		6B2A3DB61AF56D8500D3970C /* NavigationBarWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarWireFrame.swift; sourceTree = "<group>"; };
-		6B2A3DBA1AF56D8500D3970C /* BreadcrumbsAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsAPIDataManager.swift; sourceTree = "<group>"; };
-		6B2A3DBC1AF56D8500D3970C /* BreadcrumbsLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsLocalDataManager.swift; sourceTree = "<group>"; };
-		6B2A3DBE1AF56D8500D3970C /* BreadcrumbsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsInteractor.swift; sourceTree = "<group>"; };
-		6B2A3DBF1AF56D8500D3970C /* BreadcrumbsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsItem.swift; sourceTree = "<group>"; };
-		6B2A3DC11AF56D8500D3970C /* BreadcrumbsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsPresenter.swift; sourceTree = "<group>"; };
-		6B2A3DC31AF56D8500D3970C /* BreadcrumbsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsProtocols.swift; sourceTree = "<group>"; };
-		6B2A3DC51AF56D8500D3970C /* BreadcrumbsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsView.swift; sourceTree = "<group>"; };
-		6B2A3DC71AF56D8500D3970C /* BreadcrumbsWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsWireFrame.swift; sourceTree = "<group>"; };
 		6B2A3DCB1AF56D8500D3970C /* PDFViewerAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerAPIDataManager.swift; sourceTree = "<group>"; };
 		6B2A3DCD1AF56D8500D3970C /* PDFViewerLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerLocalDataManager.swift; sourceTree = "<group>"; };
 		6B2A3DCF1AF56D8500D3970C /* PDFViewerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerInteractor.swift; sourceTree = "<group>"; };
@@ -187,22 +211,22 @@
 		6B2A3DD41AF56D8500D3970C /* PDFViewerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerProtocols.swift; sourceTree = "<group>"; };
 		6B2A3DD61AF56D8500D3970C /* PDFViewerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerView.swift; sourceTree = "<group>"; };
 		6B2A3DD81AF56D8500D3970C /* PDFViewerWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerWireFrame.swift; sourceTree = "<group>"; };
-		6B2A3DDC1AF56D8500D3970C /* PDFEditorAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DDC1AF56D8500D3970C /* PDFEditorAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFEditorAPIDataManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6B2A3DDE1AF56D8500D3970C /* PDFEditorLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorLocalDataManager.swift; sourceTree = "<group>"; };
-		6B2A3DE01AF56D8500D3970C /* PDFEditorInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorInteractor.swift; sourceTree = "<group>"; };
-		6B2A3DE11AF56D8500D3970C /* PDFEditorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorItem.swift; sourceTree = "<group>"; };
+		6B2A3DE01AF56D8500D3970C /* PDFEditorInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFEditorInteractor.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DE11AF56D8500D3970C /* PDFEditorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFEditorItem.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6B2A3DE31AF56D8500D3970C /* PDFEditorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorPresenter.swift; sourceTree = "<group>"; };
 		6B2A3DE51AF56D8500D3970C /* PDFEditorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorProtocols.swift; sourceTree = "<group>"; };
 		6B2A3DE71AF56D8500D3970C /* PDFEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorView.swift; sourceTree = "<group>"; };
 		6B2A3DE91AF56D8500D3970C /* PDFEditorWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorWireFrame.swift; sourceTree = "<group>"; };
-		6B2A3DED1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorAPIDataManager.swift; sourceTree = "<group>"; };
-		6B2A3DEF1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorLocalDataManager.swift; sourceTree = "<group>"; };
-		6B2A3DF11AF56D8500D3970C /* PDFAnnotatorInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorInteractor.swift; sourceTree = "<group>"; };
-		6B2A3DF21AF56D8500D3970C /* PDFAnnotatorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorItem.swift; sourceTree = "<group>"; };
-		6B2A3DF41AF56D8500D3970C /* PDFAnnotatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorPresenter.swift; sourceTree = "<group>"; };
-		6B2A3DF61AF56D8500D3970C /* PDFAnnotatorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorProtocols.swift; sourceTree = "<group>"; };
-		6B2A3DF81AF56D8500D3970C /* PDFAnnotatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorView.swift; sourceTree = "<group>"; };
-		6B2A3DFA1AF56D8500D3970C /* PDFAnnotatorWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3DED1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorAPIDataManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DEF1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorLocalDataManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DF11AF56D8500D3970C /* PDFAnnotatorInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorInteractor.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DF21AF56D8500D3970C /* PDFAnnotatorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorItem.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DF41AF56D8500D3970C /* PDFAnnotatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorPresenter.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DF61AF56D8500D3970C /* PDFAnnotatorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorProtocols.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DF81AF56D8500D3970C /* PDFAnnotatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DFA1AF56D8500D3970C /* PDFAnnotatorWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorWireFrame.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6B2A3DFE1AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerAPIDataManager.swift; sourceTree = "<group>"; };
 		6B2A3E001AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerLocalDataManager.swift; sourceTree = "<group>"; };
 		6B2A3E021AF56D8500D3970C /* SignaturesManagerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerInteractor.swift; sourceTree = "<group>"; };
@@ -219,6 +243,78 @@
 		6B2A3E181AF56D8500D3970C /* SignaturesEditorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorProtocols.swift; sourceTree = "<group>"; };
 		6B2A3E1A1AF56D8500D3970C /* SignaturesEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorView.swift; sourceTree = "<group>"; };
 		6B2A3E1C1AF56D8500D3970C /* SignaturesEditorWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3E5B1AF581FD00D3970C /* MainAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E5D1AF581FD00D3970C /* MainLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E5F1AF581FD00D3970C /* MainInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E601AF581FD00D3970C /* MainItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainItem.swift; sourceTree = "<group>"; };
+		6B2A3E621AF581FD00D3970C /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E641AF581FD00D3970C /* MainProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
+		6B2A3E661AF581FD00D3970C /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6B2A3E681AF581FD00D3970C /* MainWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3E741AF5872200D3970C /* FileExplorerAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E761AF5872200D3970C /* FileExplorerLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E781AF5872200D3970C /* FileExplorerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E791AF5872200D3970C /* FileExplorerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerItem.swift; sourceTree = "<group>"; };
+		6B2A3E7B1AF5872200D3970C /* FileExplorerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E7D1AF5872200D3970C /* FileExplorerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerProtocols.swift; sourceTree = "<group>"; };
+		6B2A3E7F1AF5872200D3970C /* FileExplorerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerView.swift; sourceTree = "<group>"; };
+		6B2A3E811AF5872200D3970C /* FileExplorerWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3E851AF5872200D3970C /* HelpAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E871AF5872200D3970C /* HelpLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E891AF5872200D3970C /* HelpInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E8A1AF5872200D3970C /* HelpItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpItem.swift; sourceTree = "<group>"; };
+		6B2A3E8C1AF5872200D3970C /* HelpPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E8E1AF5872200D3970C /* HelpProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpProtocols.swift; sourceTree = "<group>"; };
+		6B2A3E901AF5872200D3970C /* HelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		6B2A3E921AF5872200D3970C /* HelpWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3E961AF5872200D3970C /* SettingsAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E981AF5872200D3970C /* SettingsLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E9A1AF5872200D3970C /* SettingsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E9B1AF5872200D3970C /* SettingsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
+		6B2A3E9D1AF5872200D3970C /* SettingsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E9F1AF5872200D3970C /* SettingsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsProtocols.swift; sourceTree = "<group>"; };
+		6B2A3EA11AF5872200D3970C /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6B2A3EA31AF5872200D3970C /* SettingsWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3EC01AF587DB00D3970C /* DropBoxAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EC21AF587DB00D3970C /* DropBoxLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EC41AF587DB00D3970C /* DropBoxInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxInteractor.swift; sourceTree = "<group>"; };
+		6B2A3EC51AF587DB00D3970C /* DropBoxItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxItem.swift; sourceTree = "<group>"; };
+		6B2A3EC71AF587DB00D3970C /* DropBoxPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxPresenter.swift; sourceTree = "<group>"; };
+		6B2A3EC91AF587DB00D3970C /* DropBoxProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxProtocols.swift; sourceTree = "<group>"; };
+		6B2A3ECB1AF587DB00D3970C /* DropBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxView.swift; sourceTree = "<group>"; };
+		6B2A3ECD1AF587DB00D3970C /* DropBoxWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3ED11AF587DB00D3970C /* GoogleDriveAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3ED31AF587DB00D3970C /* GoogleDriveLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3ED51AF587DB00D3970C /* GoogleDriveInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveInteractor.swift; sourceTree = "<group>"; };
+		6B2A3ED61AF587DB00D3970C /* GoogleDriveItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveItem.swift; sourceTree = "<group>"; };
+		6B2A3ED81AF587DB00D3970C /* GoogleDrivePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDrivePresenter.swift; sourceTree = "<group>"; };
+		6B2A3EDA1AF587DB00D3970C /* GoogleDriveProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveProtocols.swift; sourceTree = "<group>"; };
+		6B2A3EDC1AF587DB00D3970C /* GoogleDriveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveView.swift; sourceTree = "<group>"; };
+		6B2A3EDE1AF587DB00D3970C /* GoogleDriveWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3EE21AF587DC00D3970C /* ITunesAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EE41AF587DC00D3970C /* ITunesLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EE61AF587DC00D3970C /* ITunesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesInteractor.swift; sourceTree = "<group>"; };
+		6B2A3EE71AF587DC00D3970C /* ITunesItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesItem.swift; sourceTree = "<group>"; };
+		6B2A3EE91AF587DC00D3970C /* ITunesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesPresenter.swift; sourceTree = "<group>"; };
+		6B2A3EEB1AF587DC00D3970C /* ITunesProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesProtocols.swift; sourceTree = "<group>"; };
+		6B2A3EED1AF587DC00D3970C /* ITunesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesView.swift; sourceTree = "<group>"; };
+		6B2A3EEF1AF587DC00D3970C /* ITunesWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3EF31AF587DC00D3970C /* ReomoteResourceAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EF51AF587DC00D3970C /* ReomoteResourceLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EF71AF587DC00D3970C /* ReomoteResourceInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceInteractor.swift; sourceTree = "<group>"; };
+		6B2A3EF81AF587DC00D3970C /* ReomoteResourceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceItem.swift; sourceTree = "<group>"; };
+		6B2A3EFA1AF587DC00D3970C /* ReomoteResourcePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourcePresenter.swift; sourceTree = "<group>"; };
+		6B2A3EFC1AF587DC00D3970C /* ReomoteResourceProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceProtocols.swift; sourceTree = "<group>"; };
+		6B2A3EFE1AF587DC00D3970C /* ReomoteResourceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceView.swift; sourceTree = "<group>"; };
+		6B2A3F001AF587DC00D3970C /* ReomoteResourceWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3F041AF587DC00D3970C /* SignMyPadCloudsAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3F061AF587DC00D3970C /* SignMyPadCloudsLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3F081AF587DC00D3970C /* SignMyPadCloudsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsInteractor.swift; sourceTree = "<group>"; };
+		6B2A3F091AF587DC00D3970C /* SignMyPadCloudsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsItem.swift; sourceTree = "<group>"; };
+		6B2A3F0B1AF587DC00D3970C /* SignMyPadCloudsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsPresenter.swift; sourceTree = "<group>"; };
+		6B2A3F0D1AF587DC00D3970C /* SignMyPadCloudsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsProtocols.swift; sourceTree = "<group>"; };
+		6B2A3F0F1AF587DC00D3970C /* SignMyPadCloudsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsView.swift; sourceTree = "<group>"; };
+		6B2A3F111AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsWireFrame.swift; sourceTree = "<group>"; };
 		913E5245595705CD288EB0BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D18719D1D89A392D3C399C5C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -279,7 +375,6 @@
 			children = (
 				591762AC1AE90AE5009D3E60 /* AppDelegate.swift */,
 				59A903451AF2C844005FC6DF /* AppDependencies.swift */,
-				592013341AF2892E00281296 /* components */,
 				591762B61AE90AE5009D3E60 /* Images.xcassets */,
 				591762B31AE90AE5009D3E60 /* Main.storyboard */,
 				5920132E1AF288E800281296 /* model */,
@@ -322,14 +417,16 @@
 		5920132D1AF288DA00281296 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				6B2A3DA61AF56D8500D3970C /* NavigationBar */,
-				6B2A3DB71AF56D8500D3970C /* Breadcrumbs */,
+				6B2A3EBC1AF587DB00D3970C /* clouds */,
+				6B2A3E711AF5872200D3970C /* FileExplorer */,
+				6B2A3E821AF5872200D3970C /* Help */,
+				6B2A3E931AF5872200D3970C /* Settings */,
+				6B2A3E581AF581FD00D3970C /* Main */,
 				6B2A3DC81AF56D8500D3970C /* PDFViewer */,
 				6B2A3DD91AF56D8500D3970C /* PDFEditor */,
 				6B2A3DEA1AF56D8500D3970C /* PDFAnnotator */,
 				6B2A3DFB1AF56D8500D3970C /* SignaturesManager */,
 				6B2A3E0C1AF56D8500D3970C /* SignaturesEditor */,
-				6B2A3D8D1AF561C700D3970C /* Tools */,
 			);
 			name = views;
 			path = ..;
@@ -379,13 +476,6 @@
 			children = (
 			);
 			name = utils;
-			sourceTree = "<group>";
-		};
-		592013341AF2892E00281296 /* components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = components;
 			sourceTree = "<group>";
 		};
 		59A9035A1AF3D563005FC6DF /* images */ = {
@@ -448,246 +538,6 @@
 				59A903861AF3EFFA005FC6DF /* Default-Portrait@2x.png */,
 			);
 			path = iPhone;
-			sourceTree = "<group>";
-		};
-		6B2A3D8D1AF561C700D3970C /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3D8E1AF561C700D3970C /* DataManager */,
-				6B2A3D931AF561C700D3970C /* Interactor */,
-				6B2A3D961AF561C700D3970C /* Presenter */,
-				6B2A3D981AF561C700D3970C /* Protocols */,
-				6B2A3D9A1AF561C700D3970C /* View */,
-				6B2A3D9C1AF561C700D3970C /* WireFrame */,
-			);
-			name = Tools;
-			path = SignMyPad/Tools;
-			sourceTree = "<group>";
-		};
-		6B2A3D8E1AF561C700D3970C /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3D8F1AF561C700D3970C /* API */,
-				6B2A3D911AF561C700D3970C /* Local */,
-			);
-			path = DataManager;
-			sourceTree = "<group>";
-		};
-		6B2A3D8F1AF561C700D3970C /* API */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3D901AF561C700D3970C /* ToolsAPIDataManager.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		6B2A3D911AF561C700D3970C /* Local */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3D921AF561C700D3970C /* ToolsLocalDataManager.swift */,
-			);
-			path = Local;
-			sourceTree = "<group>";
-		};
-		6B2A3D931AF561C700D3970C /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3D941AF561C700D3970C /* ToolsInteractor.swift */,
-				6B2A3D951AF561C700D3970C /* ToolsItem.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		6B2A3D961AF561C700D3970C /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3D971AF561C700D3970C /* ToolsPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		6B2A3D981AF561C700D3970C /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3D991AF561C700D3970C /* ToolsProtocols.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		6B2A3D9A1AF561C700D3970C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3D9B1AF561C700D3970C /* ToolsView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6B2A3D9C1AF561C700D3970C /* WireFrame */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3D9D1AF561C700D3970C /* ToolsWireFrame.swift */,
-			);
-			path = WireFrame;
-			sourceTree = "<group>";
-		};
-		6B2A3DA61AF56D8500D3970C /* NavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DA71AF56D8500D3970C /* DataManager */,
-				6B2A3DAC1AF56D8500D3970C /* Interactor */,
-				6B2A3DAF1AF56D8500D3970C /* Presenter */,
-				6B2A3DB11AF56D8500D3970C /* Protocols */,
-				6B2A3DB31AF56D8500D3970C /* View */,
-				6B2A3DB51AF56D8500D3970C /* WireFrame */,
-			);
-			name = NavigationBar;
-			path = SignMyPad/NavigationBar;
-			sourceTree = "<group>";
-		};
-		6B2A3DA71AF56D8500D3970C /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DA81AF56D8500D3970C /* API */,
-				6B2A3DAA1AF56D8500D3970C /* Local */,
-			);
-			path = DataManager;
-			sourceTree = "<group>";
-		};
-		6B2A3DA81AF56D8500D3970C /* API */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DA91AF56D8500D3970C /* NavigationBarAPIDataManager.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		6B2A3DAA1AF56D8500D3970C /* Local */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DAB1AF56D8500D3970C /* NavigationBarLocalDataManager.swift */,
-			);
-			path = Local;
-			sourceTree = "<group>";
-		};
-		6B2A3DAC1AF56D8500D3970C /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DAD1AF56D8500D3970C /* NavigationBarInteractor.swift */,
-				6B2A3DAE1AF56D8500D3970C /* NavigationBarItem.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		6B2A3DAF1AF56D8500D3970C /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DB01AF56D8500D3970C /* NavigationBarPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		6B2A3DB11AF56D8500D3970C /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DB21AF56D8500D3970C /* NavigationBarProtocols.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		6B2A3DB31AF56D8500D3970C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DB41AF56D8500D3970C /* NavigationBarView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6B2A3DB51AF56D8500D3970C /* WireFrame */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DB61AF56D8500D3970C /* NavigationBarWireFrame.swift */,
-			);
-			path = WireFrame;
-			sourceTree = "<group>";
-		};
-		6B2A3DB71AF56D8500D3970C /* Breadcrumbs */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DB81AF56D8500D3970C /* DataManager */,
-				6B2A3DBD1AF56D8500D3970C /* Interactor */,
-				6B2A3DC01AF56D8500D3970C /* Presenter */,
-				6B2A3DC21AF56D8500D3970C /* Protocols */,
-				6B2A3DC41AF56D8500D3970C /* View */,
-				6B2A3DC61AF56D8500D3970C /* WireFrame */,
-			);
-			name = Breadcrumbs;
-			path = SignMyPad/Breadcrumbs;
-			sourceTree = "<group>";
-		};
-		6B2A3DB81AF56D8500D3970C /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DB91AF56D8500D3970C /* API */,
-				6B2A3DBB1AF56D8500D3970C /* Local */,
-			);
-			path = DataManager;
-			sourceTree = "<group>";
-		};
-		6B2A3DB91AF56D8500D3970C /* API */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DBA1AF56D8500D3970C /* BreadcrumbsAPIDataManager.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		6B2A3DBB1AF56D8500D3970C /* Local */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DBC1AF56D8500D3970C /* BreadcrumbsLocalDataManager.swift */,
-			);
-			path = Local;
-			sourceTree = "<group>";
-		};
-		6B2A3DBD1AF56D8500D3970C /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DBE1AF56D8500D3970C /* BreadcrumbsInteractor.swift */,
-				6B2A3DBF1AF56D8500D3970C /* BreadcrumbsItem.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		6B2A3DC01AF56D8500D3970C /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DC11AF56D8500D3970C /* BreadcrumbsPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		6B2A3DC21AF56D8500D3970C /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DC31AF56D8500D3970C /* BreadcrumbsProtocols.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		6B2A3DC41AF56D8500D3970C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DC51AF56D8500D3970C /* BreadcrumbsView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6B2A3DC61AF56D8500D3970C /* WireFrame */ = {
-			isa = PBXGroup;
-			children = (
-				6B2A3DC71AF56D8500D3970C /* BreadcrumbsWireFrame.swift */,
-			);
-			path = WireFrame;
 			sourceTree = "<group>";
 		};
 		6B2A3DC81AF56D8500D3970C /* PDFViewer */ = {
@@ -1090,6 +940,734 @@
 			path = WireFrame;
 			sourceTree = "<group>";
 		};
+		6B2A3E581AF581FD00D3970C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E591AF581FD00D3970C /* DataManager */,
+				6B2A3E5E1AF581FD00D3970C /* Interactor */,
+				6B2A3E611AF581FD00D3970C /* Presenter */,
+				6B2A3E631AF581FD00D3970C /* Protocols */,
+				6B2A3E651AF581FD00D3970C /* View */,
+				6B2A3E671AF581FD00D3970C /* WireFrame */,
+			);
+			name = Main;
+			path = SignMyPad/Main;
+			sourceTree = "<group>";
+		};
+		6B2A3E591AF581FD00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E5A1AF581FD00D3970C /* API */,
+				6B2A3E5C1AF581FD00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3E5A1AF581FD00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E5B1AF581FD00D3970C /* MainAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3E5C1AF581FD00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E5D1AF581FD00D3970C /* MainLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E5E1AF581FD00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E5F1AF581FD00D3970C /* MainInteractor.swift */,
+				6B2A3E601AF581FD00D3970C /* MainItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E611AF581FD00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E621AF581FD00D3970C /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E631AF581FD00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E641AF581FD00D3970C /* MainProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3E651AF581FD00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E661AF581FD00D3970C /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3E671AF581FD00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E681AF581FD00D3970C /* MainWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3E711AF5872200D3970C /* FileExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E721AF5872200D3970C /* DataManager */,
+				6B2A3E771AF5872200D3970C /* Interactor */,
+				6B2A3E7A1AF5872200D3970C /* Presenter */,
+				6B2A3E7C1AF5872200D3970C /* Protocols */,
+				6B2A3E7E1AF5872200D3970C /* View */,
+				6B2A3E801AF5872200D3970C /* WireFrame */,
+			);
+			name = FileExplorer;
+			path = SignMyPad/FileExplorer;
+			sourceTree = "<group>";
+		};
+		6B2A3E721AF5872200D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E731AF5872200D3970C /* API */,
+				6B2A3E751AF5872200D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3E731AF5872200D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E741AF5872200D3970C /* FileExplorerAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3E751AF5872200D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E761AF5872200D3970C /* FileExplorerLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E771AF5872200D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E781AF5872200D3970C /* FileExplorerInteractor.swift */,
+				6B2A3E791AF5872200D3970C /* FileExplorerItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E7A1AF5872200D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E7B1AF5872200D3970C /* FileExplorerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E7C1AF5872200D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E7D1AF5872200D3970C /* FileExplorerProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3E7E1AF5872200D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E7F1AF5872200D3970C /* FileExplorerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3E801AF5872200D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E811AF5872200D3970C /* FileExplorerWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3E821AF5872200D3970C /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E831AF5872200D3970C /* DataManager */,
+				6B2A3E881AF5872200D3970C /* Interactor */,
+				6B2A3E8B1AF5872200D3970C /* Presenter */,
+				6B2A3E8D1AF5872200D3970C /* Protocols */,
+				6B2A3E8F1AF5872200D3970C /* View */,
+				6B2A3E911AF5872200D3970C /* WireFrame */,
+			);
+			name = Help;
+			path = SignMyPad/Help;
+			sourceTree = "<group>";
+		};
+		6B2A3E831AF5872200D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E841AF5872200D3970C /* API */,
+				6B2A3E861AF5872200D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3E841AF5872200D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E851AF5872200D3970C /* HelpAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3E861AF5872200D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E871AF5872200D3970C /* HelpLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E881AF5872200D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E891AF5872200D3970C /* HelpInteractor.swift */,
+				6B2A3E8A1AF5872200D3970C /* HelpItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E8B1AF5872200D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E8C1AF5872200D3970C /* HelpPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E8D1AF5872200D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E8E1AF5872200D3970C /* HelpProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3E8F1AF5872200D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E901AF5872200D3970C /* HelpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3E911AF5872200D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E921AF5872200D3970C /* HelpWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3E931AF5872200D3970C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E941AF5872200D3970C /* DataManager */,
+				6B2A3E991AF5872200D3970C /* Interactor */,
+				6B2A3E9C1AF5872200D3970C /* Presenter */,
+				6B2A3E9E1AF5872200D3970C /* Protocols */,
+				6B2A3EA01AF5872200D3970C /* View */,
+				6B2A3EA21AF5872200D3970C /* WireFrame */,
+			);
+			name = Settings;
+			path = SignMyPad/Settings;
+			sourceTree = "<group>";
+		};
+		6B2A3E941AF5872200D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E951AF5872200D3970C /* API */,
+				6B2A3E971AF5872200D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3E951AF5872200D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E961AF5872200D3970C /* SettingsAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3E971AF5872200D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E981AF5872200D3970C /* SettingsLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E991AF5872200D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E9A1AF5872200D3970C /* SettingsInteractor.swift */,
+				6B2A3E9B1AF5872200D3970C /* SettingsItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E9C1AF5872200D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E9D1AF5872200D3970C /* SettingsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E9E1AF5872200D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E9F1AF5872200D3970C /* SettingsProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3EA01AF5872200D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EA11AF5872200D3970C /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3EA21AF5872200D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EA31AF5872200D3970C /* SettingsWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3EBC1AF587DB00D3970C /* clouds */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EBD1AF587DB00D3970C /* DropBox */,
+				6B2A3ECE1AF587DB00D3970C /* GoogleDrive */,
+				6B2A3EDF1AF587DB00D3970C /* ITunes */,
+				6B2A3EF01AF587DC00D3970C /* ReomoteResource */,
+				6B2A3F011AF587DC00D3970C /* SignMyPadClouds */,
+			);
+			name = clouds;
+			path = SignMyPad/clouds;
+			sourceTree = "<group>";
+		};
+		6B2A3EBD1AF587DB00D3970C /* DropBox */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EBE1AF587DB00D3970C /* DataManager */,
+				6B2A3EC31AF587DB00D3970C /* Interactor */,
+				6B2A3EC61AF587DB00D3970C /* Presenter */,
+				6B2A3EC81AF587DB00D3970C /* Protocols */,
+				6B2A3ECA1AF587DB00D3970C /* View */,
+				6B2A3ECC1AF587DB00D3970C /* WireFrame */,
+			);
+			path = DropBox;
+			sourceTree = "<group>";
+		};
+		6B2A3EBE1AF587DB00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EBF1AF587DB00D3970C /* API */,
+				6B2A3EC11AF587DB00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3EBF1AF587DB00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EC01AF587DB00D3970C /* DropBoxAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3EC11AF587DB00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EC21AF587DB00D3970C /* DropBoxLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3EC31AF587DB00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EC41AF587DB00D3970C /* DropBoxInteractor.swift */,
+				6B2A3EC51AF587DB00D3970C /* DropBoxItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3EC61AF587DB00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EC71AF587DB00D3970C /* DropBoxPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3EC81AF587DB00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EC91AF587DB00D3970C /* DropBoxProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3ECA1AF587DB00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ECB1AF587DB00D3970C /* DropBoxView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3ECC1AF587DB00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ECD1AF587DB00D3970C /* DropBoxWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3ECE1AF587DB00D3970C /* GoogleDrive */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ECF1AF587DB00D3970C /* DataManager */,
+				6B2A3ED41AF587DB00D3970C /* Interactor */,
+				6B2A3ED71AF587DB00D3970C /* Presenter */,
+				6B2A3ED91AF587DB00D3970C /* Protocols */,
+				6B2A3EDB1AF587DB00D3970C /* View */,
+				6B2A3EDD1AF587DB00D3970C /* WireFrame */,
+			);
+			path = GoogleDrive;
+			sourceTree = "<group>";
+		};
+		6B2A3ECF1AF587DB00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ED01AF587DB00D3970C /* API */,
+				6B2A3ED21AF587DB00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3ED01AF587DB00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ED11AF587DB00D3970C /* GoogleDriveAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3ED21AF587DB00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ED31AF587DB00D3970C /* GoogleDriveLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3ED41AF587DB00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ED51AF587DB00D3970C /* GoogleDriveInteractor.swift */,
+				6B2A3ED61AF587DB00D3970C /* GoogleDriveItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3ED71AF587DB00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ED81AF587DB00D3970C /* GoogleDrivePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3ED91AF587DB00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EDA1AF587DB00D3970C /* GoogleDriveProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3EDB1AF587DB00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EDC1AF587DB00D3970C /* GoogleDriveView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3EDD1AF587DB00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EDE1AF587DB00D3970C /* GoogleDriveWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3EDF1AF587DB00D3970C /* ITunes */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE01AF587DB00D3970C /* DataManager */,
+				6B2A3EE51AF587DC00D3970C /* Interactor */,
+				6B2A3EE81AF587DC00D3970C /* Presenter */,
+				6B2A3EEA1AF587DC00D3970C /* Protocols */,
+				6B2A3EEC1AF587DC00D3970C /* View */,
+				6B2A3EEE1AF587DC00D3970C /* WireFrame */,
+			);
+			path = ITunes;
+			sourceTree = "<group>";
+		};
+		6B2A3EE01AF587DB00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE11AF587DB00D3970C /* API */,
+				6B2A3EE31AF587DC00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3EE11AF587DB00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE21AF587DC00D3970C /* ITunesAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3EE31AF587DC00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE41AF587DC00D3970C /* ITunesLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3EE51AF587DC00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE61AF587DC00D3970C /* ITunesInteractor.swift */,
+				6B2A3EE71AF587DC00D3970C /* ITunesItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3EE81AF587DC00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE91AF587DC00D3970C /* ITunesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3EEA1AF587DC00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EEB1AF587DC00D3970C /* ITunesProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3EEC1AF587DC00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EED1AF587DC00D3970C /* ITunesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3EEE1AF587DC00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EEF1AF587DC00D3970C /* ITunesWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3EF01AF587DC00D3970C /* ReomoteResource */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EF11AF587DC00D3970C /* DataManager */,
+				6B2A3EF61AF587DC00D3970C /* Interactor */,
+				6B2A3EF91AF587DC00D3970C /* Presenter */,
+				6B2A3EFB1AF587DC00D3970C /* Protocols */,
+				6B2A3EFD1AF587DC00D3970C /* View */,
+				6B2A3EFF1AF587DC00D3970C /* WireFrame */,
+			);
+			path = ReomoteResource;
+			sourceTree = "<group>";
+		};
+		6B2A3EF11AF587DC00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EF21AF587DC00D3970C /* API */,
+				6B2A3EF41AF587DC00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3EF21AF587DC00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EF31AF587DC00D3970C /* ReomoteResourceAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3EF41AF587DC00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EF51AF587DC00D3970C /* ReomoteResourceLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3EF61AF587DC00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EF71AF587DC00D3970C /* ReomoteResourceInteractor.swift */,
+				6B2A3EF81AF587DC00D3970C /* ReomoteResourceItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3EF91AF587DC00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EFA1AF587DC00D3970C /* ReomoteResourcePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3EFB1AF587DC00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EFC1AF587DC00D3970C /* ReomoteResourceProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3EFD1AF587DC00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EFE1AF587DC00D3970C /* ReomoteResourceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3EFF1AF587DC00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F001AF587DC00D3970C /* ReomoteResourceWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3F011AF587DC00D3970C /* SignMyPadClouds */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F021AF587DC00D3970C /* DataManager */,
+				6B2A3F071AF587DC00D3970C /* Interactor */,
+				6B2A3F0A1AF587DC00D3970C /* Presenter */,
+				6B2A3F0C1AF587DC00D3970C /* Protocols */,
+				6B2A3F0E1AF587DC00D3970C /* View */,
+				6B2A3F101AF587DC00D3970C /* WireFrame */,
+			);
+			path = SignMyPadClouds;
+			sourceTree = "<group>";
+		};
+		6B2A3F021AF587DC00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F031AF587DC00D3970C /* API */,
+				6B2A3F051AF587DC00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3F031AF587DC00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F041AF587DC00D3970C /* SignMyPadCloudsAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3F051AF587DC00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F061AF587DC00D3970C /* SignMyPadCloudsLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3F071AF587DC00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F081AF587DC00D3970C /* SignMyPadCloudsInteractor.swift */,
+				6B2A3F091AF587DC00D3970C /* SignMyPadCloudsItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3F0A1AF587DC00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F0B1AF587DC00D3970C /* SignMyPadCloudsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3F0C1AF587DC00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F0D1AF587DC00D3970C /* SignMyPadCloudsProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3F0E1AF587DC00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F0F1AF587DC00D3970C /* SignMyPadCloudsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3F101AF587DC00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F111AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
 		DA70A6A5B19E31D9ADE82D4D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1270,74 +1848,122 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2A3EB21AF5872200D3970C /* HelpView.swift in Sources */,
+				6B2A3F2B1AF587DC00D3970C /* ReomoteResourceLocalDataManager.swift in Sources */,
 				6B2A3E441AF56D8500D3970C /* PDFAnnotatorWireFrame.swift in Sources */,
+				6B2A3F2A1AF587DC00D3970C /* ReomoteResourceAPIDataManager.swift in Sources */,
+				6B2A3EAF1AF5872200D3970C /* HelpItem.swift in Sources */,
 				6B2A3E321AF56D8500D3970C /* PDFViewerProtocols.swift in Sources */,
-				6B2A3E2A1AF56D8500D3970C /* BreadcrumbsProtocols.swift in Sources */,
 				6B2A3E301AF56D8500D3970C /* PDFViewerItem.swift in Sources */,
+				6B2A3F241AF587DC00D3970C /* ITunesInteractor.swift in Sources */,
+				6B2A3F291AF587DC00D3970C /* ITunesWireFrame.swift in Sources */,
 				6B2A3E541AF56D8500D3970C /* SignaturesEditorWireFrame.swift in Sources */,
+				6B2A3E6C1AF581FD00D3970C /* MainItem.swift in Sources */,
+				6B2A3F1E1AF587DC00D3970C /* GoogleDrivePresenter.swift in Sources */,
 				6B2A3E331AF56D8500D3970C /* PDFViewerView.swift in Sources */,
+				6B2A3F321AF587DC00D3970C /* SignMyPadCloudsAPIDataManager.swift in Sources */,
 				6B2A3E2E1AF56D8500D3970C /* PDFViewerLocalDataManager.swift in Sources */,
 				6B2A3E2F1AF56D8500D3970C /* PDFViewerInteractor.swift in Sources */,
+				6B2A3EA91AF5872200D3970C /* FileExplorerProtocols.swift in Sources */,
+				6B2A3EB11AF5872200D3970C /* HelpProtocols.swift in Sources */,
+				6B2A3EB51AF5872200D3970C /* SettingsLocalDataManager.swift in Sources */,
+				6B2A3F311AF587DC00D3970C /* ReomoteResourceWireFrame.swift in Sources */,
 				6B2A3E311AF56D8500D3970C /* PDFViewerPresenter.swift in Sources */,
+				6B2A3F1D1AF587DC00D3970C /* GoogleDriveItem.swift in Sources */,
 				6B2A3E341AF56D8500D3970C /* PDFViewerWireFrame.swift in Sources */,
-				6B2A3E261AF56D8500D3970C /* BreadcrumbsLocalDataManager.swift in Sources */,
+				6B2A3EBA1AF5872200D3970C /* SettingsView.swift in Sources */,
+				6B2A3EB81AF5872200D3970C /* SettingsPresenter.swift in Sources */,
+				6B2A3F391AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift in Sources */,
 				6B2A3E361AF56D8500D3970C /* PDFEditorLocalDataManager.swift in Sources */,
-				6B2A3E271AF56D8500D3970C /* BreadcrumbsInteractor.swift in Sources */,
+				6B2A3F131AF587DC00D3970C /* DropBoxLocalDataManager.swift in Sources */,
+				6B2A3EA61AF5872200D3970C /* FileExplorerInteractor.swift in Sources */,
+				6B2A3F301AF587DC00D3970C /* ReomoteResourceView.swift in Sources */,
+				6B2A3E6F1AF581FD00D3970C /* MainView.swift in Sources */,
 				6B2A3E3C1AF56D8500D3970C /* PDFEditorWireFrame.swift in Sources */,
-				6B2A3DA01AF561C700D3970C /* ToolsInteractor.swift in Sources */,
+				6B2A3F171AF587DC00D3970C /* DropBoxProtocols.swift in Sources */,
+				6B2A3EA81AF5872200D3970C /* FileExplorerPresenter.swift in Sources */,
+				6B2A3F271AF587DC00D3970C /* ITunesProtocols.swift in Sources */,
+				6B2A3F211AF587DC00D3970C /* GoogleDriveWireFrame.swift in Sources */,
 				6B2A3E401AF56D8500D3970C /* PDFAnnotatorItem.swift in Sources */,
 				6B2A3E421AF56D8500D3970C /* PDFAnnotatorProtocols.swift in Sources */,
 				6B2A3E3B1AF56D8500D3970C /* PDFEditorView.swift in Sources */,
+				6B2A3EB61AF5872200D3970C /* SettingsInteractor.swift in Sources */,
 				6B2A3E4A1AF56D8500D3970C /* SignaturesManagerProtocols.swift in Sources */,
+				6B2A3EAD1AF5872200D3970C /* HelpLocalDataManager.swift in Sources */,
 				6B2A3E3A1AF56D8500D3970C /* PDFEditorProtocols.swift in Sources */,
-				6B2A3D9F1AF561C700D3970C /* ToolsLocalDataManager.swift in Sources */,
+				6B2A3EBB1AF5872200D3970C /* SettingsWireFrame.swift in Sources */,
 				6B2A3E461AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift in Sources */,
-				6B2A3E211AF56D8500D3970C /* NavigationBarPresenter.swift in Sources */,
-				6B2A3E241AF56D8500D3970C /* NavigationBarWireFrame.swift in Sources */,
-				6B2A3E281AF56D8500D3970C /* BreadcrumbsItem.swift in Sources */,
 				6B2A3E4E1AF56D8500D3970C /* SignaturesEditorLocalDataManager.swift in Sources */,
+				6B2A3F261AF587DC00D3970C /* ITunesPresenter.swift in Sources */,
 				6B2A3E371AF56D8500D3970C /* PDFEditorInteractor.swift in Sources */,
 				6B2A3E4D1AF56D8500D3970C /* SignaturesEditorAPIDataManager.swift in Sources */,
+				6B2A3EAC1AF5872200D3970C /* HelpAPIDataManager.swift in Sources */,
+				6B2A3EAB1AF5872200D3970C /* FileExplorerWireFrame.swift in Sources */,
+				6B2A3F2C1AF587DC00D3970C /* ReomoteResourceInteractor.swift in Sources */,
+				6B2A3F2E1AF587DC00D3970C /* ReomoteResourcePresenter.swift in Sources */,
+				6B2A3F231AF587DC00D3970C /* ITunesLocalDataManager.swift in Sources */,
+				6B2A3F381AF587DC00D3970C /* SignMyPadCloudsView.swift in Sources */,
+				6B2A3EA51AF5872200D3970C /* FileExplorerLocalDataManager.swift in Sources */,
+				6B2A3E6B1AF581FD00D3970C /* MainInteractor.swift in Sources */,
 				6B2A3E3F1AF56D8500D3970C /* PDFAnnotatorInteractor.swift in Sources */,
 				59A903471AF2C844005FC6DF /* AppDependencies.swift in Sources */,
+				6B2A3EAA1AF5872200D3970C /* FileExplorerView.swift in Sources */,
+				6B2A3EA41AF5872200D3970C /* FileExplorerAPIDataManager.swift in Sources */,
+				6B2A3F281AF587DC00D3970C /* ITunesView.swift in Sources */,
+				6B2A3F2F1AF587DC00D3970C /* ReomoteResourceProtocols.swift in Sources */,
+				6B2A3EB31AF5872200D3970C /* HelpWireFrame.swift in Sources */,
+				6B2A3E6A1AF581FD00D3970C /* MainLocalDataManager.swift in Sources */,
 				6B2A3E431AF56D8500D3970C /* PDFAnnotatorView.swift in Sources */,
-				6B2A3E231AF56D8500D3970C /* NavigationBarView.swift in Sources */,
+				6B2A3F201AF587DC00D3970C /* GoogleDriveView.swift in Sources */,
+				6B2A3EB41AF5872200D3970C /* SettingsAPIDataManager.swift in Sources */,
+				6B2A3F331AF587DC00D3970C /* SignMyPadCloudsLocalDataManager.swift in Sources */,
+				6B2A3F221AF587DC00D3970C /* ITunesAPIDataManager.swift in Sources */,
+				6B2A3E691AF581FD00D3970C /* MainAPIDataManager.swift in Sources */,
+				6B2A3F361AF587DC00D3970C /* SignMyPadCloudsPresenter.swift in Sources */,
+				6B2A3F1C1AF587DC00D3970C /* GoogleDriveInteractor.swift in Sources */,
 				591762B21AE90AE5009D3E60 /* ViewController.swift in Sources */,
-				6B2A3E1D1AF56D8500D3970C /* NavigationBarAPIDataManager.swift in Sources */,
-				6B2A3DA41AF561C700D3970C /* ToolsView.swift in Sources */,
 				6B2A3E411AF56D8500D3970C /* PDFAnnotatorPresenter.swift in Sources */,
+				6B2A3E701AF581FD00D3970C /* MainWireFrame.swift in Sources */,
+				6B2A3F161AF587DC00D3970C /* DropBoxPresenter.swift in Sources */,
 				6B2A3E501AF56D8500D3970C /* SignaturesEditorItem.swift in Sources */,
 				6B2A3E481AF56D8500D3970C /* SignaturesManagerItem.swift in Sources */,
-				6B2A3E1F1AF56D8500D3970C /* NavigationBarInteractor.swift in Sources */,
+				6B2A3F341AF587DC00D3970C /* SignMyPadCloudsInteractor.swift in Sources */,
+				6B2A3F2D1AF587DC00D3970C /* ReomoteResourceItem.swift in Sources */,
+				6B2A3EAE1AF5872200D3970C /* HelpInteractor.swift in Sources */,
 				6B2A3E451AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift in Sources */,
 				6B2A3E531AF56D8500D3970C /* SignaturesEditorView.swift in Sources */,
-				6B2A3DA11AF561C700D3970C /* ToolsItem.swift in Sources */,
 				6B2A3E511AF56D8500D3970C /* SignaturesEditorPresenter.swift in Sources */,
+				6B2A3EB71AF5872200D3970C /* SettingsItem.swift in Sources */,
+				6B2A3EB01AF5872200D3970C /* HelpPresenter.swift in Sources */,
 				6B2A3E521AF56D8500D3970C /* SignaturesEditorProtocols.swift in Sources */,
 				6B2A3E471AF56D8500D3970C /* SignaturesManagerInteractor.swift in Sources */,
+				6B2A3F1A1AF587DC00D3970C /* GoogleDriveAPIDataManager.swift in Sources */,
+				6B2A3EA71AF5872200D3970C /* FileExplorerItem.swift in Sources */,
+				6B2A3F1B1AF587DC00D3970C /* GoogleDriveLocalDataManager.swift in Sources */,
+				6B2A3F351AF587DC00D3970C /* SignMyPadCloudsItem.swift in Sources */,
+				6B2A3F1F1AF587DC00D3970C /* GoogleDriveProtocols.swift in Sources */,
 				6B2A3E381AF56D8500D3970C /* PDFEditorItem.swift in Sources */,
-				6B2A3E1E1AF56D8500D3970C /* NavigationBarLocalDataManager.swift in Sources */,
-				6B2A3DA51AF561C700D3970C /* ToolsWireFrame.swift in Sources */,
 				6B2A3E4B1AF56D8500D3970C /* SignaturesManagerView.swift in Sources */,
+				6B2A3F371AF587DC00D3970C /* SignMyPadCloudsProtocols.swift in Sources */,
+				6B2A3F181AF587DC00D3970C /* DropBoxView.swift in Sources */,
 				6B2A3E4C1AF56D8500D3970C /* SignaturesManagerWireFrame.swift in Sources */,
-				6B2A3E221AF56D8500D3970C /* NavigationBarProtocols.swift in Sources */,
-				6B2A3DA21AF561C700D3970C /* ToolsPresenter.swift in Sources */,
+				6B2A3E6E1AF581FD00D3970C /* MainProtocols.swift in Sources */,
 				591762B01AE90AE5009D3E60 /* SignMyPad.xcdatamodeld in Sources */,
+				6B2A3F141AF587DC00D3970C /* DropBoxInteractor.swift in Sources */,
+				6B2A3F251AF587DC00D3970C /* ITunesItem.swift in Sources */,
+				6B2A3EB91AF5872200D3970C /* SettingsProtocols.swift in Sources */,
 				6B2A3E351AF56D8500D3970C /* PDFEditorAPIDataManager.swift in Sources */,
-				6B2A3DA31AF561C700D3970C /* ToolsProtocols.swift in Sources */,
 				6B2A3E4F1AF56D8500D3970C /* SignaturesEditorInteractor.swift in Sources */,
 				591762AD1AE90AE5009D3E60 /* AppDelegate.swift in Sources */,
 				6B2A3E2D1AF56D8500D3970C /* PDFViewerAPIDataManager.swift in Sources */,
+				6B2A3F151AF587DC00D3970C /* DropBoxItem.swift in Sources */,
+				6B2A3F191AF587DC00D3970C /* DropBoxWireFrame.swift in Sources */,
 				6B2A3E3E1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift in Sources */,
-				6B2A3E251AF56D8500D3970C /* BreadcrumbsAPIDataManager.swift in Sources */,
-				6B2A3E201AF56D8500D3970C /* NavigationBarItem.swift in Sources */,
-				6B2A3D9E1AF561C700D3970C /* ToolsAPIDataManager.swift in Sources */,
-				6B2A3E2C1AF56D8500D3970C /* BreadcrumbsWireFrame.swift in Sources */,
+				6B2A3E6D1AF581FD00D3970C /* MainPresenter.swift in Sources */,
 				6B2A3E491AF56D8500D3970C /* SignaturesManagerPresenter.swift in Sources */,
-				6B2A3E291AF56D8500D3970C /* BreadcrumbsPresenter.swift in Sources */,
-				6B2A3E2B1AF56D8500D3970C /* BreadcrumbsView.swift in Sources */,
 				6B2A3E3D1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift in Sources */,
 				6B2A3E391AF56D8500D3970C /* PDFEditorPresenter.swift in Sources */,
+				6B2A3F121AF587DC00D3970C /* DropBoxAPIDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
