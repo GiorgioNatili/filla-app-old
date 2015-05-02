@@ -47,6 +47,70 @@
 		59A9039A1AF3FBC3005FC6DF /* Default-Portrait-1136h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903991AF3FBC3005FC6DF /* Default-Portrait-1136h@2x.png */; };
 		6B2A3D0D1AEF8C8A00D3970C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2A3D0C1AEF8C8A00D3970C /* Social.framework */; };
 		6B2A3D0F1AEF8C9B00D3970C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */; };
+		6B2A3D9E1AF561C700D3970C /* ToolsAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D901AF561C700D3970C /* ToolsAPIDataManager.swift */; };
+		6B2A3D9F1AF561C700D3970C /* ToolsLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D921AF561C700D3970C /* ToolsLocalDataManager.swift */; };
+		6B2A3DA01AF561C700D3970C /* ToolsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D941AF561C700D3970C /* ToolsInteractor.swift */; };
+		6B2A3DA11AF561C700D3970C /* ToolsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D951AF561C700D3970C /* ToolsItem.swift */; };
+		6B2A3DA21AF561C700D3970C /* ToolsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D971AF561C700D3970C /* ToolsPresenter.swift */; };
+		6B2A3DA31AF561C700D3970C /* ToolsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D991AF561C700D3970C /* ToolsProtocols.swift */; };
+		6B2A3DA41AF561C700D3970C /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D9B1AF561C700D3970C /* ToolsView.swift */; };
+		6B2A3DA51AF561C700D3970C /* ToolsWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3D9D1AF561C700D3970C /* ToolsWireFrame.swift */; };
+		6B2A3E1D1AF56D8500D3970C /* NavigationBarAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DA91AF56D8500D3970C /* NavigationBarAPIDataManager.swift */; };
+		6B2A3E1E1AF56D8500D3970C /* NavigationBarLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DAB1AF56D8500D3970C /* NavigationBarLocalDataManager.swift */; };
+		6B2A3E1F1AF56D8500D3970C /* NavigationBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DAD1AF56D8500D3970C /* NavigationBarInteractor.swift */; };
+		6B2A3E201AF56D8500D3970C /* NavigationBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DAE1AF56D8500D3970C /* NavigationBarItem.swift */; };
+		6B2A3E211AF56D8500D3970C /* NavigationBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DB01AF56D8500D3970C /* NavigationBarPresenter.swift */; };
+		6B2A3E221AF56D8500D3970C /* NavigationBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DB21AF56D8500D3970C /* NavigationBarProtocols.swift */; };
+		6B2A3E231AF56D8500D3970C /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DB41AF56D8500D3970C /* NavigationBarView.swift */; };
+		6B2A3E241AF56D8500D3970C /* NavigationBarWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DB61AF56D8500D3970C /* NavigationBarWireFrame.swift */; };
+		6B2A3E251AF56D8500D3970C /* BreadcrumbsAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DBA1AF56D8500D3970C /* BreadcrumbsAPIDataManager.swift */; };
+		6B2A3E261AF56D8500D3970C /* BreadcrumbsLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DBC1AF56D8500D3970C /* BreadcrumbsLocalDataManager.swift */; };
+		6B2A3E271AF56D8500D3970C /* BreadcrumbsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DBE1AF56D8500D3970C /* BreadcrumbsInteractor.swift */; };
+		6B2A3E281AF56D8500D3970C /* BreadcrumbsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DBF1AF56D8500D3970C /* BreadcrumbsItem.swift */; };
+		6B2A3E291AF56D8500D3970C /* BreadcrumbsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DC11AF56D8500D3970C /* BreadcrumbsPresenter.swift */; };
+		6B2A3E2A1AF56D8500D3970C /* BreadcrumbsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DC31AF56D8500D3970C /* BreadcrumbsProtocols.swift */; };
+		6B2A3E2B1AF56D8500D3970C /* BreadcrumbsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DC51AF56D8500D3970C /* BreadcrumbsView.swift */; };
+		6B2A3E2C1AF56D8500D3970C /* BreadcrumbsWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DC71AF56D8500D3970C /* BreadcrumbsWireFrame.swift */; };
+		6B2A3E2D1AF56D8500D3970C /* PDFViewerAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DCB1AF56D8500D3970C /* PDFViewerAPIDataManager.swift */; };
+		6B2A3E2E1AF56D8500D3970C /* PDFViewerLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DCD1AF56D8500D3970C /* PDFViewerLocalDataManager.swift */; };
+		6B2A3E2F1AF56D8500D3970C /* PDFViewerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DCF1AF56D8500D3970C /* PDFViewerInteractor.swift */; };
+		6B2A3E301AF56D8500D3970C /* PDFViewerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DD01AF56D8500D3970C /* PDFViewerItem.swift */; };
+		6B2A3E311AF56D8500D3970C /* PDFViewerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DD21AF56D8500D3970C /* PDFViewerPresenter.swift */; };
+		6B2A3E321AF56D8500D3970C /* PDFViewerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DD41AF56D8500D3970C /* PDFViewerProtocols.swift */; };
+		6B2A3E331AF56D8500D3970C /* PDFViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DD61AF56D8500D3970C /* PDFViewerView.swift */; };
+		6B2A3E341AF56D8500D3970C /* PDFViewerWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DD81AF56D8500D3970C /* PDFViewerWireFrame.swift */; };
+		6B2A3E351AF56D8500D3970C /* PDFEditorAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DDC1AF56D8500D3970C /* PDFEditorAPIDataManager.swift */; };
+		6B2A3E361AF56D8500D3970C /* PDFEditorLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DDE1AF56D8500D3970C /* PDFEditorLocalDataManager.swift */; };
+		6B2A3E371AF56D8500D3970C /* PDFEditorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE01AF56D8500D3970C /* PDFEditorInteractor.swift */; };
+		6B2A3E381AF56D8500D3970C /* PDFEditorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE11AF56D8500D3970C /* PDFEditorItem.swift */; };
+		6B2A3E391AF56D8500D3970C /* PDFEditorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE31AF56D8500D3970C /* PDFEditorPresenter.swift */; };
+		6B2A3E3A1AF56D8500D3970C /* PDFEditorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE51AF56D8500D3970C /* PDFEditorProtocols.swift */; };
+		6B2A3E3B1AF56D8500D3970C /* PDFEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE71AF56D8500D3970C /* PDFEditorView.swift */; };
+		6B2A3E3C1AF56D8500D3970C /* PDFEditorWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE91AF56D8500D3970C /* PDFEditorWireFrame.swift */; };
+		6B2A3E3D1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DED1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift */; };
+		6B2A3E3E1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DEF1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift */; };
+		6B2A3E3F1AF56D8500D3970C /* PDFAnnotatorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DF11AF56D8500D3970C /* PDFAnnotatorInteractor.swift */; };
+		6B2A3E401AF56D8500D3970C /* PDFAnnotatorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DF21AF56D8500D3970C /* PDFAnnotatorItem.swift */; };
+		6B2A3E411AF56D8500D3970C /* PDFAnnotatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DF41AF56D8500D3970C /* PDFAnnotatorPresenter.swift */; };
+		6B2A3E421AF56D8500D3970C /* PDFAnnotatorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DF61AF56D8500D3970C /* PDFAnnotatorProtocols.swift */; };
+		6B2A3E431AF56D8500D3970C /* PDFAnnotatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DF81AF56D8500D3970C /* PDFAnnotatorView.swift */; };
+		6B2A3E441AF56D8500D3970C /* PDFAnnotatorWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DFA1AF56D8500D3970C /* PDFAnnotatorWireFrame.swift */; };
+		6B2A3E451AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DFE1AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift */; };
+		6B2A3E461AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E001AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift */; };
+		6B2A3E471AF56D8500D3970C /* SignaturesManagerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E021AF56D8500D3970C /* SignaturesManagerInteractor.swift */; };
+		6B2A3E481AF56D8500D3970C /* SignaturesManagerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E031AF56D8500D3970C /* SignaturesManagerItem.swift */; };
+		6B2A3E491AF56D8500D3970C /* SignaturesManagerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E051AF56D8500D3970C /* SignaturesManagerPresenter.swift */; };
+		6B2A3E4A1AF56D8500D3970C /* SignaturesManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E071AF56D8500D3970C /* SignaturesManagerProtocols.swift */; };
+		6B2A3E4B1AF56D8500D3970C /* SignaturesManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E091AF56D8500D3970C /* SignaturesManagerView.swift */; };
+		6B2A3E4C1AF56D8500D3970C /* SignaturesManagerWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E0B1AF56D8500D3970C /* SignaturesManagerWireFrame.swift */; };
+		6B2A3E4D1AF56D8500D3970C /* SignaturesEditorAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E0F1AF56D8500D3970C /* SignaturesEditorAPIDataManager.swift */; };
+		6B2A3E4E1AF56D8500D3970C /* SignaturesEditorLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E111AF56D8500D3970C /* SignaturesEditorLocalDataManager.swift */; };
+		6B2A3E4F1AF56D8500D3970C /* SignaturesEditorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E131AF56D8500D3970C /* SignaturesEditorInteractor.swift */; };
+		6B2A3E501AF56D8500D3970C /* SignaturesEditorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E141AF56D8500D3970C /* SignaturesEditorItem.swift */; };
+		6B2A3E511AF56D8500D3970C /* SignaturesEditorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E161AF56D8500D3970C /* SignaturesEditorPresenter.swift */; };
+		6B2A3E521AF56D8500D3970C /* SignaturesEditorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E181AF56D8500D3970C /* SignaturesEditorProtocols.swift */; };
+		6B2A3E531AF56D8500D3970C /* SignaturesEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E1A1AF56D8500D3970C /* SignaturesEditorView.swift */; };
+		6B2A3E541AF56D8500D3970C /* SignaturesEditorWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E1C1AF56D8500D3970C /* SignaturesEditorWireFrame.swift */; };
 		98FACC75DF8C61BB74224F8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D18719D1D89A392D3C399C5C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +171,70 @@
 		59A903991AF3FBC3005FC6DF /* Default-Portrait-1136h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-1136h@2x.png"; sourceTree = "<group>"; };
 		6B2A3D0C1AEF8C8A00D3970C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		6B2A3D901AF561C700D3970C /* ToolsAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3D921AF561C700D3970C /* ToolsLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3D941AF561C700D3970C /* ToolsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsInteractor.swift; sourceTree = "<group>"; };
+		6B2A3D951AF561C700D3970C /* ToolsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsItem.swift; sourceTree = "<group>"; };
+		6B2A3D971AF561C700D3970C /* ToolsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsPresenter.swift; sourceTree = "<group>"; };
+		6B2A3D991AF561C700D3970C /* ToolsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsProtocols.swift; sourceTree = "<group>"; };
+		6B2A3D9B1AF561C700D3970C /* ToolsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		6B2A3D9D1AF561C700D3970C /* ToolsWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3DA91AF56D8500D3970C /* NavigationBarAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DAB1AF56D8500D3970C /* NavigationBarLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DAD1AF56D8500D3970C /* NavigationBarInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarInteractor.swift; sourceTree = "<group>"; };
+		6B2A3DAE1AF56D8500D3970C /* NavigationBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarItem.swift; sourceTree = "<group>"; };
+		6B2A3DB01AF56D8500D3970C /* NavigationBarPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarPresenter.swift; sourceTree = "<group>"; };
+		6B2A3DB21AF56D8500D3970C /* NavigationBarProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarProtocols.swift; sourceTree = "<group>"; };
+		6B2A3DB41AF56D8500D3970C /* NavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		6B2A3DB61AF56D8500D3970C /* NavigationBarWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3DBA1AF56D8500D3970C /* BreadcrumbsAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DBC1AF56D8500D3970C /* BreadcrumbsLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DBE1AF56D8500D3970C /* BreadcrumbsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsInteractor.swift; sourceTree = "<group>"; };
+		6B2A3DBF1AF56D8500D3970C /* BreadcrumbsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsItem.swift; sourceTree = "<group>"; };
+		6B2A3DC11AF56D8500D3970C /* BreadcrumbsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsPresenter.swift; sourceTree = "<group>"; };
+		6B2A3DC31AF56D8500D3970C /* BreadcrumbsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsProtocols.swift; sourceTree = "<group>"; };
+		6B2A3DC51AF56D8500D3970C /* BreadcrumbsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsView.swift; sourceTree = "<group>"; };
+		6B2A3DC71AF56D8500D3970C /* BreadcrumbsWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadcrumbsWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3DCB1AF56D8500D3970C /* PDFViewerAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DCD1AF56D8500D3970C /* PDFViewerLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DCF1AF56D8500D3970C /* PDFViewerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerInteractor.swift; sourceTree = "<group>"; };
+		6B2A3DD01AF56D8500D3970C /* PDFViewerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerItem.swift; sourceTree = "<group>"; };
+		6B2A3DD21AF56D8500D3970C /* PDFViewerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerPresenter.swift; sourceTree = "<group>"; };
+		6B2A3DD41AF56D8500D3970C /* PDFViewerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerProtocols.swift; sourceTree = "<group>"; };
+		6B2A3DD61AF56D8500D3970C /* PDFViewerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerView.swift; sourceTree = "<group>"; };
+		6B2A3DD81AF56D8500D3970C /* PDFViewerWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3DDC1AF56D8500D3970C /* PDFEditorAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DDE1AF56D8500D3970C /* PDFEditorLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DE01AF56D8500D3970C /* PDFEditorInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorInteractor.swift; sourceTree = "<group>"; };
+		6B2A3DE11AF56D8500D3970C /* PDFEditorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorItem.swift; sourceTree = "<group>"; };
+		6B2A3DE31AF56D8500D3970C /* PDFEditorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorPresenter.swift; sourceTree = "<group>"; };
+		6B2A3DE51AF56D8500D3970C /* PDFEditorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorProtocols.swift; sourceTree = "<group>"; };
+		6B2A3DE71AF56D8500D3970C /* PDFEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorView.swift; sourceTree = "<group>"; };
+		6B2A3DE91AF56D8500D3970C /* PDFEditorWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3DED1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DEF1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DF11AF56D8500D3970C /* PDFAnnotatorInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorInteractor.swift; sourceTree = "<group>"; };
+		6B2A3DF21AF56D8500D3970C /* PDFAnnotatorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorItem.swift; sourceTree = "<group>"; };
+		6B2A3DF41AF56D8500D3970C /* PDFAnnotatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorPresenter.swift; sourceTree = "<group>"; };
+		6B2A3DF61AF56D8500D3970C /* PDFAnnotatorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorProtocols.swift; sourceTree = "<group>"; };
+		6B2A3DF81AF56D8500D3970C /* PDFAnnotatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorView.swift; sourceTree = "<group>"; };
+		6B2A3DFA1AF56D8500D3970C /* PDFAnnotatorWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFAnnotatorWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3DFE1AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E001AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E021AF56D8500D3970C /* SignaturesManagerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E031AF56D8500D3970C /* SignaturesManagerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerItem.swift; sourceTree = "<group>"; };
+		6B2A3E051AF56D8500D3970C /* SignaturesManagerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E071AF56D8500D3970C /* SignaturesManagerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerProtocols.swift; sourceTree = "<group>"; };
+		6B2A3E091AF56D8500D3970C /* SignaturesManagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerView.swift; sourceTree = "<group>"; };
+		6B2A3E0B1AF56D8500D3970C /* SignaturesManagerWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3E0F1AF56D8500D3970C /* SignaturesEditorAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E111AF56D8500D3970C /* SignaturesEditorLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E131AF56D8500D3970C /* SignaturesEditorInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E141AF56D8500D3970C /* SignaturesEditorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorItem.swift; sourceTree = "<group>"; };
+		6B2A3E161AF56D8500D3970C /* SignaturesEditorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E181AF56D8500D3970C /* SignaturesEditorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorProtocols.swift; sourceTree = "<group>"; };
+		6B2A3E1A1AF56D8500D3970C /* SignaturesEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorView.swift; sourceTree = "<group>"; };
+		6B2A3E1C1AF56D8500D3970C /* SignaturesEditorWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorWireFrame.swift; sourceTree = "<group>"; };
 		913E5245595705CD288EB0BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D18719D1D89A392D3C399C5C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -210,12 +338,15 @@
 		5920132D1AF288DA00281296 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				6B2A3DA61AF56D8500D3970C /* NavigationBar */,
+				6B2A3DB71AF56D8500D3970C /* Breadcrumbs */,
+				6B2A3DC81AF56D8500D3970C /* PDFViewer */,
+				6B2A3DD91AF56D8500D3970C /* PDFEditor */,
+				6B2A3DEA1AF56D8500D3970C /* PDFAnnotator */,
+				6B2A3DFB1AF56D8500D3970C /* SignaturesManager */,
+				6B2A3E0C1AF56D8500D3970C /* SignaturesEditor */,
+				6B2A3D8D1AF561C700D3970C /* Tools */,
 				59A903481AF2C90C005FC6DF /* main */,
-				5920133E1AF289B600281296 /* tools */,
-				5920133D1AF2898900281296 /* navigationbar */,
-				5920133C1AF2897C00281296 /* filesmanager */,
-				592013391AF2895700281296 /* signatures */,
-				592013351AF2893800281296 /* pdf */,
 			);
 			name = views;
 			path = ..;
@@ -272,81 +403,6 @@
 			children = (
 			);
 			name = components;
-			sourceTree = "<group>";
-		};
-		592013351AF2893800281296 /* pdf */ = {
-			isa = PBXGroup;
-			children = (
-				592013381AF2894900281296 /* annotator */,
-				592013371AF2894400281296 /* editor */,
-				592013361AF2893E00281296 /* viewer */,
-			);
-			name = pdf;
-			sourceTree = "<group>";
-		};
-		592013361AF2893E00281296 /* viewer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = viewer;
-			sourceTree = "<group>";
-		};
-		592013371AF2894400281296 /* editor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = editor;
-			sourceTree = "<group>";
-		};
-		592013381AF2894900281296 /* annotator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = annotator;
-			sourceTree = "<group>";
-		};
-		592013391AF2895700281296 /* signatures */ = {
-			isa = PBXGroup;
-			children = (
-				5920133B1AF2896D00281296 /* editor */,
-				5920133A1AF2895E00281296 /* manager */,
-			);
-			name = signatures;
-			sourceTree = "<group>";
-		};
-		5920133A1AF2895E00281296 /* manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = manager;
-			sourceTree = "<group>";
-		};
-		5920133B1AF2896D00281296 /* editor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = editor;
-			sourceTree = "<group>";
-		};
-		5920133C1AF2897C00281296 /* filesmanager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = filesmanager;
-			sourceTree = "<group>";
-		};
-		5920133D1AF2898900281296 /* navigationbar */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = navigationbar;
-			sourceTree = "<group>";
-		};
-		5920133E1AF289B600281296 /* tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = tools;
 			sourceTree = "<group>";
 		};
 		59A903481AF2C90C005FC6DF /* main */ = {
@@ -424,6 +480,646 @@
 				59A903861AF3EFFA005FC6DF /* Default-Portrait@2x.png */,
 			);
 			path = iPhone;
+			sourceTree = "<group>";
+		};
+		6B2A3D8D1AF561C700D3970C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3D8E1AF561C700D3970C /* DataManager */,
+				6B2A3D931AF561C700D3970C /* Interactor */,
+				6B2A3D961AF561C700D3970C /* Presenter */,
+				6B2A3D981AF561C700D3970C /* Protocols */,
+				6B2A3D9A1AF561C700D3970C /* View */,
+				6B2A3D9C1AF561C700D3970C /* WireFrame */,
+			);
+			name = Tools;
+			path = SignMyPad/Tools;
+			sourceTree = "<group>";
+		};
+		6B2A3D8E1AF561C700D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3D8F1AF561C700D3970C /* API */,
+				6B2A3D911AF561C700D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3D8F1AF561C700D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3D901AF561C700D3970C /* ToolsAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3D911AF561C700D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3D921AF561C700D3970C /* ToolsLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3D931AF561C700D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3D941AF561C700D3970C /* ToolsInteractor.swift */,
+				6B2A3D951AF561C700D3970C /* ToolsItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3D961AF561C700D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3D971AF561C700D3970C /* ToolsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3D981AF561C700D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3D991AF561C700D3970C /* ToolsProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3D9A1AF561C700D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3D9B1AF561C700D3970C /* ToolsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3D9C1AF561C700D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3D9D1AF561C700D3970C /* ToolsWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3DA61AF56D8500D3970C /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DA71AF56D8500D3970C /* DataManager */,
+				6B2A3DAC1AF56D8500D3970C /* Interactor */,
+				6B2A3DAF1AF56D8500D3970C /* Presenter */,
+				6B2A3DB11AF56D8500D3970C /* Protocols */,
+				6B2A3DB31AF56D8500D3970C /* View */,
+				6B2A3DB51AF56D8500D3970C /* WireFrame */,
+			);
+			name = NavigationBar;
+			path = SignMyPad/NavigationBar;
+			sourceTree = "<group>";
+		};
+		6B2A3DA71AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DA81AF56D8500D3970C /* API */,
+				6B2A3DAA1AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DA81AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DA91AF56D8500D3970C /* NavigationBarAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3DAA1AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DAB1AF56D8500D3970C /* NavigationBarLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3DAC1AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DAD1AF56D8500D3970C /* NavigationBarInteractor.swift */,
+				6B2A3DAE1AF56D8500D3970C /* NavigationBarItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3DAF1AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DB01AF56D8500D3970C /* NavigationBarPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3DB11AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DB21AF56D8500D3970C /* NavigationBarProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3DB31AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DB41AF56D8500D3970C /* NavigationBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3DB51AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DB61AF56D8500D3970C /* NavigationBarWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3DB71AF56D8500D3970C /* Breadcrumbs */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DB81AF56D8500D3970C /* DataManager */,
+				6B2A3DBD1AF56D8500D3970C /* Interactor */,
+				6B2A3DC01AF56D8500D3970C /* Presenter */,
+				6B2A3DC21AF56D8500D3970C /* Protocols */,
+				6B2A3DC41AF56D8500D3970C /* View */,
+				6B2A3DC61AF56D8500D3970C /* WireFrame */,
+			);
+			name = Breadcrumbs;
+			path = SignMyPad/Breadcrumbs;
+			sourceTree = "<group>";
+		};
+		6B2A3DB81AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DB91AF56D8500D3970C /* API */,
+				6B2A3DBB1AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DB91AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DBA1AF56D8500D3970C /* BreadcrumbsAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3DBB1AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DBC1AF56D8500D3970C /* BreadcrumbsLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3DBD1AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DBE1AF56D8500D3970C /* BreadcrumbsInteractor.swift */,
+				6B2A3DBF1AF56D8500D3970C /* BreadcrumbsItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3DC01AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DC11AF56D8500D3970C /* BreadcrumbsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3DC21AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DC31AF56D8500D3970C /* BreadcrumbsProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3DC41AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DC51AF56D8500D3970C /* BreadcrumbsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3DC61AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DC71AF56D8500D3970C /* BreadcrumbsWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3DC81AF56D8500D3970C /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DC91AF56D8500D3970C /* DataManager */,
+				6B2A3DCE1AF56D8500D3970C /* Interactor */,
+				6B2A3DD11AF56D8500D3970C /* Presenter */,
+				6B2A3DD31AF56D8500D3970C /* Protocols */,
+				6B2A3DD51AF56D8500D3970C /* View */,
+				6B2A3DD71AF56D8500D3970C /* WireFrame */,
+			);
+			name = PDFViewer;
+			path = SignMyPad/PDFViewer;
+			sourceTree = "<group>";
+		};
+		6B2A3DC91AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DCA1AF56D8500D3970C /* API */,
+				6B2A3DCC1AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DCA1AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DCB1AF56D8500D3970C /* PDFViewerAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3DCC1AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DCD1AF56D8500D3970C /* PDFViewerLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3DCE1AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DCF1AF56D8500D3970C /* PDFViewerInteractor.swift */,
+				6B2A3DD01AF56D8500D3970C /* PDFViewerItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3DD11AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DD21AF56D8500D3970C /* PDFViewerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3DD31AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DD41AF56D8500D3970C /* PDFViewerProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3DD51AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DD61AF56D8500D3970C /* PDFViewerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3DD71AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DD81AF56D8500D3970C /* PDFViewerWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3DD91AF56D8500D3970C /* PDFEditor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DDA1AF56D8500D3970C /* DataManager */,
+				6B2A3DDF1AF56D8500D3970C /* Interactor */,
+				6B2A3DE21AF56D8500D3970C /* Presenter */,
+				6B2A3DE41AF56D8500D3970C /* Protocols */,
+				6B2A3DE61AF56D8500D3970C /* View */,
+				6B2A3DE81AF56D8500D3970C /* WireFrame */,
+			);
+			name = PDFEditor;
+			path = SignMyPad/PDFEditor;
+			sourceTree = "<group>";
+		};
+		6B2A3DDA1AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DDB1AF56D8500D3970C /* API */,
+				6B2A3DDD1AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DDB1AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DDC1AF56D8500D3970C /* PDFEditorAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3DDD1AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DDE1AF56D8500D3970C /* PDFEditorLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3DDF1AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DE01AF56D8500D3970C /* PDFEditorInteractor.swift */,
+				6B2A3DE11AF56D8500D3970C /* PDFEditorItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3DE21AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DE31AF56D8500D3970C /* PDFEditorPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3DE41AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DE51AF56D8500D3970C /* PDFEditorProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3DE61AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DE71AF56D8500D3970C /* PDFEditorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3DE81AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DE91AF56D8500D3970C /* PDFEditorWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3DEA1AF56D8500D3970C /* PDFAnnotator */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DEB1AF56D8500D3970C /* DataManager */,
+				6B2A3DF01AF56D8500D3970C /* Interactor */,
+				6B2A3DF31AF56D8500D3970C /* Presenter */,
+				6B2A3DF51AF56D8500D3970C /* Protocols */,
+				6B2A3DF71AF56D8500D3970C /* View */,
+				6B2A3DF91AF56D8500D3970C /* WireFrame */,
+			);
+			name = PDFAnnotator;
+			path = SignMyPad/PDFAnnotator;
+			sourceTree = "<group>";
+		};
+		6B2A3DEB1AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DEC1AF56D8500D3970C /* API */,
+				6B2A3DEE1AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DEC1AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DED1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3DEE1AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DEF1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3DF01AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DF11AF56D8500D3970C /* PDFAnnotatorInteractor.swift */,
+				6B2A3DF21AF56D8500D3970C /* PDFAnnotatorItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3DF31AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DF41AF56D8500D3970C /* PDFAnnotatorPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3DF51AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DF61AF56D8500D3970C /* PDFAnnotatorProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3DF71AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DF81AF56D8500D3970C /* PDFAnnotatorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3DF91AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DFA1AF56D8500D3970C /* PDFAnnotatorWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3DFB1AF56D8500D3970C /* SignaturesManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DFC1AF56D8500D3970C /* DataManager */,
+				6B2A3E011AF56D8500D3970C /* Interactor */,
+				6B2A3E041AF56D8500D3970C /* Presenter */,
+				6B2A3E061AF56D8500D3970C /* Protocols */,
+				6B2A3E081AF56D8500D3970C /* View */,
+				6B2A3E0A1AF56D8500D3970C /* WireFrame */,
+			);
+			name = SignaturesManager;
+			path = SignMyPad/SignaturesManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DFC1AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DFD1AF56D8500D3970C /* API */,
+				6B2A3DFF1AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DFD1AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DFE1AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3DFF1AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E001AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E011AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E021AF56D8500D3970C /* SignaturesManagerInteractor.swift */,
+				6B2A3E031AF56D8500D3970C /* SignaturesManagerItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E041AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E051AF56D8500D3970C /* SignaturesManagerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E061AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E071AF56D8500D3970C /* SignaturesManagerProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3E081AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E091AF56D8500D3970C /* SignaturesManagerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3E0A1AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E0B1AF56D8500D3970C /* SignaturesManagerWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3E0C1AF56D8500D3970C /* SignaturesEditor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E0D1AF56D8500D3970C /* DataManager */,
+				6B2A3E121AF56D8500D3970C /* Interactor */,
+				6B2A3E151AF56D8500D3970C /* Presenter */,
+				6B2A3E171AF56D8500D3970C /* Protocols */,
+				6B2A3E191AF56D8500D3970C /* View */,
+				6B2A3E1B1AF56D8500D3970C /* WireFrame */,
+			);
+			name = SignaturesEditor;
+			path = SignMyPad/SignaturesEditor;
+			sourceTree = "<group>";
+		};
+		6B2A3E0D1AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E0E1AF56D8500D3970C /* API */,
+				6B2A3E101AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3E0E1AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E0F1AF56D8500D3970C /* SignaturesEditorAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3E101AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E111AF56D8500D3970C /* SignaturesEditorLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E121AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E131AF56D8500D3970C /* SignaturesEditorInteractor.swift */,
+				6B2A3E141AF56D8500D3970C /* SignaturesEditorItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E151AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E161AF56D8500D3970C /* SignaturesEditorPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E171AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E181AF56D8500D3970C /* SignaturesEditorProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3E191AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E1A1AF56D8500D3970C /* SignaturesEditorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3E1B1AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E1C1AF56D8500D3970C /* SignaturesEditorWireFrame.swift */,
+			);
+			path = WireFrame;
 			sourceTree = "<group>";
 		};
 		DA70A6A5B19E31D9ADE82D4D /* Pods */ = {
@@ -606,18 +1302,82 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2A3E441AF56D8500D3970C /* PDFAnnotatorWireFrame.swift in Sources */,
+				6B2A3E321AF56D8500D3970C /* PDFViewerProtocols.swift in Sources */,
+				6B2A3E2A1AF56D8500D3970C /* BreadcrumbsProtocols.swift in Sources */,
+				6B2A3E301AF56D8500D3970C /* PDFViewerItem.swift in Sources */,
+				6B2A3E541AF56D8500D3970C /* SignaturesEditorWireFrame.swift in Sources */,
+				6B2A3E331AF56D8500D3970C /* PDFViewerView.swift in Sources */,
 				59A903511AF2C923005FC6DF /* MainWireframe.swift in Sources */,
+				6B2A3E2E1AF56D8500D3970C /* PDFViewerLocalDataManager.swift in Sources */,
 				59A903561AF2C923005FC6DF /* MainInteractorIO.swift in Sources */,
+				6B2A3E2F1AF56D8500D3970C /* PDFViewerInteractor.swift in Sources */,
+				6B2A3E311AF56D8500D3970C /* PDFViewerPresenter.swift in Sources */,
+				6B2A3E341AF56D8500D3970C /* PDFViewerWireFrame.swift in Sources */,
+				6B2A3E261AF56D8500D3970C /* BreadcrumbsLocalDataManager.swift in Sources */,
+				6B2A3E361AF56D8500D3970C /* PDFEditorLocalDataManager.swift in Sources */,
 				59A903571AF2C923005FC6DF /* MainModuleInterface.swift in Sources */,
+				6B2A3E271AF56D8500D3970C /* BreadcrumbsInteractor.swift in Sources */,
+				6B2A3E3C1AF56D8500D3970C /* PDFEditorWireFrame.swift in Sources */,
+				6B2A3DA01AF561C700D3970C /* ToolsInteractor.swift in Sources */,
+				6B2A3E401AF56D8500D3970C /* PDFAnnotatorItem.swift in Sources */,
+				6B2A3E421AF56D8500D3970C /* PDFAnnotatorProtocols.swift in Sources */,
+				6B2A3E3B1AF56D8500D3970C /* PDFEditorView.swift in Sources */,
+				6B2A3E4A1AF56D8500D3970C /* SignaturesManagerProtocols.swift in Sources */,
+				6B2A3E3A1AF56D8500D3970C /* PDFEditorProtocols.swift in Sources */,
+				6B2A3D9F1AF561C700D3970C /* ToolsLocalDataManager.swift in Sources */,
+				6B2A3E461AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift in Sources */,
+				6B2A3E211AF56D8500D3970C /* NavigationBarPresenter.swift in Sources */,
+				6B2A3E241AF56D8500D3970C /* NavigationBarWireFrame.swift in Sources */,
+				6B2A3E281AF56D8500D3970C /* BreadcrumbsItem.swift in Sources */,
+				6B2A3E4E1AF56D8500D3970C /* SignaturesEditorLocalDataManager.swift in Sources */,
+				6B2A3E371AF56D8500D3970C /* PDFEditorInteractor.swift in Sources */,
+				6B2A3E4D1AF56D8500D3970C /* SignaturesEditorAPIDataManager.swift in Sources */,
+				6B2A3E3F1AF56D8500D3970C /* PDFAnnotatorInteractor.swift in Sources */,
 				59A903471AF2C844005FC6DF /* AppDependencies.swift in Sources */,
+				6B2A3E431AF56D8500D3970C /* PDFAnnotatorView.swift in Sources */,
 				59A903541AF2C923005FC6DF /* MainDataManager.swift in Sources */,
+				6B2A3E231AF56D8500D3970C /* NavigationBarView.swift in Sources */,
 				591762B21AE90AE5009D3E60 /* ViewController.swift in Sources */,
 				59A903521AF2C923005FC6DF /* MainViewController.swift in Sources */,
+				6B2A3E1D1AF56D8500D3970C /* NavigationBarAPIDataManager.swift in Sources */,
+				6B2A3DA41AF561C700D3970C /* ToolsView.swift in Sources */,
+				6B2A3E411AF56D8500D3970C /* PDFAnnotatorPresenter.swift in Sources */,
+				6B2A3E501AF56D8500D3970C /* SignaturesEditorItem.swift in Sources */,
+				6B2A3E481AF56D8500D3970C /* SignaturesManagerItem.swift in Sources */,
 				59A903581AF2C923005FC6DF /* MainPresenter.swift in Sources */,
+				6B2A3E1F1AF56D8500D3970C /* NavigationBarInteractor.swift in Sources */,
+				6B2A3E451AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift in Sources */,
+				6B2A3E531AF56D8500D3970C /* SignaturesEditorView.swift in Sources */,
+				6B2A3DA11AF561C700D3970C /* ToolsItem.swift in Sources */,
+				6B2A3E511AF56D8500D3970C /* SignaturesEditorPresenter.swift in Sources */,
+				6B2A3E521AF56D8500D3970C /* SignaturesEditorProtocols.swift in Sources */,
+				6B2A3E471AF56D8500D3970C /* SignaturesManagerInteractor.swift in Sources */,
+				6B2A3E381AF56D8500D3970C /* PDFEditorItem.swift in Sources */,
 				59A903551AF2C923005FC6DF /* MainInteractor.swift in Sources */,
 				59A903531AF2C923005FC6DF /* MainViewInterface.swift in Sources */,
+				6B2A3E1E1AF56D8500D3970C /* NavigationBarLocalDataManager.swift in Sources */,
+				6B2A3DA51AF561C700D3970C /* ToolsWireFrame.swift in Sources */,
+				6B2A3E4B1AF56D8500D3970C /* SignaturesManagerView.swift in Sources */,
+				6B2A3E4C1AF56D8500D3970C /* SignaturesManagerWireFrame.swift in Sources */,
+				6B2A3E221AF56D8500D3970C /* NavigationBarProtocols.swift in Sources */,
+				6B2A3DA21AF561C700D3970C /* ToolsPresenter.swift in Sources */,
 				591762B01AE90AE5009D3E60 /* SignMyPad.xcdatamodeld in Sources */,
+				6B2A3E351AF56D8500D3970C /* PDFEditorAPIDataManager.swift in Sources */,
+				6B2A3DA31AF561C700D3970C /* ToolsProtocols.swift in Sources */,
+				6B2A3E4F1AF56D8500D3970C /* SignaturesEditorInteractor.swift in Sources */,
 				591762AD1AE90AE5009D3E60 /* AppDelegate.swift in Sources */,
+				6B2A3E2D1AF56D8500D3970C /* PDFViewerAPIDataManager.swift in Sources */,
+				6B2A3E3E1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift in Sources */,
+				6B2A3E251AF56D8500D3970C /* BreadcrumbsAPIDataManager.swift in Sources */,
+				6B2A3E201AF56D8500D3970C /* NavigationBarItem.swift in Sources */,
+				6B2A3D9E1AF561C700D3970C /* ToolsAPIDataManager.swift in Sources */,
+				6B2A3E2C1AF56D8500D3970C /* BreadcrumbsWireFrame.swift in Sources */,
+				6B2A3E491AF56D8500D3970C /* SignaturesManagerPresenter.swift in Sources */,
+				6B2A3E291AF56D8500D3970C /* BreadcrumbsPresenter.swift in Sources */,
+				6B2A3E2B1AF56D8500D3970C /* BreadcrumbsView.swift in Sources */,
+				6B2A3E3D1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift in Sources */,
+				6B2A3E391AF56D8500D3970C /* PDFEditorPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
