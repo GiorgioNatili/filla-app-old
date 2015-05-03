@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import SwiftSpinner
 
 class MainView: UIViewController, MainViewProtocol {
     
@@ -21,44 +22,50 @@ class MainView: UIViewController, MainViewProtocol {
     
         super.viewDidLoad()
         
+        randomNumber.lineBreakMode = NSLineBreakMode.ByWordWrapping;
+        
     }
     
     override func viewDidAppear(animated: Bool) {
         
         super.viewDidAppear(animated)
-        self.presenter?.viewDidAppear()
+        
+        presenter?.viewDidAppear()
         
     }
     
     // MARK: - MainViewProtocol
     func showRandomValue(value:String){
         
+        SwiftSpinner.hide()
         randomNumber.text = value
         
     }
     
     func showErrorMessage(value:String){
         
-        
-        
+        showAlert(value)
+    
     }
     
     func sayHello(){
         
-       self.showAlert("View Did Load")
-        
+       showAlert("View Did Load")
+    
     }
     
     // MARK: - IBActions
     @IBAction func helloWorldPressed(sender: AnyObject) {
         
-        self.showAlert("Hello World from a user gesture!")
+        showAlert("Hello World from a user gesture!")
         
     }
     
     @IBAction func generateRandomPressed(sender: AnyObject) {
         
-        self.presenter?.generateAndFormatRandom()
+        SwiftSpinner.show("Recovering some data...")
+        self.view.window?.addSubview(SwiftSpinner.sharedInstance)
+        presenter?.generateAndFormatRandom()
         
     }
     
@@ -68,7 +75,7 @@ class MainView: UIViewController, MainViewProtocol {
         var alert = UIAlertController(title: "Alert", message: msg, preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
         
-        self.presentViewController(alert, animated: true, completion: nil)
+        presentViewController(alert, animated: true, completion: nil)
         
     }
     

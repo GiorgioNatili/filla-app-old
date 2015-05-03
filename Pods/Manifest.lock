@@ -38,6 +38,8 @@ PODS:
   - ILPDFKit (0.1.1)
   - SAMCategories (0.4.1)
   - SVProgressHUD (1.1.3)
+  - SwiftSpinner (0.6.7)
+  - SwiftyJSON (2.2.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
@@ -50,6 +52,8 @@ DEPENDENCIES:
   - ILPDFKit (~> 0.1.1)
   - SAMCategories (~> 0.4.0)
   - SVProgressHUD (~> 1.1.3)
+  - SwiftSpinner
+  - SwiftyJSON (>= 2.2)
 
 SPEC CHECKSUMS:
   AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
@@ -59,5 +63,7 @@ SPEC CHECKSUMS:
   ILPDFKit: e11ecca803173252b397bfd3c0c39a0d78c9483e
   SAMCategories: da7fac173132cb58b91397df5bb4af07dbd4ab20
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SwiftSpinner: 20abe2e2433b8815e1ef39c27630d0910c3c3f35
+  SwiftyJSON: 0b3e6c07af17ff745e77e8e9984097b55c956e5c
 
 COCOAPODS: 0.36.4

@@ -54,6 +54,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'ILPDFKit.framework'
   install_framework 'SAMCategories.framework'
   install_framework 'SVProgressHUD.framework'
+  install_framework 'SwiftSpinner.framework'
+  install_framework 'SwiftyJSON.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'AFNetworking.framework'
@@ -62,4 +64,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'ILPDFKit.framework'
   install_framework 'SAMCategories.framework'
   install_framework 'SVProgressHUD.framework'
+  install_framework 'SwiftSpinner.framework'
+  install_framework 'SwiftyJSON.framework'
 fi

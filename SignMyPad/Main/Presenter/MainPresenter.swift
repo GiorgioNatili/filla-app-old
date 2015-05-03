@@ -35,7 +35,9 @@ class MainPresenter: MainPresenterProtocol, MainInteractorOutputProtocol {
     }
     
     func handleErrorMessage(error: NSError) {
-        //
+
+        view?.showErrorMessage("Got an error, the code is:\(error.code)")
+
     }
     
     

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="knk-sL-2dt">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Main View-->
@@ -52,20 +53,11 @@
                                     <action selector="generateRandomPressed:" destination="onX-oK-EO4" eventType="touchUpInside" id="Qa5-ih-arV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0OI-vw-soV">
-                                <rect key="frame" x="236" y="533" width="127" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="TOA-e9-9QF"/>
-                                    <constraint firstAttribute="width" constant="127" id="ew4-5Y-VnE"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jW0-AL-6pS">
+                                <rect key="frame" x="16" y="569" width="568" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="ew4-5Y-VnE"/>
-                                    </mask>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -74,24 +66,26 @@
                             <constraint firstAttribute="centerY" secondItem="RXW-hu-Kbo" secondAttribute="centerY" id="6hb-FL-DPB"/>
                             <constraint firstItem="Sl8-aj-edC" firstAttribute="top" secondItem="RXW-hu-Kbo" secondAttribute="bottom" constant="10" id="9UH-Ke-kjV"/>
                             <constraint firstAttribute="centerX" secondItem="xk5-V5-lEb" secondAttribute="centerX" id="CDR-0w-mX3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jW0-AL-6pS" secondAttribute="trailing" id="EzR-4e-LdA"/>
                             <constraint firstItem="Vcc-zJ-MVz" firstAttribute="top" secondItem="xk5-V5-lEb" secondAttribute="bottom" constant="8" id="Lft-rY-y6s"/>
                             <constraint firstAttribute="centerX" secondItem="RXW-hu-Kbo" secondAttribute="centerX" id="QBX-en-qSe"/>
+                            <constraint firstItem="jW0-AL-6pS" firstAttribute="leading" secondItem="oWe-8n-UR8" secondAttribute="leadingMargin" id="UAs-gr-1dN"/>
                             <constraint firstItem="qxg-Sk-vrB" firstAttribute="top" secondItem="Sl8-aj-edC" secondAttribute="bottom" constant="10" id="Yaf-Y7-v4z"/>
-                            <constraint firstItem="0OI-vw-soV" firstAttribute="top" secondItem="Vcc-zJ-MVz" secondAttribute="bottom" constant="8" id="lek-PL-9Ce"/>
                             <constraint firstAttribute="centerX" secondItem="Sl8-aj-edC" secondAttribute="centerX" id="nm7-sc-tOe"/>
                             <constraint firstAttribute="centerX" secondItem="qxg-Sk-vrB" secondAttribute="centerX" id="oS6-DJ-mz2"/>
                             <constraint firstAttribute="centerX" secondItem="Vcc-zJ-MVz" secondAttribute="centerX" id="wwH-UC-6Bj"/>
-                            <constraint firstAttribute="centerX" secondItem="0OI-vw-soV" secondAttribute="centerX" id="yDP-0f-XkY"/>
+                            <constraint firstAttribute="centerX" secondItem="jW0-AL-6pS" secondAttribute="centerX" id="xa0-kF-FAL"/>
+                            <constraint firstItem="R8s-NJ-fBc" firstAttribute="top" secondItem="jW0-AL-6pS" secondAttribute="bottom" constant="10" id="zcT-OR-DKJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="v4X-Wx-4NF"/>
                     <connections>
-                        <outlet property="randomNumber" destination="0OI-vw-soV" id="TKk-oG-y5x"/>
+                        <outlet property="randomNumber" destination="jW0-AL-6pS" id="csh-Xa-4ae"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xH1-tW-BFz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1772" y="1569"/>
+            <point key="canvasLocation" x="2114" y="1569"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DYg-Ny-HpG">
