@@ -15,5 +15,12 @@ class MainAPIDataManager: MainAPIDataManagerInputProtocol {
         // Initialization
         
     }
+    
+    // MARK: INTERACTOR -> APIDATAMANAGER
+    func getRemoteRandomNumber() {
+        
+        // Call an API
+        
+    }
 
 }

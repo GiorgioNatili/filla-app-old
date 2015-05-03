@@ -15,5 +15,17 @@ class MainLocalDataManager: MainLocalDataManagerInputProtocol {
         // Initialization
         
     }
+    
+    // MARK: INTERACTOR -> LOCALDATAMANAGER
+    func getLocalRandomNumber() -> Float32 {
+        
+        let arc4randoMax:Double = 0x100000000
+        let upper = 1.0
+        let lower = 0.0
+        let ab = Float32((Double(arc4random()) / arc4randoMax) * (upper - lower) + lower)
+        
+        return ab
+        
+    }
 
 }

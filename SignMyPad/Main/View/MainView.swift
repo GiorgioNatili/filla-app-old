@@ -12,5 +12,58 @@ import UIKit
 class MainView: UIViewController, MainViewProtocol {
     
     var presenter: MainPresenterProtocol?
-
+    
+    // MARK: - IBOutlets
+    @IBOutlet weak var randomNumber: UILabel!
+    
+    // MARK: - View Life Cycle
+    override func viewDidLoad() {
+    
+        super.viewDidLoad()
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        
+        super.viewDidAppear(animated)
+        self.presenter?.viewDidAppear()
+        
+    }
+    
+    // MARK: - MainViewProtocol
+    func showRandomNumber(value:String){
+        
+        randomNumber.text = value
+        
+    }
+    
+    func sayHello(){
+        
+       self.showAlert("View Did Load")
+        
+    }
+    
+    // MARK: - IBActions
+    @IBAction func helloWorldPressed(sender: AnyObject) {
+        
+        
+        
+    }
+    
+    @IBAction func generateRandomPressed(sender: AnyObject) {
+        
+        self.presenter?.generateAndFormatRandom()
+        
+    }
+    
+    // MARK: Private Methods
+    private func showAlert(msg:String){
+        
+        var alert = UIAlertController(title: "Alert", message: msg, preferredStyle: UIAlertControllerStyle.Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+        
+        self.presentViewController(alert, animated: true, completion: nil)
+        
+    }
+    
 }

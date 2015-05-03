@@ -7,13 +7,18 @@
 //
 
 import Foundation
+import UIKit
 
 class MainWireFrame: MainWireFrameProtocol {
     
-    static func presentMainModule(fromView view: AnyObject) {
+    static func presentMainModule(fromView uiview: AnyObject) {
+        
+        let window = uiview as! UIWindow
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         
         // Generating module components
-        var view: MainViewProtocol = MainView()
+        var view = mainStoryboard.instantiateViewControllerWithIdentifier("MainView") as! MainView
+        // var view: MainViewProtocol = MainView()
         var presenter: protocol<MainPresenterProtocol, MainInteractorOutputProtocol> = MainPresenter()
         var interactor: MainInteractorInputProtocol = MainInteractor()
         var APIDataManager: MainAPIDataManagerInputProtocol = MainAPIDataManager()
@@ -29,5 +34,9 @@ class MainWireFrame: MainWireFrameProtocol {
         interactor.APIDataManager = APIDataManager
         interactor.localDatamanager = localDataManager
         
+        // Presenting
+        window.rootViewController = view
+        
     }
+    
 }

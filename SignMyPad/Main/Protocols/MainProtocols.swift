@@ -14,11 +14,15 @@ protocol MainViewProtocol: class {
     /**
     * Add here your methods for communication PRESENTER -> VIEW
     */
+    
+    func showRandomNumber(value:String)
+    func sayHello()
+    
 }
 
 protocol MainWireFrameProtocol: class {
     
-    static func presentMainModule(fromView view: AnyObject)
+    static func presentMainModule(fromView uiview: AnyObject)
     /**
     * Add here your methods for communication PRESENTER -> WIREFRAME
     */
@@ -33,6 +37,8 @@ protocol MainPresenterProtocol: class {
     /**
     * Add here your methods for communication VIEW -> PRESENTER
     */
+    func viewDidAppear()
+    func generateAndFormatRandom()
 
 }
 
@@ -41,6 +47,8 @@ protocol MainInteractorOutputProtocol: class {
     /**
     * Add here your methods for communication INTERACTOR -> PRESENTER
     */
+    
+    func showRandomNumber(value:Float32)
     
 }
 
@@ -53,6 +61,8 @@ protocol MainInteractorInputProtocol: class {
     /**
     * Add here your methods for communication PRESENTER -> INTERACTOR
     */
+    
+    func getRandomNumber()
     
 }
 
@@ -69,6 +79,7 @@ protocol MainAPIDataManagerInputProtocol: class {
     /**
     * Add here your methods for communication INTERACTOR -> APIDATAMANAGER
     */
+    func getRemoteRandomNumber()
 
 }
 
@@ -77,5 +88,6 @@ protocol MainLocalDataManagerInputProtocol: class {
     /**
     * Add here your methods for communication INTERACTOR -> LOCALDATAMANAGER
     */
+    func getLocalRandomNumber() -> Float32
 
 }

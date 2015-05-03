@@ -151,6 +151,7 @@
 		6B2A3F371AF587DC00D3970C /* SignMyPadCloudsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F0D1AF587DC00D3970C /* SignMyPadCloudsProtocols.swift */; };
 		6B2A3F381AF587DC00D3970C /* SignMyPadCloudsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F0F1AF587DC00D3970C /* SignMyPadCloudsView.swift */; };
 		6B2A3F391AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F111AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift */; };
+		6B2A3F3B1AF59A8900D3970C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F3A1AF59A8900D3970C /* Reachability.swift */; };
 		98FACC75DF8C61BB74224F8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D18719D1D89A392D3C399C5C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -315,6 +316,7 @@
 		6B2A3F0D1AF587DC00D3970C /* SignMyPadCloudsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsProtocols.swift; sourceTree = "<group>"; };
 		6B2A3F0F1AF587DC00D3970C /* SignMyPadCloudsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsView.swift; sourceTree = "<group>"; };
 		6B2A3F111AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3F3A1AF59A8900D3970C /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		913E5245595705CD288EB0BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D18719D1D89A392D3C399C5C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -474,6 +476,7 @@
 		592013331AF2892800281296 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				6B2A3F3A1AF59A8900D3970C /* Reachability.swift */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -1925,6 +1928,7 @@
 				6B2A3E411AF56D8500D3970C /* PDFAnnotatorPresenter.swift in Sources */,
 				6B2A3E701AF581FD00D3970C /* MainWireFrame.swift in Sources */,
 				6B2A3F161AF587DC00D3970C /* DropBoxPresenter.swift in Sources */,
+				6B2A3F3B1AF59A8900D3970C /* Reachability.swift in Sources */,
 				6B2A3E501AF56D8500D3970C /* SignaturesEditorItem.swift in Sources */,
 				6B2A3E481AF56D8500D3970C /* SignaturesManagerItem.swift in Sources */,
 				6B2A3F341AF587DC00D3970C /* SignMyPadCloudsInteractor.swift in Sources */,

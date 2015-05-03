@@ -19,5 +19,26 @@ class MainPresenter: MainPresenterProtocol, MainInteractorOutputProtocol {
         // Initialization
     
     }
+    
+    // MARK: INTERACTOR -> PRESENTER
+    func showRandomNumber (value:Float32) {
+        
+        let start = "The random number is "
+        view?.showRandomNumber(start + String(stringInterpolationSegment: value))
+        
+    }
+    
+    // MARK: VIEW -> PRESENTER
+    func generateAndFormatRandom(){
+        
+        
+        
+    }
+    
+    func viewDidAppear() {
+        
+        view!.sayHello()
+    
+    }
 
 }

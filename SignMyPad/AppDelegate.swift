@@ -16,11 +16,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
         
-        let appDependencies = AppDependencies()
+        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        setupStorage()
+        
+        window!.makeKeyAndVisible()
+        launchRootViewDependingOnStatus()
         
         return true
+        
+    }
+    
+    func setupStorage(){
+        
+        // TODO create the coredata local storage
+        
+    }
+    
+    func launchRootViewDependingOnStatus() {
+        
+        // TODO lanuch pro or free views
+        let appDependencies = AppDependencies()
+        appDependencies.installRootViewControllerIntoWindow(window!)
+        
     }
 
     func applicationWillResignActive(application: UIApplication) {
