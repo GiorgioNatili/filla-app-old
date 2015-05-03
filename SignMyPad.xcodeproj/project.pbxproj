@@ -152,7 +152,7 @@
 		6B2A3F381AF587DC00D3970C /* SignMyPadCloudsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F0F1AF587DC00D3970C /* SignMyPadCloudsView.swift */; };
 		6B2A3F391AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F111AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift */; };
 		6B2A3F3B1AF59A8900D3970C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F3A1AF59A8900D3970C /* Reachability.swift */; };
-		98FACC75DF8C61BB74224F8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D18719D1D89A392D3C399C5C /* libPods.a */; };
+		6BFBCC5B1AF6BA8000E8ECEA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFBCC5A1AF6BA8000E8ECEA /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -317,8 +317,9 @@
 		6B2A3F0F1AF587DC00D3970C /* SignMyPadCloudsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsView.swift; sourceTree = "<group>"; };
 		6B2A3F111AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsWireFrame.swift; sourceTree = "<group>"; };
 		6B2A3F3A1AF59A8900D3970C /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		6BFBCC5A1AF6BA8000E8ECEA /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
 		913E5245595705CD288EB0BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		D18719D1D89A392D3C399C5C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B33A0DFB5E8AF4286902CA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,9 +327,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BFBCC5B1AF6BA8000E8ECEA /* Pods.framework in Frameworks */,
 				6B2A3D0F1AEF8C9B00D3970C /* Accounts.framework in Frameworks */,
 				6B2A3D0D1AEF8C8A00D3970C /* Social.framework in Frameworks */,
-				98FACC75DF8C61BB74224F8E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +346,10 @@
 		050803E7567DF8FD8B5DA3E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6BFBCC5A1AF6BA8000E8ECEA /* Pods.framework */,
 				6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */,
 				6B2A3D0C1AEF8C8A00D3970C /* Social.framework */,
-				D18719D1D89A392D3C399C5C /* libPods.a */,
+				92B33A0DFB5E8AF4286902CA /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1693,6 +1695,7 @@
 				591762A51AE90AE5009D3E60 /* Resources */,
 				EDF531D41980EE3D935D7A4F /* Copy Pods Resources */,
 				591762CF1AE9181D009D3E60 /* ShellScript */,
+				AE46E43A2E129640DA06DC2F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1828,6 +1831,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./Pods/Fabric/Fabric.framework/run 804bf36372dcf949eaf5ff1a40c7efa59fc54a11 b7e040227cebac29fe784912674dbc26153159035b0ca7bc2a9bf84b73b22ccb";
+		};
+		AE46E43A2E129640DA06DC2F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		EDF531D41980EE3D935D7A4F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2041,6 +2059,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
@@ -2076,6 +2095,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -2084,11 +2104,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 913E5245595705CD288EB0BD /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SignMyPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/giorgionatili/Documents/mobile/sign-my-pad/SignMyPad/SignMyPad-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
@@ -2096,11 +2124,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D826EACE57DE7E1E8BCF874 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SignMyPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/giorgionatili/Documents/mobile/sign-my-pad/SignMyPad/SignMyPad-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Release;
 		};

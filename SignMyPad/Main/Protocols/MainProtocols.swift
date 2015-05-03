@@ -15,7 +15,8 @@ protocol MainViewProtocol: class {
     * Add here your methods for communication PRESENTER -> VIEW
     */
     
-    func showRandomNumber(value:String)
+    func showRandomValue(value:String)
+    func showErrorMessage(value:String)
     func sayHello()
     
 }
@@ -48,7 +49,9 @@ protocol MainInteractorOutputProtocol: class {
     * Add here your methods for communication INTERACTOR -> PRESENTER
     */
     
-    func showRandomNumber(value:Float32)
+    func handleRandomValue(value:String)
+    func handleRandomValue(value: AnyObject)
+    func handleErrorMessage(error:NSError)
     
 }
 
@@ -62,7 +65,7 @@ protocol MainInteractorInputProtocol: class {
     * Add here your methods for communication PRESENTER -> INTERACTOR
     */
     
-    func getRandomNumber()
+    func getRandomValue()
     
 }
 
@@ -79,8 +82,8 @@ protocol MainAPIDataManagerInputProtocol: class {
     /**
     * Add here your methods for communication INTERACTOR -> APIDATAMANAGER
     */
-    func getRemoteRandomNumber()
-
+    func getRemoteRandomNumber(completion: ((response:AnyObject, error:NSError?) -> ())?)
+    
 }
 
 protocol MainLocalDataManagerInputProtocol: class {

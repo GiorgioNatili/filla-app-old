@@ -21,30 +21,44 @@ class MainInteractor: MainInteractorInputProtocol {
     }
     
     // MARK: INTERACTOR -> PRESENTER
-    func dataDidLoad(value:Float32){
+    func dataDidLoad(value:AnyObject){
         
-        presenter?.showRandomNumber(value)
+        presenter?.handleRandomValue(value)
+        
+    }
+    
+    private func gotRemoteRandomNumber(response:AnyObject, err:NSError?) -> (){
+        
+        var error: NSError? = err
+        if error == nil {
+            
+            dataDidLoad(response)
+            
+        }else{
+            
+            presenter?.handleErrorMessage(error!)
+            
+        }
         
     }
     
     // MARK: PRESENTER -> INTERACTOR
-    func getRandomNumber(){
+    func getRandomValue(){
         
         if Reachability.isConnectedToNetwork() {
             
-            // TODO add a server side call and use dataDidLoad in the callback
-            APIDataManager?.getRemoteRandomNumber()
+            APIDataManager?.getRemoteRandomNumber(gotRemoteRandomNumber)
             
         }else{
             
             if let value = localDatamanager?.getLocalRandomNumber() {
                 
-                dataDidLoad(value)
+                presenter?.handleRandomValue(value.description)
             
             }
             
         }
                 
     }
-
+    
 }

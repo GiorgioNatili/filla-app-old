@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Alamofire
 
 class MainAPIDataManager: MainAPIDataManagerInputProtocol {
     
@@ -17,10 +18,22 @@ class MainAPIDataManager: MainAPIDataManagerInputProtocol {
     }
     
     // MARK: INTERACTOR -> APIDATAMANAGER
-    func getRemoteRandomNumber() {
+    func getRemoteRandomNumber(completion: ((response:AnyObject, error:NSError?) -> ())?) {
         
         // Call an API
+        Alamofire.request(.GET, "http://api.icndb.com/jokes/random")
+        .responseJSON { (_, _, JSON, err) in
+            
+            println(JSON)
+            if (completion != nil) {
+                
+                completion!(response: JSON!.valueForKey("value")!, error: err)
+                
+            }
+        }
         
     }
-
+    
+    // MARK: API Implementation
+    
 }

@@ -21,17 +21,28 @@ class MainPresenter: MainPresenterProtocol, MainInteractorOutputProtocol {
     }
     
     // MARK: INTERACTOR -> PRESENTER
-    func showRandomNumber (value:Float32) {
+    func handleRandomValue(value: String) {
         
-        let start = "The random number is "
-        view?.showRandomNumber(start + String(stringInterpolationSegment: value))
+        let start = "The random is a number: "
+        view?.showRandomValue(start + value)
         
     }
+    
+    func handleRandomValue(value: AnyObject) {
+        
+        view?.showRandomValue(value.valueForKey("joke") as! String)
+        
+    }
+    
+    func handleErrorMessage(error: NSError) {
+        //
+    }
+    
     
     // MARK: VIEW -> PRESENTER
     func generateAndFormatRandom(){
         
-        
+        interactor?.getRandomValue()
         
     }
     

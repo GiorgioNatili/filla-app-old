@@ -31,9 +31,15 @@ class MainView: UIViewController, MainViewProtocol {
     }
     
     // MARK: - MainViewProtocol
-    func showRandomNumber(value:String){
+    func showRandomValue(value:String){
         
         randomNumber.text = value
+        
+    }
+    
+    func showErrorMessage(value:String){
+        
+        
         
     }
     
@@ -46,7 +52,7 @@ class MainView: UIViewController, MainViewProtocol {
     // MARK: - IBActions
     @IBAction func helloWorldPressed(sender: AnyObject) {
         
-        
+        self.showAlert("Hello World from a user gesture!")
         
     }
     
