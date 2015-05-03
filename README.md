@@ -22,4 +22,5 @@ where `MODULE_NAME` is the name of the module without spaces and `EVENTUAL_SUBFO
 
 ### Handle Pods
 In case you are not able to reach a new installed pods please select your project (not the target) and add to `Build Settings > Search Path > User Header Search Paths` the folder `Pods`. Add to the `SignMyPad-Bridging-Header.h` file the import needed to reach the new installed pod.
+
 *In case of a Swift based file is enough to import the needed class into the file you plan to use it*
