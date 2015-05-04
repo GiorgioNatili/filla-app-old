@@ -48,6 +48,12 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 5
 #define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 3
 
+// Alamofire
+#define COCOAPODS_POD_AVAILABLE_Alamofire
+#define COCOAPODS_VERSION_MAJOR_Alamofire 1
+#define COCOAPODS_VERSION_MINOR_Alamofire 2
+#define COCOAPODS_VERSION_PATCH_Alamofire 1
+
 // CocoaLumberjack
 #define COCOAPODS_POD_AVAILABLE_CocoaLumberjack
 #define COCOAPODS_VERSION_MAJOR_CocoaLumberjack 2
@@ -119,4 +125,16 @@
 #define COCOAPODS_VERSION_MAJOR_SVProgressHUD 1
 #define COCOAPODS_VERSION_MINOR_SVProgressHUD 1
 #define COCOAPODS_VERSION_PATCH_SVProgressHUD 3
+
+// SwiftSpinner
+#define COCOAPODS_POD_AVAILABLE_SwiftSpinner
+#define COCOAPODS_VERSION_MAJOR_SwiftSpinner 0
+#define COCOAPODS_VERSION_MINOR_SwiftSpinner 6
+#define COCOAPODS_VERSION_PATCH_SwiftSpinner 7
+
+// SwiftyJSON
+#define COCOAPODS_POD_AVAILABLE_SwiftyJSON
+#define COCOAPODS_VERSION_MAJOR_SwiftyJSON 2
+#define COCOAPODS_VERSION_MINOR_SwiftyJSON 2
+#define COCOAPODS_VERSION_PATCH_SwiftyJSON 0
 

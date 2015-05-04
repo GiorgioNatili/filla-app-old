@@ -12,11 +12,138 @@
 		591762B21AE90AE5009D3E60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591762B11AE90AE5009D3E60 /* ViewController.swift */; };
 		591762B51AE90AE5009D3E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591762B31AE90AE5009D3E60 /* Main.storyboard */; };
 		591762B71AE90AE5009D3E60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591762B61AE90AE5009D3E60 /* Images.xcassets */; };
-		591762BA1AE90AE5009D3E60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 591762B81AE90AE5009D3E60 /* LaunchScreen.xib */; };
 		591762C61AE90AE5009D3E60 /* SignMyPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591762C51AE90AE5009D3E60 /* SignMyPadTests.swift */; };
+		59A903471AF2C844005FC6DF /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A903451AF2C844005FC6DF /* AppDependencies.swift */; };
+		59A903771AF3D563005FC6DF /* Default-Landscape@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903681AF3D563005FC6DF /* Default-Landscape@1x.png */; };
+		59A903781AF3D563005FC6DF /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903691AF3D563005FC6DF /* Default-Landscape@2x.png */; };
+		59A903791AF3D563005FC6DF /* Default-Portrait@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9036A1AF3D563005FC6DF /* Default-Portrait@1x.png */; };
+		59A9037A1AF3D563005FC6DF /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9036B1AF3D563005FC6DF /* Default-Portrait@2x.png */; };
+		59A903871AF3EFFA005FC6DF /* Default-Landscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903831AF3EFFA005FC6DF /* Default-Landscape@3x.png */; };
+		59A903881AF3EFFA005FC6DF /* Default-Portrait@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903841AF3EFFA005FC6DF /* Default-Portrait@3x.png */; };
+		59A903891AF3EFFA005FC6DF /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903851AF3EFFA005FC6DF /* Default-Landscape@2x.png */; };
+		59A9038A1AF3EFFA005FC6DF /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903861AF3EFFA005FC6DF /* Default-Portrait@2x.png */; };
+		59A903901AF3FA03005FC6DF /* Default-Portrait-2208h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A9038F1AF3FA03005FC6DF /* Default-Portrait-2208h@3x.png */; };
+		59A903941AF3FAD3005FC6DF /* Default-Landscape-1242h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903931AF3FAD3005FC6DF /* Default-Landscape-1242h@3x.png */; };
+		59A903961AF3FB32005FC6DF /* Default-Portrait-1334h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903951AF3FB32005FC6DF /* Default-Portrait-1334h@2x.png */; };
+		59A903981AF3FB90005FC6DF /* Default-Portrait-960h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903971AF3FB90005FC6DF /* Default-Portrait-960h@2x.png */; };
+		59A9039A1AF3FBC3005FC6DF /* Default-Portrait-1136h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A903991AF3FBC3005FC6DF /* Default-Portrait-1136h@2x.png */; };
 		6B2A3D0D1AEF8C8A00D3970C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2A3D0C1AEF8C8A00D3970C /* Social.framework */; };
 		6B2A3D0F1AEF8C9B00D3970C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */; };
-		98FACC75DF8C61BB74224F8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D18719D1D89A392D3C399C5C /* libPods.a */; };
+		6B2A3E2D1AF56D8500D3970C /* PDFViewerAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DCB1AF56D8500D3970C /* PDFViewerAPIDataManager.swift */; };
+		6B2A3E2E1AF56D8500D3970C /* PDFViewerLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DCD1AF56D8500D3970C /* PDFViewerLocalDataManager.swift */; };
+		6B2A3E2F1AF56D8500D3970C /* PDFViewerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DCF1AF56D8500D3970C /* PDFViewerInteractor.swift */; };
+		6B2A3E301AF56D8500D3970C /* PDFViewerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DD01AF56D8500D3970C /* PDFViewerItem.swift */; };
+		6B2A3E311AF56D8500D3970C /* PDFViewerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DD21AF56D8500D3970C /* PDFViewerPresenter.swift */; };
+		6B2A3E321AF56D8500D3970C /* PDFViewerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DD41AF56D8500D3970C /* PDFViewerProtocols.swift */; };
+		6B2A3E331AF56D8500D3970C /* PDFViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DD61AF56D8500D3970C /* PDFViewerView.swift */; };
+		6B2A3E341AF56D8500D3970C /* PDFViewerWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DD81AF56D8500D3970C /* PDFViewerWireFrame.swift */; };
+		6B2A3E351AF56D8500D3970C /* PDFEditorAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DDC1AF56D8500D3970C /* PDFEditorAPIDataManager.swift */; };
+		6B2A3E361AF56D8500D3970C /* PDFEditorLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DDE1AF56D8500D3970C /* PDFEditorLocalDataManager.swift */; };
+		6B2A3E371AF56D8500D3970C /* PDFEditorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE01AF56D8500D3970C /* PDFEditorInteractor.swift */; };
+		6B2A3E381AF56D8500D3970C /* PDFEditorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE11AF56D8500D3970C /* PDFEditorItem.swift */; };
+		6B2A3E391AF56D8500D3970C /* PDFEditorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE31AF56D8500D3970C /* PDFEditorPresenter.swift */; };
+		6B2A3E3A1AF56D8500D3970C /* PDFEditorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE51AF56D8500D3970C /* PDFEditorProtocols.swift */; };
+		6B2A3E3B1AF56D8500D3970C /* PDFEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE71AF56D8500D3970C /* PDFEditorView.swift */; };
+		6B2A3E3C1AF56D8500D3970C /* PDFEditorWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DE91AF56D8500D3970C /* PDFEditorWireFrame.swift */; };
+		6B2A3E3D1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DED1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift */; };
+		6B2A3E3E1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DEF1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift */; };
+		6B2A3E3F1AF56D8500D3970C /* PDFAnnotatorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DF11AF56D8500D3970C /* PDFAnnotatorInteractor.swift */; };
+		6B2A3E401AF56D8500D3970C /* PDFAnnotatorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DF21AF56D8500D3970C /* PDFAnnotatorItem.swift */; };
+		6B2A3E411AF56D8500D3970C /* PDFAnnotatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DF41AF56D8500D3970C /* PDFAnnotatorPresenter.swift */; };
+		6B2A3E421AF56D8500D3970C /* PDFAnnotatorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DF61AF56D8500D3970C /* PDFAnnotatorProtocols.swift */; };
+		6B2A3E431AF56D8500D3970C /* PDFAnnotatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DF81AF56D8500D3970C /* PDFAnnotatorView.swift */; };
+		6B2A3E441AF56D8500D3970C /* PDFAnnotatorWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DFA1AF56D8500D3970C /* PDFAnnotatorWireFrame.swift */; };
+		6B2A3E451AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3DFE1AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift */; };
+		6B2A3E461AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E001AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift */; };
+		6B2A3E471AF56D8500D3970C /* SignaturesManagerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E021AF56D8500D3970C /* SignaturesManagerInteractor.swift */; };
+		6B2A3E481AF56D8500D3970C /* SignaturesManagerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E031AF56D8500D3970C /* SignaturesManagerItem.swift */; };
+		6B2A3E491AF56D8500D3970C /* SignaturesManagerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E051AF56D8500D3970C /* SignaturesManagerPresenter.swift */; };
+		6B2A3E4A1AF56D8500D3970C /* SignaturesManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E071AF56D8500D3970C /* SignaturesManagerProtocols.swift */; };
+		6B2A3E4B1AF56D8500D3970C /* SignaturesManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E091AF56D8500D3970C /* SignaturesManagerView.swift */; };
+		6B2A3E4C1AF56D8500D3970C /* SignaturesManagerWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E0B1AF56D8500D3970C /* SignaturesManagerWireFrame.swift */; };
+		6B2A3E4D1AF56D8500D3970C /* SignaturesEditorAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E0F1AF56D8500D3970C /* SignaturesEditorAPIDataManager.swift */; };
+		6B2A3E4E1AF56D8500D3970C /* SignaturesEditorLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E111AF56D8500D3970C /* SignaturesEditorLocalDataManager.swift */; };
+		6B2A3E4F1AF56D8500D3970C /* SignaturesEditorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E131AF56D8500D3970C /* SignaturesEditorInteractor.swift */; };
+		6B2A3E501AF56D8500D3970C /* SignaturesEditorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E141AF56D8500D3970C /* SignaturesEditorItem.swift */; };
+		6B2A3E511AF56D8500D3970C /* SignaturesEditorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E161AF56D8500D3970C /* SignaturesEditorPresenter.swift */; };
+		6B2A3E521AF56D8500D3970C /* SignaturesEditorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E181AF56D8500D3970C /* SignaturesEditorProtocols.swift */; };
+		6B2A3E531AF56D8500D3970C /* SignaturesEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E1A1AF56D8500D3970C /* SignaturesEditorView.swift */; };
+		6B2A3E541AF56D8500D3970C /* SignaturesEditorWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E1C1AF56D8500D3970C /* SignaturesEditorWireFrame.swift */; };
+		6B2A3E691AF581FD00D3970C /* MainAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E5B1AF581FD00D3970C /* MainAPIDataManager.swift */; };
+		6B2A3E6A1AF581FD00D3970C /* MainLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E5D1AF581FD00D3970C /* MainLocalDataManager.swift */; };
+		6B2A3E6B1AF581FD00D3970C /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E5F1AF581FD00D3970C /* MainInteractor.swift */; };
+		6B2A3E6C1AF581FD00D3970C /* MainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E601AF581FD00D3970C /* MainItem.swift */; };
+		6B2A3E6D1AF581FD00D3970C /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E621AF581FD00D3970C /* MainPresenter.swift */; };
+		6B2A3E6E1AF581FD00D3970C /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E641AF581FD00D3970C /* MainProtocols.swift */; };
+		6B2A3E6F1AF581FD00D3970C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E661AF581FD00D3970C /* MainView.swift */; };
+		6B2A3E701AF581FD00D3970C /* MainWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E681AF581FD00D3970C /* MainWireFrame.swift */; };
+		6B2A3EA41AF5872200D3970C /* FileExplorerAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E741AF5872200D3970C /* FileExplorerAPIDataManager.swift */; };
+		6B2A3EA51AF5872200D3970C /* FileExplorerLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E761AF5872200D3970C /* FileExplorerLocalDataManager.swift */; };
+		6B2A3EA61AF5872200D3970C /* FileExplorerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E781AF5872200D3970C /* FileExplorerInteractor.swift */; };
+		6B2A3EA71AF5872200D3970C /* FileExplorerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E791AF5872200D3970C /* FileExplorerItem.swift */; };
+		6B2A3EA81AF5872200D3970C /* FileExplorerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E7B1AF5872200D3970C /* FileExplorerPresenter.swift */; };
+		6B2A3EA91AF5872200D3970C /* FileExplorerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E7D1AF5872200D3970C /* FileExplorerProtocols.swift */; };
+		6B2A3EAA1AF5872200D3970C /* FileExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E7F1AF5872200D3970C /* FileExplorerView.swift */; };
+		6B2A3EAB1AF5872200D3970C /* FileExplorerWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E811AF5872200D3970C /* FileExplorerWireFrame.swift */; };
+		6B2A3EAC1AF5872200D3970C /* HelpAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E851AF5872200D3970C /* HelpAPIDataManager.swift */; };
+		6B2A3EAD1AF5872200D3970C /* HelpLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E871AF5872200D3970C /* HelpLocalDataManager.swift */; };
+		6B2A3EAE1AF5872200D3970C /* HelpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E891AF5872200D3970C /* HelpInteractor.swift */; };
+		6B2A3EAF1AF5872200D3970C /* HelpItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E8A1AF5872200D3970C /* HelpItem.swift */; };
+		6B2A3EB01AF5872200D3970C /* HelpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E8C1AF5872200D3970C /* HelpPresenter.swift */; };
+		6B2A3EB11AF5872200D3970C /* HelpProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E8E1AF5872200D3970C /* HelpProtocols.swift */; };
+		6B2A3EB21AF5872200D3970C /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E901AF5872200D3970C /* HelpView.swift */; };
+		6B2A3EB31AF5872200D3970C /* HelpWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E921AF5872200D3970C /* HelpWireFrame.swift */; };
+		6B2A3EB41AF5872200D3970C /* SettingsAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E961AF5872200D3970C /* SettingsAPIDataManager.swift */; };
+		6B2A3EB51AF5872200D3970C /* SettingsLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E981AF5872200D3970C /* SettingsLocalDataManager.swift */; };
+		6B2A3EB61AF5872200D3970C /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E9A1AF5872200D3970C /* SettingsInteractor.swift */; };
+		6B2A3EB71AF5872200D3970C /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E9B1AF5872200D3970C /* SettingsItem.swift */; };
+		6B2A3EB81AF5872200D3970C /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E9D1AF5872200D3970C /* SettingsPresenter.swift */; };
+		6B2A3EB91AF5872200D3970C /* SettingsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3E9F1AF5872200D3970C /* SettingsProtocols.swift */; };
+		6B2A3EBA1AF5872200D3970C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EA11AF5872200D3970C /* SettingsView.swift */; };
+		6B2A3EBB1AF5872200D3970C /* SettingsWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EA31AF5872200D3970C /* SettingsWireFrame.swift */; };
+		6B2A3F121AF587DC00D3970C /* DropBoxAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC01AF587DB00D3970C /* DropBoxAPIDataManager.swift */; };
+		6B2A3F131AF587DC00D3970C /* DropBoxLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC21AF587DB00D3970C /* DropBoxLocalDataManager.swift */; };
+		6B2A3F141AF587DC00D3970C /* DropBoxInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC41AF587DB00D3970C /* DropBoxInteractor.swift */; };
+		6B2A3F151AF587DC00D3970C /* DropBoxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC51AF587DB00D3970C /* DropBoxItem.swift */; };
+		6B2A3F161AF587DC00D3970C /* DropBoxPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC71AF587DB00D3970C /* DropBoxPresenter.swift */; };
+		6B2A3F171AF587DC00D3970C /* DropBoxProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EC91AF587DB00D3970C /* DropBoxProtocols.swift */; };
+		6B2A3F181AF587DC00D3970C /* DropBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ECB1AF587DB00D3970C /* DropBoxView.swift */; };
+		6B2A3F191AF587DC00D3970C /* DropBoxWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ECD1AF587DB00D3970C /* DropBoxWireFrame.swift */; };
+		6B2A3F1A1AF587DC00D3970C /* GoogleDriveAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ED11AF587DB00D3970C /* GoogleDriveAPIDataManager.swift */; };
+		6B2A3F1B1AF587DC00D3970C /* GoogleDriveLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ED31AF587DB00D3970C /* GoogleDriveLocalDataManager.swift */; };
+		6B2A3F1C1AF587DC00D3970C /* GoogleDriveInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ED51AF587DB00D3970C /* GoogleDriveInteractor.swift */; };
+		6B2A3F1D1AF587DC00D3970C /* GoogleDriveItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ED61AF587DB00D3970C /* GoogleDriveItem.swift */; };
+		6B2A3F1E1AF587DC00D3970C /* GoogleDrivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3ED81AF587DB00D3970C /* GoogleDrivePresenter.swift */; };
+		6B2A3F1F1AF587DC00D3970C /* GoogleDriveProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EDA1AF587DB00D3970C /* GoogleDriveProtocols.swift */; };
+		6B2A3F201AF587DC00D3970C /* GoogleDriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EDC1AF587DB00D3970C /* GoogleDriveView.swift */; };
+		6B2A3F211AF587DC00D3970C /* GoogleDriveWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EDE1AF587DB00D3970C /* GoogleDriveWireFrame.swift */; };
+		6B2A3F221AF587DC00D3970C /* ITunesAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EE21AF587DC00D3970C /* ITunesAPIDataManager.swift */; };
+		6B2A3F231AF587DC00D3970C /* ITunesLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EE41AF587DC00D3970C /* ITunesLocalDataManager.swift */; };
+		6B2A3F241AF587DC00D3970C /* ITunesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EE61AF587DC00D3970C /* ITunesInteractor.swift */; };
+		6B2A3F251AF587DC00D3970C /* ITunesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EE71AF587DC00D3970C /* ITunesItem.swift */; };
+		6B2A3F261AF587DC00D3970C /* ITunesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EE91AF587DC00D3970C /* ITunesPresenter.swift */; };
+		6B2A3F271AF587DC00D3970C /* ITunesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EEB1AF587DC00D3970C /* ITunesProtocols.swift */; };
+		6B2A3F281AF587DC00D3970C /* ITunesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EED1AF587DC00D3970C /* ITunesView.swift */; };
+		6B2A3F291AF587DC00D3970C /* ITunesWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EEF1AF587DC00D3970C /* ITunesWireFrame.swift */; };
+		6B2A3F2A1AF587DC00D3970C /* ReomoteResourceAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EF31AF587DC00D3970C /* ReomoteResourceAPIDataManager.swift */; };
+		6B2A3F2B1AF587DC00D3970C /* ReomoteResourceLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EF51AF587DC00D3970C /* ReomoteResourceLocalDataManager.swift */; };
+		6B2A3F2C1AF587DC00D3970C /* ReomoteResourceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EF71AF587DC00D3970C /* ReomoteResourceInteractor.swift */; };
+		6B2A3F2D1AF587DC00D3970C /* ReomoteResourceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EF81AF587DC00D3970C /* ReomoteResourceItem.swift */; };
+		6B2A3F2E1AF587DC00D3970C /* ReomoteResourcePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EFA1AF587DC00D3970C /* ReomoteResourcePresenter.swift */; };
+		6B2A3F2F1AF587DC00D3970C /* ReomoteResourceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EFC1AF587DC00D3970C /* ReomoteResourceProtocols.swift */; };
+		6B2A3F301AF587DC00D3970C /* ReomoteResourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3EFE1AF587DC00D3970C /* ReomoteResourceView.swift */; };
+		6B2A3F311AF587DC00D3970C /* ReomoteResourceWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F001AF587DC00D3970C /* ReomoteResourceWireFrame.swift */; };
+		6B2A3F321AF587DC00D3970C /* SignMyPadCloudsAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F041AF587DC00D3970C /* SignMyPadCloudsAPIDataManager.swift */; };
+		6B2A3F331AF587DC00D3970C /* SignMyPadCloudsLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F061AF587DC00D3970C /* SignMyPadCloudsLocalDataManager.swift */; };
+		6B2A3F341AF587DC00D3970C /* SignMyPadCloudsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F081AF587DC00D3970C /* SignMyPadCloudsInteractor.swift */; };
+		6B2A3F351AF587DC00D3970C /* SignMyPadCloudsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F091AF587DC00D3970C /* SignMyPadCloudsItem.swift */; };
+		6B2A3F361AF587DC00D3970C /* SignMyPadCloudsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F0B1AF587DC00D3970C /* SignMyPadCloudsPresenter.swift */; };
+		6B2A3F371AF587DC00D3970C /* SignMyPadCloudsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F0D1AF587DC00D3970C /* SignMyPadCloudsProtocols.swift */; };
+		6B2A3F381AF587DC00D3970C /* SignMyPadCloudsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F0F1AF587DC00D3970C /* SignMyPadCloudsView.swift */; };
+		6B2A3F391AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F111AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift */; };
+		6B2A3F3B1AF59A8900D3970C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A3F3A1AF59A8900D3970C /* Reachability.swift */; };
+		6BD8EEBD1AF6D6590096C91E /* Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD8EEBC1AF6D6590096C91E /* Timing.swift */; };
+		6BFBCC5B1AF6BA8000E8ECEA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFBCC5A1AF6BA8000E8ECEA /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,14 +165,143 @@
 		591762B11AE90AE5009D3E60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		591762B41AE90AE5009D3E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		591762B61AE90AE5009D3E60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		591762B91AE90AE5009D3E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		591762BF1AE90AE5009D3E60 /* SignMyPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignMyPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		591762C41AE90AE5009D3E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591762C51AE90AE5009D3E60 /* SignMyPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignMyPadTests.swift; sourceTree = "<group>"; };
+		59A903451AF2C844005FC6DF /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		59A903461AF2C844005FC6DF /* SignMyPad-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SignMyPad-Bridging-Header.h"; sourceTree = "<group>"; };
+		59A903681AF3D563005FC6DF /* Default-Landscape@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@1x.png"; sourceTree = "<group>"; };
+		59A903691AF3D563005FC6DF /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		59A9036A1AF3D563005FC6DF /* Default-Portrait@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@1x.png"; sourceTree = "<group>"; };
+		59A9036B1AF3D563005FC6DF /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		59A903831AF3EFFA005FC6DF /* Default-Landscape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@3x.png"; sourceTree = "<group>"; };
+		59A903841AF3EFFA005FC6DF /* Default-Portrait@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@3x.png"; sourceTree = "<group>"; };
+		59A903851AF3EFFA005FC6DF /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		59A903861AF3EFFA005FC6DF /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		59A9038F1AF3FA03005FC6DF /* Default-Portrait-2208h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-2208h@3x.png"; sourceTree = "<group>"; };
+		59A903931AF3FAD3005FC6DF /* Default-Landscape-1242h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape-1242h@3x.png"; sourceTree = "<group>"; };
+		59A903951AF3FB32005FC6DF /* Default-Portrait-1334h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-1334h@2x.png"; sourceTree = "<group>"; };
+		59A903971AF3FB90005FC6DF /* Default-Portrait-960h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-960h@2x.png"; sourceTree = "<group>"; };
+		59A903991AF3FBC3005FC6DF /* Default-Portrait-1136h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-1136h@2x.png"; sourceTree = "<group>"; };
 		6B2A3D0C1AEF8C8A00D3970C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		6B2A3DCB1AF56D8500D3970C /* PDFViewerAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DCD1AF56D8500D3970C /* PDFViewerLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DCF1AF56D8500D3970C /* PDFViewerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerInteractor.swift; sourceTree = "<group>"; };
+		6B2A3DD01AF56D8500D3970C /* PDFViewerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerItem.swift; sourceTree = "<group>"; };
+		6B2A3DD21AF56D8500D3970C /* PDFViewerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerPresenter.swift; sourceTree = "<group>"; };
+		6B2A3DD41AF56D8500D3970C /* PDFViewerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerProtocols.swift; sourceTree = "<group>"; };
+		6B2A3DD61AF56D8500D3970C /* PDFViewerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerView.swift; sourceTree = "<group>"; };
+		6B2A3DD81AF56D8500D3970C /* PDFViewerWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3DDC1AF56D8500D3970C /* PDFEditorAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFEditorAPIDataManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DDE1AF56D8500D3970C /* PDFEditorLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3DE01AF56D8500D3970C /* PDFEditorInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFEditorInteractor.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DE11AF56D8500D3970C /* PDFEditorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFEditorItem.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DE31AF56D8500D3970C /* PDFEditorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorPresenter.swift; sourceTree = "<group>"; };
+		6B2A3DE51AF56D8500D3970C /* PDFEditorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorProtocols.swift; sourceTree = "<group>"; };
+		6B2A3DE71AF56D8500D3970C /* PDFEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorView.swift; sourceTree = "<group>"; };
+		6B2A3DE91AF56D8500D3970C /* PDFEditorWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditorWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3DED1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorAPIDataManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DEF1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorLocalDataManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DF11AF56D8500D3970C /* PDFAnnotatorInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorInteractor.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DF21AF56D8500D3970C /* PDFAnnotatorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorItem.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DF41AF56D8500D3970C /* PDFAnnotatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorPresenter.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DF61AF56D8500D3970C /* PDFAnnotatorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorProtocols.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DF81AF56D8500D3970C /* PDFAnnotatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DFA1AF56D8500D3970C /* PDFAnnotatorWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PDFAnnotatorWireFrame.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6B2A3DFE1AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E001AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E021AF56D8500D3970C /* SignaturesManagerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E031AF56D8500D3970C /* SignaturesManagerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerItem.swift; sourceTree = "<group>"; };
+		6B2A3E051AF56D8500D3970C /* SignaturesManagerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E071AF56D8500D3970C /* SignaturesManagerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerProtocols.swift; sourceTree = "<group>"; };
+		6B2A3E091AF56D8500D3970C /* SignaturesManagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerView.swift; sourceTree = "<group>"; };
+		6B2A3E0B1AF56D8500D3970C /* SignaturesManagerWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesManagerWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3E0F1AF56D8500D3970C /* SignaturesEditorAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E111AF56D8500D3970C /* SignaturesEditorLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E131AF56D8500D3970C /* SignaturesEditorInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E141AF56D8500D3970C /* SignaturesEditorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorItem.swift; sourceTree = "<group>"; };
+		6B2A3E161AF56D8500D3970C /* SignaturesEditorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E181AF56D8500D3970C /* SignaturesEditorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorProtocols.swift; sourceTree = "<group>"; };
+		6B2A3E1A1AF56D8500D3970C /* SignaturesEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorView.swift; sourceTree = "<group>"; };
+		6B2A3E1C1AF56D8500D3970C /* SignaturesEditorWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignaturesEditorWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3E5B1AF581FD00D3970C /* MainAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E5D1AF581FD00D3970C /* MainLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E5F1AF581FD00D3970C /* MainInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E601AF581FD00D3970C /* MainItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainItem.swift; sourceTree = "<group>"; };
+		6B2A3E621AF581FD00D3970C /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E641AF581FD00D3970C /* MainProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
+		6B2A3E661AF581FD00D3970C /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6B2A3E681AF581FD00D3970C /* MainWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3E741AF5872200D3970C /* FileExplorerAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E761AF5872200D3970C /* FileExplorerLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E781AF5872200D3970C /* FileExplorerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E791AF5872200D3970C /* FileExplorerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerItem.swift; sourceTree = "<group>"; };
+		6B2A3E7B1AF5872200D3970C /* FileExplorerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E7D1AF5872200D3970C /* FileExplorerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerProtocols.swift; sourceTree = "<group>"; };
+		6B2A3E7F1AF5872200D3970C /* FileExplorerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerView.swift; sourceTree = "<group>"; };
+		6B2A3E811AF5872200D3970C /* FileExplorerWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExplorerWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3E851AF5872200D3970C /* HelpAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E871AF5872200D3970C /* HelpLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E891AF5872200D3970C /* HelpInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E8A1AF5872200D3970C /* HelpItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpItem.swift; sourceTree = "<group>"; };
+		6B2A3E8C1AF5872200D3970C /* HelpPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E8E1AF5872200D3970C /* HelpProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpProtocols.swift; sourceTree = "<group>"; };
+		6B2A3E901AF5872200D3970C /* HelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		6B2A3E921AF5872200D3970C /* HelpWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3E961AF5872200D3970C /* SettingsAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E981AF5872200D3970C /* SettingsLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3E9A1AF5872200D3970C /* SettingsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		6B2A3E9B1AF5872200D3970C /* SettingsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
+		6B2A3E9D1AF5872200D3970C /* SettingsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		6B2A3E9F1AF5872200D3970C /* SettingsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsProtocols.swift; sourceTree = "<group>"; };
+		6B2A3EA11AF5872200D3970C /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6B2A3EA31AF5872200D3970C /* SettingsWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3EC01AF587DB00D3970C /* DropBoxAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EC21AF587DB00D3970C /* DropBoxLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EC41AF587DB00D3970C /* DropBoxInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxInteractor.swift; sourceTree = "<group>"; };
+		6B2A3EC51AF587DB00D3970C /* DropBoxItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxItem.swift; sourceTree = "<group>"; };
+		6B2A3EC71AF587DB00D3970C /* DropBoxPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxPresenter.swift; sourceTree = "<group>"; };
+		6B2A3EC91AF587DB00D3970C /* DropBoxProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxProtocols.swift; sourceTree = "<group>"; };
+		6B2A3ECB1AF587DB00D3970C /* DropBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxView.swift; sourceTree = "<group>"; };
+		6B2A3ECD1AF587DB00D3970C /* DropBoxWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3ED11AF587DB00D3970C /* GoogleDriveAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3ED31AF587DB00D3970C /* GoogleDriveLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3ED51AF587DB00D3970C /* GoogleDriveInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveInteractor.swift; sourceTree = "<group>"; };
+		6B2A3ED61AF587DB00D3970C /* GoogleDriveItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveItem.swift; sourceTree = "<group>"; };
+		6B2A3ED81AF587DB00D3970C /* GoogleDrivePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDrivePresenter.swift; sourceTree = "<group>"; };
+		6B2A3EDA1AF587DB00D3970C /* GoogleDriveProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveProtocols.swift; sourceTree = "<group>"; };
+		6B2A3EDC1AF587DB00D3970C /* GoogleDriveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveView.swift; sourceTree = "<group>"; };
+		6B2A3EDE1AF587DB00D3970C /* GoogleDriveWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3EE21AF587DC00D3970C /* ITunesAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EE41AF587DC00D3970C /* ITunesLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EE61AF587DC00D3970C /* ITunesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesInteractor.swift; sourceTree = "<group>"; };
+		6B2A3EE71AF587DC00D3970C /* ITunesItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesItem.swift; sourceTree = "<group>"; };
+		6B2A3EE91AF587DC00D3970C /* ITunesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesPresenter.swift; sourceTree = "<group>"; };
+		6B2A3EEB1AF587DC00D3970C /* ITunesProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesProtocols.swift; sourceTree = "<group>"; };
+		6B2A3EED1AF587DC00D3970C /* ITunesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesView.swift; sourceTree = "<group>"; };
+		6B2A3EEF1AF587DC00D3970C /* ITunesWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3EF31AF587DC00D3970C /* ReomoteResourceAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EF51AF587DC00D3970C /* ReomoteResourceLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3EF71AF587DC00D3970C /* ReomoteResourceInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceInteractor.swift; sourceTree = "<group>"; };
+		6B2A3EF81AF587DC00D3970C /* ReomoteResourceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceItem.swift; sourceTree = "<group>"; };
+		6B2A3EFA1AF587DC00D3970C /* ReomoteResourcePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourcePresenter.swift; sourceTree = "<group>"; };
+		6B2A3EFC1AF587DC00D3970C /* ReomoteResourceProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceProtocols.swift; sourceTree = "<group>"; };
+		6B2A3EFE1AF587DC00D3970C /* ReomoteResourceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceView.swift; sourceTree = "<group>"; };
+		6B2A3F001AF587DC00D3970C /* ReomoteResourceWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReomoteResourceWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3F041AF587DC00D3970C /* SignMyPadCloudsAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsAPIDataManager.swift; sourceTree = "<group>"; };
+		6B2A3F061AF587DC00D3970C /* SignMyPadCloudsLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsLocalDataManager.swift; sourceTree = "<group>"; };
+		6B2A3F081AF587DC00D3970C /* SignMyPadCloudsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsInteractor.swift; sourceTree = "<group>"; };
+		6B2A3F091AF587DC00D3970C /* SignMyPadCloudsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsItem.swift; sourceTree = "<group>"; };
+		6B2A3F0B1AF587DC00D3970C /* SignMyPadCloudsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsPresenter.swift; sourceTree = "<group>"; };
+		6B2A3F0D1AF587DC00D3970C /* SignMyPadCloudsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsProtocols.swift; sourceTree = "<group>"; };
+		6B2A3F0F1AF587DC00D3970C /* SignMyPadCloudsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsView.swift; sourceTree = "<group>"; };
+		6B2A3F111AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignMyPadCloudsWireFrame.swift; sourceTree = "<group>"; };
+		6B2A3F3A1AF59A8900D3970C /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		6BD8EEBC1AF6D6590096C91E /* Timing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timing.swift; sourceTree = "<group>"; };
+		6BFBCC5A1AF6BA8000E8ECEA /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
 		913E5245595705CD288EB0BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		D18719D1D89A392D3C399C5C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B33A0DFB5E8AF4286902CA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +309,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BFBCC5B1AF6BA8000E8ECEA /* Pods.framework in Frameworks */,
 				6B2A3D0F1AEF8C9B00D3970C /* Accounts.framework in Frameworks */,
 				6B2A3D0D1AEF8C8A00D3970C /* Social.framework in Frameworks */,
-				98FACC75DF8C61BB74224F8E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,9 +328,10 @@
 		050803E7567DF8FD8B5DA3E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6BFBCC5A1AF6BA8000E8ECEA /* Pods.framework */,
 				6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */,
 				6B2A3D0C1AEF8C8A00D3970C /* Social.framework */,
-				D18719D1D89A392D3C399C5C /* libPods.a */,
+				92B33A0DFB5E8AF4286902CA /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,12 +360,16 @@
 			isa = PBXGroup;
 			children = (
 				591762AC1AE90AE5009D3E60 /* AppDelegate.swift */,
-				591762B11AE90AE5009D3E60 /* ViewController.swift */,
-				591762B31AE90AE5009D3E60 /* Main.storyboard */,
+				59A903451AF2C844005FC6DF /* AppDependencies.swift */,
 				591762B61AE90AE5009D3E60 /* Images.xcassets */,
-				591762B81AE90AE5009D3E60 /* LaunchScreen.xib */,
+				591762B31AE90AE5009D3E60 /* Main.storyboard */,
+				5920132E1AF288E800281296 /* model */,
+				59A903461AF2C844005FC6DF /* SignMyPad-Bridging-Header.h */,
 				591762AE1AE90AE5009D3E60 /* SignMyPad.xcdatamodeld */,
 				591762AA1AE90AE5009D3E60 /* Supporting Files */,
+				592013331AF2892800281296 /* utils */,
+				591762B11AE90AE5009D3E60 /* ViewController.swift */,
+				5920132D1AF288DA00281296 /* views */,
 			);
 			path = SignMyPad;
 			sourceTree = "<group>";
@@ -116,6 +377,7 @@
 		591762AA1AE90AE5009D3E60 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				59A9035A1AF3D563005FC6DF /* images */,
 				591762AB1AE90AE5009D3E60 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -136,6 +398,1236 @@
 				591762C41AE90AE5009D3E60 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5920132D1AF288DA00281296 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EBC1AF587DB00D3970C /* clouds */,
+				6B2A3E711AF5872200D3970C /* FileExplorer */,
+				6B2A3E821AF5872200D3970C /* Help */,
+				6B2A3E931AF5872200D3970C /* Settings */,
+				6B2A3E581AF581FD00D3970C /* Main */,
+				6B2A3DC81AF56D8500D3970C /* PDFViewer */,
+				6B2A3DD91AF56D8500D3970C /* PDFEditor */,
+				6B2A3DEA1AF56D8500D3970C /* PDFAnnotator */,
+				6B2A3DFB1AF56D8500D3970C /* SignaturesManager */,
+				6B2A3E0C1AF56D8500D3970C /* SignaturesEditor */,
+			);
+			name = views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5920132E1AF288E800281296 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				592013321AF2891700281296 /* services */,
+				592013311AF2890F00281296 /* vos */,
+				592013301AF2890000281296 /* aggregates */,
+				5920132F1AF288F900281296 /* entities */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		5920132F1AF288F900281296 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = entities;
+			sourceTree = "<group>";
+		};
+		592013301AF2890000281296 /* aggregates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = aggregates;
+			sourceTree = "<group>";
+		};
+		592013311AF2890F00281296 /* vos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = vos;
+			sourceTree = "<group>";
+		};
+		592013321AF2891700281296 /* services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
+		592013331AF2892800281296 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F3A1AF59A8900D3970C /* Reachability.swift */,
+				6BD8EEBC1AF6D6590096C91E /* Timing.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		59A9035A1AF3D563005FC6DF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				59A903671AF3D563005FC6DF /* iPad */,
+				59A9036C1AF3D563005FC6DF /* iPhone */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		59A903671AF3D563005FC6DF /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				59A903681AF3D563005FC6DF /* Default-Landscape@1x.png */,
+				59A903691AF3D563005FC6DF /* Default-Landscape@2x.png */,
+				59A9036A1AF3D563005FC6DF /* Default-Portrait@1x.png */,
+				59A9036B1AF3D563005FC6DF /* Default-Portrait@2x.png */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		59A9036C1AF3D563005FC6DF /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				59A903991AF3FBC3005FC6DF /* Default-Portrait-1136h@2x.png */,
+				59A903971AF3FB90005FC6DF /* Default-Portrait-960h@2x.png */,
+				59A903951AF3FB32005FC6DF /* Default-Portrait-1334h@2x.png */,
+				59A903931AF3FAD3005FC6DF /* Default-Landscape-1242h@3x.png */,
+				59A9038F1AF3FA03005FC6DF /* Default-Portrait-2208h@3x.png */,
+				59A903831AF3EFFA005FC6DF /* Default-Landscape@3x.png */,
+				59A903841AF3EFFA005FC6DF /* Default-Portrait@3x.png */,
+				59A903851AF3EFFA005FC6DF /* Default-Landscape@2x.png */,
+				59A903861AF3EFFA005FC6DF /* Default-Portrait@2x.png */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		6B2A3DC81AF56D8500D3970C /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DC91AF56D8500D3970C /* DataManager */,
+				6B2A3DCE1AF56D8500D3970C /* Interactor */,
+				6B2A3DD11AF56D8500D3970C /* Presenter */,
+				6B2A3DD31AF56D8500D3970C /* Protocols */,
+				6B2A3DD51AF56D8500D3970C /* View */,
+				6B2A3DD71AF56D8500D3970C /* WireFrame */,
+			);
+			name = PDFViewer;
+			path = SignMyPad/PDFViewer;
+			sourceTree = "<group>";
+		};
+		6B2A3DC91AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DCA1AF56D8500D3970C /* API */,
+				6B2A3DCC1AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DCA1AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DCB1AF56D8500D3970C /* PDFViewerAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3DCC1AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DCD1AF56D8500D3970C /* PDFViewerLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3DCE1AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DCF1AF56D8500D3970C /* PDFViewerInteractor.swift */,
+				6B2A3DD01AF56D8500D3970C /* PDFViewerItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3DD11AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DD21AF56D8500D3970C /* PDFViewerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3DD31AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DD41AF56D8500D3970C /* PDFViewerProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3DD51AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DD61AF56D8500D3970C /* PDFViewerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3DD71AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DD81AF56D8500D3970C /* PDFViewerWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3DD91AF56D8500D3970C /* PDFEditor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DDA1AF56D8500D3970C /* DataManager */,
+				6B2A3DDF1AF56D8500D3970C /* Interactor */,
+				6B2A3DE21AF56D8500D3970C /* Presenter */,
+				6B2A3DE41AF56D8500D3970C /* Protocols */,
+				6B2A3DE61AF56D8500D3970C /* View */,
+				6B2A3DE81AF56D8500D3970C /* WireFrame */,
+			);
+			name = PDFEditor;
+			path = SignMyPad/PDFEditor;
+			sourceTree = "<group>";
+		};
+		6B2A3DDA1AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DDB1AF56D8500D3970C /* API */,
+				6B2A3DDD1AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DDB1AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DDC1AF56D8500D3970C /* PDFEditorAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3DDD1AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DDE1AF56D8500D3970C /* PDFEditorLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3DDF1AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DE01AF56D8500D3970C /* PDFEditorInteractor.swift */,
+				6B2A3DE11AF56D8500D3970C /* PDFEditorItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3DE21AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DE31AF56D8500D3970C /* PDFEditorPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3DE41AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DE51AF56D8500D3970C /* PDFEditorProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3DE61AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DE71AF56D8500D3970C /* PDFEditorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3DE81AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DE91AF56D8500D3970C /* PDFEditorWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3DEA1AF56D8500D3970C /* PDFAnnotator */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DEB1AF56D8500D3970C /* DataManager */,
+				6B2A3DF01AF56D8500D3970C /* Interactor */,
+				6B2A3DF31AF56D8500D3970C /* Presenter */,
+				6B2A3DF51AF56D8500D3970C /* Protocols */,
+				6B2A3DF71AF56D8500D3970C /* View */,
+				6B2A3DF91AF56D8500D3970C /* WireFrame */,
+			);
+			name = PDFAnnotator;
+			path = SignMyPad/PDFAnnotator;
+			sourceTree = "<group>";
+		};
+		6B2A3DEB1AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DEC1AF56D8500D3970C /* API */,
+				6B2A3DEE1AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DEC1AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DED1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3DEE1AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DEF1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3DF01AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DF11AF56D8500D3970C /* PDFAnnotatorInteractor.swift */,
+				6B2A3DF21AF56D8500D3970C /* PDFAnnotatorItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3DF31AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DF41AF56D8500D3970C /* PDFAnnotatorPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3DF51AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DF61AF56D8500D3970C /* PDFAnnotatorProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3DF71AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DF81AF56D8500D3970C /* PDFAnnotatorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3DF91AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DFA1AF56D8500D3970C /* PDFAnnotatorWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3DFB1AF56D8500D3970C /* SignaturesManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DFC1AF56D8500D3970C /* DataManager */,
+				6B2A3E011AF56D8500D3970C /* Interactor */,
+				6B2A3E041AF56D8500D3970C /* Presenter */,
+				6B2A3E061AF56D8500D3970C /* Protocols */,
+				6B2A3E081AF56D8500D3970C /* View */,
+				6B2A3E0A1AF56D8500D3970C /* WireFrame */,
+			);
+			name = SignaturesManager;
+			path = SignMyPad/SignaturesManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DFC1AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DFD1AF56D8500D3970C /* API */,
+				6B2A3DFF1AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3DFD1AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3DFE1AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3DFF1AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E001AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E011AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E021AF56D8500D3970C /* SignaturesManagerInteractor.swift */,
+				6B2A3E031AF56D8500D3970C /* SignaturesManagerItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E041AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E051AF56D8500D3970C /* SignaturesManagerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E061AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E071AF56D8500D3970C /* SignaturesManagerProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3E081AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E091AF56D8500D3970C /* SignaturesManagerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3E0A1AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E0B1AF56D8500D3970C /* SignaturesManagerWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3E0C1AF56D8500D3970C /* SignaturesEditor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E0D1AF56D8500D3970C /* DataManager */,
+				6B2A3E121AF56D8500D3970C /* Interactor */,
+				6B2A3E151AF56D8500D3970C /* Presenter */,
+				6B2A3E171AF56D8500D3970C /* Protocols */,
+				6B2A3E191AF56D8500D3970C /* View */,
+				6B2A3E1B1AF56D8500D3970C /* WireFrame */,
+			);
+			name = SignaturesEditor;
+			path = SignMyPad/SignaturesEditor;
+			sourceTree = "<group>";
+		};
+		6B2A3E0D1AF56D8500D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E0E1AF56D8500D3970C /* API */,
+				6B2A3E101AF56D8500D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3E0E1AF56D8500D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E0F1AF56D8500D3970C /* SignaturesEditorAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3E101AF56D8500D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E111AF56D8500D3970C /* SignaturesEditorLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E121AF56D8500D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E131AF56D8500D3970C /* SignaturesEditorInteractor.swift */,
+				6B2A3E141AF56D8500D3970C /* SignaturesEditorItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E151AF56D8500D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E161AF56D8500D3970C /* SignaturesEditorPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E171AF56D8500D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E181AF56D8500D3970C /* SignaturesEditorProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3E191AF56D8500D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E1A1AF56D8500D3970C /* SignaturesEditorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3E1B1AF56D8500D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E1C1AF56D8500D3970C /* SignaturesEditorWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3E581AF581FD00D3970C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E591AF581FD00D3970C /* DataManager */,
+				6B2A3E5E1AF581FD00D3970C /* Interactor */,
+				6B2A3E611AF581FD00D3970C /* Presenter */,
+				6B2A3E631AF581FD00D3970C /* Protocols */,
+				6B2A3E651AF581FD00D3970C /* View */,
+				6B2A3E671AF581FD00D3970C /* WireFrame */,
+			);
+			name = Main;
+			path = SignMyPad/Main;
+			sourceTree = "<group>";
+		};
+		6B2A3E591AF581FD00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E5A1AF581FD00D3970C /* API */,
+				6B2A3E5C1AF581FD00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3E5A1AF581FD00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E5B1AF581FD00D3970C /* MainAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3E5C1AF581FD00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E5D1AF581FD00D3970C /* MainLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E5E1AF581FD00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E5F1AF581FD00D3970C /* MainInteractor.swift */,
+				6B2A3E601AF581FD00D3970C /* MainItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E611AF581FD00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E621AF581FD00D3970C /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E631AF581FD00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E641AF581FD00D3970C /* MainProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3E651AF581FD00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E661AF581FD00D3970C /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3E671AF581FD00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E681AF581FD00D3970C /* MainWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3E711AF5872200D3970C /* FileExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E721AF5872200D3970C /* DataManager */,
+				6B2A3E771AF5872200D3970C /* Interactor */,
+				6B2A3E7A1AF5872200D3970C /* Presenter */,
+				6B2A3E7C1AF5872200D3970C /* Protocols */,
+				6B2A3E7E1AF5872200D3970C /* View */,
+				6B2A3E801AF5872200D3970C /* WireFrame */,
+			);
+			name = FileExplorer;
+			path = SignMyPad/FileExplorer;
+			sourceTree = "<group>";
+		};
+		6B2A3E721AF5872200D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E731AF5872200D3970C /* API */,
+				6B2A3E751AF5872200D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3E731AF5872200D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E741AF5872200D3970C /* FileExplorerAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3E751AF5872200D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E761AF5872200D3970C /* FileExplorerLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E771AF5872200D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E781AF5872200D3970C /* FileExplorerInteractor.swift */,
+				6B2A3E791AF5872200D3970C /* FileExplorerItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E7A1AF5872200D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E7B1AF5872200D3970C /* FileExplorerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E7C1AF5872200D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E7D1AF5872200D3970C /* FileExplorerProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3E7E1AF5872200D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E7F1AF5872200D3970C /* FileExplorerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3E801AF5872200D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E811AF5872200D3970C /* FileExplorerWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3E821AF5872200D3970C /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E831AF5872200D3970C /* DataManager */,
+				6B2A3E881AF5872200D3970C /* Interactor */,
+				6B2A3E8B1AF5872200D3970C /* Presenter */,
+				6B2A3E8D1AF5872200D3970C /* Protocols */,
+				6B2A3E8F1AF5872200D3970C /* View */,
+				6B2A3E911AF5872200D3970C /* WireFrame */,
+			);
+			name = Help;
+			path = SignMyPad/Help;
+			sourceTree = "<group>";
+		};
+		6B2A3E831AF5872200D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E841AF5872200D3970C /* API */,
+				6B2A3E861AF5872200D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3E841AF5872200D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E851AF5872200D3970C /* HelpAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3E861AF5872200D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E871AF5872200D3970C /* HelpLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E881AF5872200D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E891AF5872200D3970C /* HelpInteractor.swift */,
+				6B2A3E8A1AF5872200D3970C /* HelpItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E8B1AF5872200D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E8C1AF5872200D3970C /* HelpPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E8D1AF5872200D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E8E1AF5872200D3970C /* HelpProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3E8F1AF5872200D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E901AF5872200D3970C /* HelpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3E911AF5872200D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E921AF5872200D3970C /* HelpWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3E931AF5872200D3970C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E941AF5872200D3970C /* DataManager */,
+				6B2A3E991AF5872200D3970C /* Interactor */,
+				6B2A3E9C1AF5872200D3970C /* Presenter */,
+				6B2A3E9E1AF5872200D3970C /* Protocols */,
+				6B2A3EA01AF5872200D3970C /* View */,
+				6B2A3EA21AF5872200D3970C /* WireFrame */,
+			);
+			name = Settings;
+			path = SignMyPad/Settings;
+			sourceTree = "<group>";
+		};
+		6B2A3E941AF5872200D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E951AF5872200D3970C /* API */,
+				6B2A3E971AF5872200D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3E951AF5872200D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E961AF5872200D3970C /* SettingsAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3E971AF5872200D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E981AF5872200D3970C /* SettingsLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3E991AF5872200D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E9A1AF5872200D3970C /* SettingsInteractor.swift */,
+				6B2A3E9B1AF5872200D3970C /* SettingsItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3E9C1AF5872200D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E9D1AF5872200D3970C /* SettingsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3E9E1AF5872200D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3E9F1AF5872200D3970C /* SettingsProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3EA01AF5872200D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EA11AF5872200D3970C /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3EA21AF5872200D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EA31AF5872200D3970C /* SettingsWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3EBC1AF587DB00D3970C /* clouds */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EBD1AF587DB00D3970C /* DropBox */,
+				6B2A3ECE1AF587DB00D3970C /* GoogleDrive */,
+				6B2A3EDF1AF587DB00D3970C /* ITunes */,
+				6B2A3EF01AF587DC00D3970C /* ReomoteResource */,
+				6B2A3F011AF587DC00D3970C /* SignMyPadClouds */,
+			);
+			name = clouds;
+			path = SignMyPad/clouds;
+			sourceTree = "<group>";
+		};
+		6B2A3EBD1AF587DB00D3970C /* DropBox */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EBE1AF587DB00D3970C /* DataManager */,
+				6B2A3EC31AF587DB00D3970C /* Interactor */,
+				6B2A3EC61AF587DB00D3970C /* Presenter */,
+				6B2A3EC81AF587DB00D3970C /* Protocols */,
+				6B2A3ECA1AF587DB00D3970C /* View */,
+				6B2A3ECC1AF587DB00D3970C /* WireFrame */,
+			);
+			path = DropBox;
+			sourceTree = "<group>";
+		};
+		6B2A3EBE1AF587DB00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EBF1AF587DB00D3970C /* API */,
+				6B2A3EC11AF587DB00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3EBF1AF587DB00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EC01AF587DB00D3970C /* DropBoxAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3EC11AF587DB00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EC21AF587DB00D3970C /* DropBoxLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3EC31AF587DB00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EC41AF587DB00D3970C /* DropBoxInteractor.swift */,
+				6B2A3EC51AF587DB00D3970C /* DropBoxItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3EC61AF587DB00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EC71AF587DB00D3970C /* DropBoxPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3EC81AF587DB00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EC91AF587DB00D3970C /* DropBoxProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3ECA1AF587DB00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ECB1AF587DB00D3970C /* DropBoxView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3ECC1AF587DB00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ECD1AF587DB00D3970C /* DropBoxWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3ECE1AF587DB00D3970C /* GoogleDrive */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ECF1AF587DB00D3970C /* DataManager */,
+				6B2A3ED41AF587DB00D3970C /* Interactor */,
+				6B2A3ED71AF587DB00D3970C /* Presenter */,
+				6B2A3ED91AF587DB00D3970C /* Protocols */,
+				6B2A3EDB1AF587DB00D3970C /* View */,
+				6B2A3EDD1AF587DB00D3970C /* WireFrame */,
+			);
+			path = GoogleDrive;
+			sourceTree = "<group>";
+		};
+		6B2A3ECF1AF587DB00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ED01AF587DB00D3970C /* API */,
+				6B2A3ED21AF587DB00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3ED01AF587DB00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ED11AF587DB00D3970C /* GoogleDriveAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3ED21AF587DB00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ED31AF587DB00D3970C /* GoogleDriveLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3ED41AF587DB00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ED51AF587DB00D3970C /* GoogleDriveInteractor.swift */,
+				6B2A3ED61AF587DB00D3970C /* GoogleDriveItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3ED71AF587DB00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3ED81AF587DB00D3970C /* GoogleDrivePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3ED91AF587DB00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EDA1AF587DB00D3970C /* GoogleDriveProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3EDB1AF587DB00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EDC1AF587DB00D3970C /* GoogleDriveView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3EDD1AF587DB00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EDE1AF587DB00D3970C /* GoogleDriveWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3EDF1AF587DB00D3970C /* ITunes */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE01AF587DB00D3970C /* DataManager */,
+				6B2A3EE51AF587DC00D3970C /* Interactor */,
+				6B2A3EE81AF587DC00D3970C /* Presenter */,
+				6B2A3EEA1AF587DC00D3970C /* Protocols */,
+				6B2A3EEC1AF587DC00D3970C /* View */,
+				6B2A3EEE1AF587DC00D3970C /* WireFrame */,
+			);
+			path = ITunes;
+			sourceTree = "<group>";
+		};
+		6B2A3EE01AF587DB00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE11AF587DB00D3970C /* API */,
+				6B2A3EE31AF587DC00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3EE11AF587DB00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE21AF587DC00D3970C /* ITunesAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3EE31AF587DC00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE41AF587DC00D3970C /* ITunesLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3EE51AF587DC00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE61AF587DC00D3970C /* ITunesInteractor.swift */,
+				6B2A3EE71AF587DC00D3970C /* ITunesItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3EE81AF587DC00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EE91AF587DC00D3970C /* ITunesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3EEA1AF587DC00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EEB1AF587DC00D3970C /* ITunesProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3EEC1AF587DC00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EED1AF587DC00D3970C /* ITunesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3EEE1AF587DC00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EEF1AF587DC00D3970C /* ITunesWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3EF01AF587DC00D3970C /* ReomoteResource */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EF11AF587DC00D3970C /* DataManager */,
+				6B2A3EF61AF587DC00D3970C /* Interactor */,
+				6B2A3EF91AF587DC00D3970C /* Presenter */,
+				6B2A3EFB1AF587DC00D3970C /* Protocols */,
+				6B2A3EFD1AF587DC00D3970C /* View */,
+				6B2A3EFF1AF587DC00D3970C /* WireFrame */,
+			);
+			path = ReomoteResource;
+			sourceTree = "<group>";
+		};
+		6B2A3EF11AF587DC00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EF21AF587DC00D3970C /* API */,
+				6B2A3EF41AF587DC00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3EF21AF587DC00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EF31AF587DC00D3970C /* ReomoteResourceAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3EF41AF587DC00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EF51AF587DC00D3970C /* ReomoteResourceLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3EF61AF587DC00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EF71AF587DC00D3970C /* ReomoteResourceInteractor.swift */,
+				6B2A3EF81AF587DC00D3970C /* ReomoteResourceItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3EF91AF587DC00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EFA1AF587DC00D3970C /* ReomoteResourcePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3EFB1AF587DC00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EFC1AF587DC00D3970C /* ReomoteResourceProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3EFD1AF587DC00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3EFE1AF587DC00D3970C /* ReomoteResourceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3EFF1AF587DC00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F001AF587DC00D3970C /* ReomoteResourceWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		6B2A3F011AF587DC00D3970C /* SignMyPadClouds */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F021AF587DC00D3970C /* DataManager */,
+				6B2A3F071AF587DC00D3970C /* Interactor */,
+				6B2A3F0A1AF587DC00D3970C /* Presenter */,
+				6B2A3F0C1AF587DC00D3970C /* Protocols */,
+				6B2A3F0E1AF587DC00D3970C /* View */,
+				6B2A3F101AF587DC00D3970C /* WireFrame */,
+			);
+			path = SignMyPadClouds;
+			sourceTree = "<group>";
+		};
+		6B2A3F021AF587DC00D3970C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F031AF587DC00D3970C /* API */,
+				6B2A3F051AF587DC00D3970C /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6B2A3F031AF587DC00D3970C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F041AF587DC00D3970C /* SignMyPadCloudsAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B2A3F051AF587DC00D3970C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F061AF587DC00D3970C /* SignMyPadCloudsLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6B2A3F071AF587DC00D3970C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F081AF587DC00D3970C /* SignMyPadCloudsInteractor.swift */,
+				6B2A3F091AF587DC00D3970C /* SignMyPadCloudsItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B2A3F0A1AF587DC00D3970C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F0B1AF587DC00D3970C /* SignMyPadCloudsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B2A3F0C1AF587DC00D3970C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F0D1AF587DC00D3970C /* SignMyPadCloudsProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6B2A3F0E1AF587DC00D3970C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F0F1AF587DC00D3970C /* SignMyPadCloudsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B2A3F101AF587DC00D3970C /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A3F111AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift */,
+			);
+			path = WireFrame;
 			sourceTree = "<group>";
 		};
 		DA70A6A5B19E31D9ADE82D4D /* Pods */ = {
@@ -160,6 +1652,7 @@
 				591762A51AE90AE5009D3E60 /* Resources */,
 				EDF531D41980EE3D935D7A4F /* Copy Pods Resources */,
 				591762CF1AE9181D009D3E60 /* ShellScript */,
+				AE46E43A2E129640DA06DC2F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,9 +1723,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A903771AF3D563005FC6DF /* Default-Landscape@1x.png in Resources */,
 				591762B51AE90AE5009D3E60 /* Main.storyboard in Resources */,
-				591762BA1AE90AE5009D3E60 /* LaunchScreen.xib in Resources */,
+				59A9037A1AF3D563005FC6DF /* Default-Portrait@2x.png in Resources */,
+				59A903881AF3EFFA005FC6DF /* Default-Portrait@3x.png in Resources */,
+				59A9038A1AF3EFFA005FC6DF /* Default-Portrait@2x.png in Resources */,
+				59A903981AF3FB90005FC6DF /* Default-Portrait-960h@2x.png in Resources */,
+				59A903871AF3EFFA005FC6DF /* Default-Landscape@3x.png in Resources */,
 				591762B71AE90AE5009D3E60 /* Images.xcassets in Resources */,
+				59A903941AF3FAD3005FC6DF /* Default-Landscape-1242h@3x.png in Resources */,
+				59A903791AF3D563005FC6DF /* Default-Portrait@1x.png in Resources */,
+				59A903901AF3FA03005FC6DF /* Default-Portrait-2208h@3x.png in Resources */,
+				59A903961AF3FB32005FC6DF /* Default-Portrait-1334h@2x.png in Resources */,
+				59A903891AF3EFFA005FC6DF /* Default-Landscape@2x.png in Resources */,
+				59A903781AF3D563005FC6DF /* Default-Landscape@2x.png in Resources */,
+				59A9039A1AF3FBC3005FC6DF /* Default-Portrait-1136h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +1779,21 @@
 			shellPath = /bin/sh;
 			shellScript = "./Pods/Fabric/Fabric.framework/run 804bf36372dcf949eaf5ff1a40c7efa59fc54a11 b7e040227cebac29fe784912674dbc26153159035b0ca7bc2a9bf84b73b22ccb";
 		};
+		AE46E43A2E129640DA06DC2F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EDF531D41980EE3D935D7A4F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,9 +1816,124 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2A3EB21AF5872200D3970C /* HelpView.swift in Sources */,
+				6B2A3F2B1AF587DC00D3970C /* ReomoteResourceLocalDataManager.swift in Sources */,
+				6B2A3E441AF56D8500D3970C /* PDFAnnotatorWireFrame.swift in Sources */,
+				6B2A3F2A1AF587DC00D3970C /* ReomoteResourceAPIDataManager.swift in Sources */,
+				6B2A3EAF1AF5872200D3970C /* HelpItem.swift in Sources */,
+				6B2A3E321AF56D8500D3970C /* PDFViewerProtocols.swift in Sources */,
+				6B2A3E301AF56D8500D3970C /* PDFViewerItem.swift in Sources */,
+				6B2A3F241AF587DC00D3970C /* ITunesInteractor.swift in Sources */,
+				6B2A3F291AF587DC00D3970C /* ITunesWireFrame.swift in Sources */,
+				6B2A3E541AF56D8500D3970C /* SignaturesEditorWireFrame.swift in Sources */,
+				6B2A3E6C1AF581FD00D3970C /* MainItem.swift in Sources */,
+				6B2A3F1E1AF587DC00D3970C /* GoogleDrivePresenter.swift in Sources */,
+				6B2A3E331AF56D8500D3970C /* PDFViewerView.swift in Sources */,
+				6B2A3F321AF587DC00D3970C /* SignMyPadCloudsAPIDataManager.swift in Sources */,
+				6B2A3E2E1AF56D8500D3970C /* PDFViewerLocalDataManager.swift in Sources */,
+				6B2A3E2F1AF56D8500D3970C /* PDFViewerInteractor.swift in Sources */,
+				6B2A3EA91AF5872200D3970C /* FileExplorerProtocols.swift in Sources */,
+				6B2A3EB11AF5872200D3970C /* HelpProtocols.swift in Sources */,
+				6B2A3EB51AF5872200D3970C /* SettingsLocalDataManager.swift in Sources */,
+				6B2A3F311AF587DC00D3970C /* ReomoteResourceWireFrame.swift in Sources */,
+				6B2A3E311AF56D8500D3970C /* PDFViewerPresenter.swift in Sources */,
+				6B2A3F1D1AF587DC00D3970C /* GoogleDriveItem.swift in Sources */,
+				6B2A3E341AF56D8500D3970C /* PDFViewerWireFrame.swift in Sources */,
+				6B2A3EBA1AF5872200D3970C /* SettingsView.swift in Sources */,
+				6B2A3EB81AF5872200D3970C /* SettingsPresenter.swift in Sources */,
+				6B2A3F391AF587DC00D3970C /* SignMyPadCloudsWireFrame.swift in Sources */,
+				6B2A3E361AF56D8500D3970C /* PDFEditorLocalDataManager.swift in Sources */,
+				6B2A3F131AF587DC00D3970C /* DropBoxLocalDataManager.swift in Sources */,
+				6B2A3EA61AF5872200D3970C /* FileExplorerInteractor.swift in Sources */,
+				6BD8EEBD1AF6D6590096C91E /* Timing.swift in Sources */,
+				6B2A3F301AF587DC00D3970C /* ReomoteResourceView.swift in Sources */,
+				6B2A3E6F1AF581FD00D3970C /* MainView.swift in Sources */,
+				6B2A3E3C1AF56D8500D3970C /* PDFEditorWireFrame.swift in Sources */,
+				6B2A3F171AF587DC00D3970C /* DropBoxProtocols.swift in Sources */,
+				6B2A3EA81AF5872200D3970C /* FileExplorerPresenter.swift in Sources */,
+				6B2A3F271AF587DC00D3970C /* ITunesProtocols.swift in Sources */,
+				6B2A3F211AF587DC00D3970C /* GoogleDriveWireFrame.swift in Sources */,
+				6B2A3E401AF56D8500D3970C /* PDFAnnotatorItem.swift in Sources */,
+				6B2A3E421AF56D8500D3970C /* PDFAnnotatorProtocols.swift in Sources */,
+				6B2A3E3B1AF56D8500D3970C /* PDFEditorView.swift in Sources */,
+				6B2A3EB61AF5872200D3970C /* SettingsInteractor.swift in Sources */,
+				6B2A3E4A1AF56D8500D3970C /* SignaturesManagerProtocols.swift in Sources */,
+				6B2A3EAD1AF5872200D3970C /* HelpLocalDataManager.swift in Sources */,
+				6B2A3E3A1AF56D8500D3970C /* PDFEditorProtocols.swift in Sources */,
+				6B2A3EBB1AF5872200D3970C /* SettingsWireFrame.swift in Sources */,
+				6B2A3E461AF56D8500D3970C /* SignaturesManagerLocalDataManager.swift in Sources */,
+				6B2A3E4E1AF56D8500D3970C /* SignaturesEditorLocalDataManager.swift in Sources */,
+				6B2A3F261AF587DC00D3970C /* ITunesPresenter.swift in Sources */,
+				6B2A3E371AF56D8500D3970C /* PDFEditorInteractor.swift in Sources */,
+				6B2A3E4D1AF56D8500D3970C /* SignaturesEditorAPIDataManager.swift in Sources */,
+				6B2A3EAC1AF5872200D3970C /* HelpAPIDataManager.swift in Sources */,
+				6B2A3EAB1AF5872200D3970C /* FileExplorerWireFrame.swift in Sources */,
+				6B2A3F2C1AF587DC00D3970C /* ReomoteResourceInteractor.swift in Sources */,
+				6B2A3F2E1AF587DC00D3970C /* ReomoteResourcePresenter.swift in Sources */,
+				6B2A3F231AF587DC00D3970C /* ITunesLocalDataManager.swift in Sources */,
+				6B2A3F381AF587DC00D3970C /* SignMyPadCloudsView.swift in Sources */,
+				6B2A3EA51AF5872200D3970C /* FileExplorerLocalDataManager.swift in Sources */,
+				6B2A3E6B1AF581FD00D3970C /* MainInteractor.swift in Sources */,
+				6B2A3E3F1AF56D8500D3970C /* PDFAnnotatorInteractor.swift in Sources */,
+				59A903471AF2C844005FC6DF /* AppDependencies.swift in Sources */,
+				6B2A3EAA1AF5872200D3970C /* FileExplorerView.swift in Sources */,
+				6B2A3EA41AF5872200D3970C /* FileExplorerAPIDataManager.swift in Sources */,
+				6B2A3F281AF587DC00D3970C /* ITunesView.swift in Sources */,
+				6B2A3F2F1AF587DC00D3970C /* ReomoteResourceProtocols.swift in Sources */,
+				6B2A3EB31AF5872200D3970C /* HelpWireFrame.swift in Sources */,
+				6B2A3E6A1AF581FD00D3970C /* MainLocalDataManager.swift in Sources */,
+				6B2A3E431AF56D8500D3970C /* PDFAnnotatorView.swift in Sources */,
+				6B2A3F201AF587DC00D3970C /* GoogleDriveView.swift in Sources */,
+				6B2A3EB41AF5872200D3970C /* SettingsAPIDataManager.swift in Sources */,
+				6B2A3F331AF587DC00D3970C /* SignMyPadCloudsLocalDataManager.swift in Sources */,
+				6B2A3F221AF587DC00D3970C /* ITunesAPIDataManager.swift in Sources */,
+				6B2A3E691AF581FD00D3970C /* MainAPIDataManager.swift in Sources */,
+				6B2A3F361AF587DC00D3970C /* SignMyPadCloudsPresenter.swift in Sources */,
+				6B2A3F1C1AF587DC00D3970C /* GoogleDriveInteractor.swift in Sources */,
 				591762B21AE90AE5009D3E60 /* ViewController.swift in Sources */,
+				6B2A3E411AF56D8500D3970C /* PDFAnnotatorPresenter.swift in Sources */,
+				6B2A3E701AF581FD00D3970C /* MainWireFrame.swift in Sources */,
+				6B2A3F161AF587DC00D3970C /* DropBoxPresenter.swift in Sources */,
+				6B2A3F3B1AF59A8900D3970C /* Reachability.swift in Sources */,
+				6B2A3E501AF56D8500D3970C /* SignaturesEditorItem.swift in Sources */,
+				6B2A3E481AF56D8500D3970C /* SignaturesManagerItem.swift in Sources */,
+				6B2A3F341AF587DC00D3970C /* SignMyPadCloudsInteractor.swift in Sources */,
+				6B2A3F2D1AF587DC00D3970C /* ReomoteResourceItem.swift in Sources */,
+				6B2A3EAE1AF5872200D3970C /* HelpInteractor.swift in Sources */,
+				6B2A3E451AF56D8500D3970C /* SignaturesManagerAPIDataManager.swift in Sources */,
+				6B2A3E531AF56D8500D3970C /* SignaturesEditorView.swift in Sources */,
+				6B2A3E511AF56D8500D3970C /* SignaturesEditorPresenter.swift in Sources */,
+				6B2A3EB71AF5872200D3970C /* SettingsItem.swift in Sources */,
+				6B2A3EB01AF5872200D3970C /* HelpPresenter.swift in Sources */,
+				6B2A3E521AF56D8500D3970C /* SignaturesEditorProtocols.swift in Sources */,
+				6B2A3E471AF56D8500D3970C /* SignaturesManagerInteractor.swift in Sources */,
+				6B2A3F1A1AF587DC00D3970C /* GoogleDriveAPIDataManager.swift in Sources */,
+				6B2A3EA71AF5872200D3970C /* FileExplorerItem.swift in Sources */,
+				6B2A3F1B1AF587DC00D3970C /* GoogleDriveLocalDataManager.swift in Sources */,
+				6B2A3F351AF587DC00D3970C /* SignMyPadCloudsItem.swift in Sources */,
+				6B2A3F1F1AF587DC00D3970C /* GoogleDriveProtocols.swift in Sources */,
+				6B2A3E381AF56D8500D3970C /* PDFEditorItem.swift in Sources */,
+				6B2A3E4B1AF56D8500D3970C /* SignaturesManagerView.swift in Sources */,
+				6B2A3F371AF587DC00D3970C /* SignMyPadCloudsProtocols.swift in Sources */,
+				6B2A3F181AF587DC00D3970C /* DropBoxView.swift in Sources */,
+				6B2A3E4C1AF56D8500D3970C /* SignaturesManagerWireFrame.swift in Sources */,
+				6B2A3E6E1AF581FD00D3970C /* MainProtocols.swift in Sources */,
 				591762B01AE90AE5009D3E60 /* SignMyPad.xcdatamodeld in Sources */,
+				6B2A3F141AF587DC00D3970C /* DropBoxInteractor.swift in Sources */,
+				6B2A3F251AF587DC00D3970C /* ITunesItem.swift in Sources */,
+				6B2A3EB91AF5872200D3970C /* SettingsProtocols.swift in Sources */,
+				6B2A3E351AF56D8500D3970C /* PDFEditorAPIDataManager.swift in Sources */,
+				6B2A3E4F1AF56D8500D3970C /* SignaturesEditorInteractor.swift in Sources */,
 				591762AD1AE90AE5009D3E60 /* AppDelegate.swift in Sources */,
+				6B2A3E2D1AF56D8500D3970C /* PDFViewerAPIDataManager.swift in Sources */,
+				6B2A3F151AF587DC00D3970C /* DropBoxItem.swift in Sources */,
+				6B2A3F191AF587DC00D3970C /* DropBoxWireFrame.swift in Sources */,
+				6B2A3E3E1AF56D8500D3970C /* PDFAnnotatorLocalDataManager.swift in Sources */,
+				6B2A3E6D1AF581FD00D3970C /* MainPresenter.swift in Sources */,
+				6B2A3E491AF56D8500D3970C /* SignaturesManagerPresenter.swift in Sources */,
+				6B2A3E3D1AF56D8500D3970C /* PDFAnnotatorAPIDataManager.swift in Sources */,
+				6B2A3E391AF56D8500D3970C /* PDFEditorPresenter.swift in Sources */,
+				6B2A3F121AF587DC00D3970C /* DropBoxAPIDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,14 +1962,6 @@
 				591762B41AE90AE5009D3E60 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		591762B81AE90AE5009D3E60 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				591762B91AE90AE5009D3E60 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -380,6 +2007,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
@@ -415,6 +2043,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -423,10 +2052,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 913E5245595705CD288EB0BD /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Free";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SignMyPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/giorgionatili/Documents/mobile/sign-my-pad/SignMyPad/SignMyPad-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
@@ -434,10 +2073,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D826EACE57DE7E1E8BCF874 /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Free";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SignMyPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/giorgionatili/Documents/mobile/sign-my-pad/SignMyPad/SignMyPad-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Release;
 		};
