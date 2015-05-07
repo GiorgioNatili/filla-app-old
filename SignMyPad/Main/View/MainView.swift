@@ -65,6 +65,7 @@ class MainView: UIViewController, MainViewProtocol {
         
         SwiftSpinner.show("Recovering some data...")
         self.view.window?.addSubview(SwiftSpinner.sharedInstance)
+        
         presenter?.generateAndFormatRandom()
         
     }

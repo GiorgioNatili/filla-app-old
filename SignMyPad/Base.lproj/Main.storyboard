@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Main View-->
@@ -59,6 +60,10 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hf8-gi-gmz" userLabel="Side Menu">
+                                <rect key="frame" x="0.0" y="20" width="180" height="580"/>
+                                <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -66,11 +71,15 @@
                             <constraint firstAttribute="centerY" secondItem="RXW-hu-Kbo" secondAttribute="centerY" id="6hb-FL-DPB"/>
                             <constraint firstItem="Sl8-aj-edC" firstAttribute="top" secondItem="RXW-hu-Kbo" secondAttribute="bottom" constant="10" id="9UH-Ke-kjV"/>
                             <constraint firstAttribute="centerX" secondItem="xk5-V5-lEb" secondAttribute="centerX" id="CDR-0w-mX3"/>
+                            <constraint firstItem="Hf8-gi-gmz" firstAttribute="leading" secondItem="oWe-8n-UR8" secondAttribute="leadingMargin" constant="-16" id="EiY-hY-waU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="jW0-AL-6pS" secondAttribute="trailing" id="EzR-4e-LdA"/>
                             <constraint firstItem="Vcc-zJ-MVz" firstAttribute="top" secondItem="xk5-V5-lEb" secondAttribute="bottom" constant="8" id="Lft-rY-y6s"/>
                             <constraint firstAttribute="centerX" secondItem="RXW-hu-Kbo" secondAttribute="centerX" id="QBX-en-qSe"/>
                             <constraint firstItem="jW0-AL-6pS" firstAttribute="leading" secondItem="oWe-8n-UR8" secondAttribute="leadingMargin" id="UAs-gr-1dN"/>
                             <constraint firstItem="qxg-Sk-vrB" firstAttribute="top" secondItem="Sl8-aj-edC" secondAttribute="bottom" constant="10" id="Yaf-Y7-v4z"/>
+                            <constraint firstItem="R8s-NJ-fBc" firstAttribute="top" secondItem="Hf8-gi-gmz" secondAttribute="bottom" id="aRT-4q-vG7"/>
+                            <constraint firstItem="Hf8-gi-gmz" firstAttribute="width" secondItem="oWe-8n-UR8" secondAttribute="width" multiplier="0.3" id="eSs-1s-ySL"/>
+                            <constraint firstItem="Hf8-gi-gmz" firstAttribute="top" secondItem="r5g-5C-BDp" secondAttribute="bottom" id="giv-ZU-IdW"/>
                             <constraint firstAttribute="centerX" secondItem="Sl8-aj-edC" secondAttribute="centerX" id="nm7-sc-tOe"/>
                             <constraint firstAttribute="centerX" secondItem="qxg-Sk-vrB" secondAttribute="centerX" id="oS6-DJ-mz2"/>
                             <constraint firstAttribute="centerX" secondItem="Vcc-zJ-MVz" secondAttribute="centerX" id="wwH-UC-6Bj"/>
