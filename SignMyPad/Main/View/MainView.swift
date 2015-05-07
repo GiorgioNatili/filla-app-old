@@ -17,6 +17,28 @@ class MainView: UIViewController, MainViewProtocol {
     // MARK: - IBOutlets
     @IBOutlet weak var randomNumber: UILabel!
     
+    // MARK: - IBOutlets: Files
+    @IBOutlet weak var manageFiles: UILabel!
+    @IBOutlet weak var addDocument: UIButton!
+    @IBOutlet weak var sendDocument: UIButton!
+    @IBOutlet weak var createFolder: UIButton!
+    
+    // MARK: - IBOutlets: Signatures
+    @IBOutlet weak var signatures: UILabel!
+    @IBOutlet weak var createSignature: UIButton!
+    
+    // MARK: - IBOutlets: Clouds
+    @IBOutlet weak var cloudServices: UILabel!
+    @IBOutlet weak var cloudSignin: UIButton!
+    
+    // MARK: - IBOutlets: Files Explorer
+    @IBOutlet weak var manageDocuments: UILabel!
+    @IBOutlet weak var filesExplorer: UIButton!
+    
+    // MARK: - IBOutlets: Utilities
+    @IBOutlet weak var utilities: UILabel!
+    @IBOutlet weak var sendFeedback: UIButton!
+    
     // MARK: - View Life Cycle
     override func viewDidLoad() {
     
