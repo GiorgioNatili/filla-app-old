@@ -52,6 +52,28 @@ class MainView: UIViewController, MainViewProtocol {
         
         super.viewDidAppear(animated)
         
+        let red = PlatformColors.RED.uiColor()
+        
+        addDocument.setTitleColor(red, forState: .Normal)
+        
+        let gray = PlatformColors.GRAY.uiColor()
+        
+        manageFiles.textColor = gray
+        createFolder.setTitleColor(gray, forState: .Normal)
+        signatures.textColor = gray
+        cloudServices.textColor = gray
+        manageDocuments.textColor = gray
+        filesExplorer.setTitleColor(gray, forState: .Normal)
+        utilities.textColor = gray
+        sendFeedback.setTitleColor(gray, forState: .Normal)
+        
+        
+        let indigo = PlatformColors.INDIGO.uiColor()
+        
+        sendDocument.setTitleColor(indigo, forState: .Normal)
+        createSignature.setTitleColor(indigo, forState: .Normal)
+        cloudSignin.setTitleColor(indigo, forState: .Normal)
+        
         presenter?.viewDidAppear()
         
     }
