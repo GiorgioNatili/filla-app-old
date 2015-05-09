@@ -55,6 +55,7 @@ class MainView: UIViewController, MainViewProtocol {
         updateTextColors()
         updateBackgroundColors()
         updateControlIcons()
+        updateTexts()
         
         presenter?.viewDidAppear()
         
@@ -156,10 +157,26 @@ class MainView: UIViewController, MainViewProtocol {
         
     }
     
-    
-    
-    
-    
-    
+    private func updateTexts() {
+        
+        manageFiles.text = "MANAGE_FILES".localized
+        addDocument.setTitle("ADD_DOCUMENT".localized, forState: .Normal)
+        sendDocument.setTitle("SEND_DOCUMENT".localized, forState: .Normal)
+        createFolder.setTitle("NEW_FOLDER".localized, forState: .Normal)
+        
+        signatures.text = "SIGNATURES".localized
+        createSignature.setTitle("CREATE_SIGNATURE".localized, forState: .Normal)
+
+        cloudServices.text = "SERVICES".localized
+        cloudSignin.setTitle("CLOUD_SERVICES".localized, forState: .Normal)
+
+        manageDocuments.text = "MANAGE_DOCUMENTS".localized
+        filesExplorer.setTitle("FILES_EXPLORER".localized, forState: .Normal)
+        
+        utilities.text = "UTILITIES".localized
+        sendFeedback.setTitle("SEND_FEEDBACK".localized, forState: .Normal)
+        
+        
+    }
     
 }

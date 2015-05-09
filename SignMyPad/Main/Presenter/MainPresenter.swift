@@ -51,6 +51,7 @@ class MainPresenter: MainPresenterProtocol, MainInteractorOutputProtocol {
     func viewDidAppear() {
         
         view!.sayHello()
+        
     
     }
 

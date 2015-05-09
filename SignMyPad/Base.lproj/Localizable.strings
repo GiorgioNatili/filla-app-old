@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  SignMyPad
+
+  Created by Giorgio Natili on 5/9/15.
+  Copyright (c) 2015 Natili, Giorgio. All rights reserved.
+*/
+
+"MANAGE_FILES"      = "Manage Files";
+"ADD_DOCUMENT"      = "Add Document";
+"SEND_DOCUMENT"     = "Send Document";
+"NEW_FOLDER"        = "New Folder";
+
+"SIGNATURES"        = "Signatures";
+"CREATE_SIGNATURE"  = "Create Signature";
+
+"SERVICES"          = "Sign in to services";
+"CLOUD_SERVICES"    = "Cloud Services";
+
+"MANAGE_DOCUMENTS"  = "Manage Documents";
+"FILES_EXPLORER"    = "Edit Files/Folders";
+
+"UTILITIES"         = "Utilities";
+"SEND_FEEDBACK"     = "Send Feedback";
