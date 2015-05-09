@@ -33,21 +33,4 @@ extension UIButton {
         
     }
     
-    private func updateLabelFrame(view:UIImageView) {
-        
-        let currentFrame = titleLabel?.frame
-        
-        let x = view.frame.origin.x + view.frame.width
-        let y = currentFrame!.origin.y
-        let w = frame.width - view.frame.width
-        let h = currentFrame!.height
-        
-        var titleInsets: UIEdgeInsets = UIEdgeInsets(top: x, left: y, bottom: 0, right: 0)
-        self.titleEdgeInsets = titleInsets
-        //let updatedFrame = CGRect (x: 60, y: y, width: w, height: h)
-        
-        //titleLabel?.frame = updatedFrame
-        
-    }
-    
 }

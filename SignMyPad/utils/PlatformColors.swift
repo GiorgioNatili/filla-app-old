@@ -10,7 +10,7 @@ import Foundation
 
 enum PlatformColors:Int {
     
-    case BLACK, RED, WHITE, GRAY, DARKGRAY, INDIGO
+    case BLACK, RED, WHITE, GRAY, DARKGRAY, LITE_GRAY, INDIGO
     
     func uiColor () -> UIColor?{
         
@@ -39,18 +39,32 @@ enum PlatformColors:Int {
             blue = 255
             break
             
-        case .GRAY:
-            
-            red = 153
-            green = 153
-            blue = 153
-            break
-            
         case .INDIGO:
             
             red = 0
             green = 106
             blue = 145
+            break
+
+        case .DARKGRAY:
+            
+            red = 67
+            green = 75
+            blue = 80
+            break
+            
+        case .GRAY:
+            
+            red = 85
+            green = 94
+            blue = 100
+            break
+
+        case .LITE_GRAY:
+            
+            red = 165
+            green = 177
+            blue = 185
             break
             
         default:

@@ -16,6 +16,8 @@ class MainView: UIViewController, MainViewProtocol {
     
     // MARK: - IBOutlets
     @IBOutlet weak var randomNumber: UILabel!
+    @IBOutlet weak var sideMenu: UIView!
+    @IBOutlet weak var mainArea: UIView!
     
     // MARK: - IBOutlets: Files
     @IBOutlet weak var manageFiles: UILabel!
@@ -113,22 +115,26 @@ class MainView: UIViewController, MainViewProtocol {
         
         addDocument.setTitleColor(red, forState: .Normal)
         
-        let gray = PlatformColors.GRAY.uiColor()
+        let liteGray = PlatformColors.LITE_GRAY.uiColor()
         
-        manageFiles.textColor = gray
-        createFolder.setTitleColor(gray, forState: .Normal)
-        signatures.textColor = gray
-        cloudServices.textColor = gray
-        manageDocuments.textColor = gray
-        filesExplorer.setTitleColor(gray, forState: .Normal)
-        utilities.textColor = gray
-        sendFeedback.setTitleColor(gray, forState: .Normal)
+        manageFiles.textColor = liteGray
+        createFolder.setTitleColor(liteGray, forState: .Normal)
+        signatures.textColor = liteGray
+        cloudServices.textColor = liteGray
+        manageDocuments.textColor = liteGray
+        filesExplorer.setTitleColor(liteGray, forState: .Normal)
+        utilities.textColor = liteGray
+        sendFeedback.setTitleColor(liteGray, forState: .Normal)
         
         let indigo = PlatformColors.INDIGO.uiColor()
         
         sendDocument.setTitleColor(indigo, forState: .Normal)
         createSignature.setTitleColor(indigo, forState: .Normal)
         cloudSignin.setTitleColor(indigo, forState: .Normal)
+        
+        var navigationBarAppearace = UINavigationBar.appearance()
+        navigationBarAppearace.tintColor = PlatformColors.WHITE.uiColor()
+        navigationBarAppearace.barTintColor = PlatformColors.RED.uiColor()
         
     }
     
@@ -143,6 +149,14 @@ class MainView: UIViewController, MainViewProtocol {
         cloudSignin.backgroundColor = white
         filesExplorer.backgroundColor = white
         sendFeedback.backgroundColor = white
+        
+        let darkGray = PlatformColors.DARKGRAY.uiColor()
+        
+        sideMenu.backgroundColor = darkGray
+        
+        let gray = PlatformColors.GRAY.uiColor()
+        
+        mainArea.backgroundColor = gray
         
     }
     
