@@ -52,27 +52,9 @@ class MainView: UIViewController, MainViewProtocol {
         
         super.viewDidAppear(animated)
         
-        let red = PlatformColors.RED.uiColor()
-        
-        addDocument.setTitleColor(red, forState: .Normal)
-        
-        let gray = PlatformColors.GRAY.uiColor()
-        
-        manageFiles.textColor = gray
-        createFolder.setTitleColor(gray, forState: .Normal)
-        signatures.textColor = gray
-        cloudServices.textColor = gray
-        manageDocuments.textColor = gray
-        filesExplorer.setTitleColor(gray, forState: .Normal)
-        utilities.textColor = gray
-        sendFeedback.setTitleColor(gray, forState: .Normal)
-        
-        
-        let indigo = PlatformColors.INDIGO.uiColor()
-        
-        sendDocument.setTitleColor(indigo, forState: .Normal)
-        createSignature.setTitleColor(indigo, forState: .Normal)
-        cloudSignin.setTitleColor(indigo, forState: .Normal)
+        updateTextColors()
+        updateBackgroundColors()
+        updateControlIcons()
         
         presenter?.viewDidAppear()
         
@@ -123,5 +105,61 @@ class MainView: UIViewController, MainViewProtocol {
         presentViewController(alert, animated: true, completion: nil)
         
     }
+    
+    private func updateTextColors() {
+        
+        let red = PlatformColors.RED.uiColor()
+        
+        addDocument.setTitleColor(red, forState: .Normal)
+        
+        let gray = PlatformColors.GRAY.uiColor()
+        
+        manageFiles.textColor = gray
+        createFolder.setTitleColor(gray, forState: .Normal)
+        signatures.textColor = gray
+        cloudServices.textColor = gray
+        manageDocuments.textColor = gray
+        filesExplorer.setTitleColor(gray, forState: .Normal)
+        utilities.textColor = gray
+        sendFeedback.setTitleColor(gray, forState: .Normal)
+        
+        let indigo = PlatformColors.INDIGO.uiColor()
+        
+        sendDocument.setTitleColor(indigo, forState: .Normal)
+        createSignature.setTitleColor(indigo, forState: .Normal)
+        cloudSignin.setTitleColor(indigo, forState: .Normal)
+        
+    }
+    
+    private func updateBackgroundColors() {
+        
+        let white = PlatformColors.WHITE.uiColor()
+        
+        addDocument.backgroundColor = white
+        sendDocument.backgroundColor = white
+        createFolder.backgroundColor = white
+        createSignature.backgroundColor = white
+        cloudSignin.backgroundColor = white
+        filesExplorer.backgroundColor = white
+        sendFeedback.backgroundColor = white
+        
+    }
+    
+    private func updateControlIcons() {
+        
+        addDocument.addIcon("add-document")
+        sendDocument.addIcon("send-document")
+        createFolder.addIcon("create-folder")
+        createSignature.addIcon("create-signature")
+        cloudSignin.addIcon("cloud-signin")
+        filesExplorer.addIcon("files-explorer")
+        
+    }
+    
+    
+    
+    
+    
+    
     
 }
