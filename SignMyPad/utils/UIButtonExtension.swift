@@ -19,7 +19,17 @@ extension UIButton {
         let iconImageView = UIImageView(image: icon!)
         iconImageView.frame = CGRect(x: leftMargin, y: y, width: w!, height: h!)
         
+        let currentLabel:String! = titleLabel?.text
+        
+        positionLabelRespectToImage(spacing: 10.0, position: iconImageView.frame)
         addSubview(iconImageView)
+        
+    }
+    
+    private func positionLabelRespectToImage(#spacing: CGFloat, position: CGRect) {
+     
+        let left = position.origin.x + position.width + spacing
+        self.titleEdgeInsets = UIEdgeInsets(top: 0, left: left, bottom: 0, right: 0)
         
     }
     

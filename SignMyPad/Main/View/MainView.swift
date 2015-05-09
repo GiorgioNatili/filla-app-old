@@ -16,6 +16,8 @@ class MainView: UIViewController, MainViewProtocol {
     
     // MARK: - IBOutlets
     @IBOutlet weak var randomNumber: UILabel!
+    @IBOutlet weak var sideMenu: UIView!
+    @IBOutlet weak var mainArea: UIView!
     
     // MARK: - IBOutlets: Files
     @IBOutlet weak var manageFiles: UILabel!
@@ -55,6 +57,7 @@ class MainView: UIViewController, MainViewProtocol {
         updateTextColors()
         updateBackgroundColors()
         updateControlIcons()
+        updateTexts()
         
         presenter?.viewDidAppear()
         
@@ -112,22 +115,26 @@ class MainView: UIViewController, MainViewProtocol {
         
         addDocument.setTitleColor(red, forState: .Normal)
         
-        let gray = PlatformColors.GRAY.uiColor()
+        let liteGray = PlatformColors.LITE_GRAY.uiColor()
         
-        manageFiles.textColor = gray
-        createFolder.setTitleColor(gray, forState: .Normal)
-        signatures.textColor = gray
-        cloudServices.textColor = gray
-        manageDocuments.textColor = gray
-        filesExplorer.setTitleColor(gray, forState: .Normal)
-        utilities.textColor = gray
-        sendFeedback.setTitleColor(gray, forState: .Normal)
+        manageFiles.textColor = liteGray
+        createFolder.setTitleColor(liteGray, forState: .Normal)
+        signatures.textColor = liteGray
+        cloudServices.textColor = liteGray
+        manageDocuments.textColor = liteGray
+        filesExplorer.setTitleColor(liteGray, forState: .Normal)
+        utilities.textColor = liteGray
+        sendFeedback.setTitleColor(liteGray, forState: .Normal)
         
         let indigo = PlatformColors.INDIGO.uiColor()
         
         sendDocument.setTitleColor(indigo, forState: .Normal)
         createSignature.setTitleColor(indigo, forState: .Normal)
         cloudSignin.setTitleColor(indigo, forState: .Normal)
+        
+        var navigationBarAppearace = UINavigationBar.appearance()
+        navigationBarAppearace.tintColor = PlatformColors.WHITE.uiColor()
+        navigationBarAppearace.barTintColor = PlatformColors.RED.uiColor()
         
     }
     
@@ -143,6 +150,14 @@ class MainView: UIViewController, MainViewProtocol {
         filesExplorer.backgroundColor = white
         sendFeedback.backgroundColor = white
         
+        let darkGray = PlatformColors.DARKGRAY.uiColor()
+        
+        sideMenu.backgroundColor = darkGray
+        
+        let gray = PlatformColors.GRAY.uiColor()
+        
+        mainArea.backgroundColor = gray
+        
     }
     
     private func updateControlIcons() {
@@ -156,10 +171,26 @@ class MainView: UIViewController, MainViewProtocol {
         
     }
     
-    
-    
-    
-    
-    
+    private func updateTexts() {
+        
+        manageFiles.text = "MANAGE_FILES".localized
+        addDocument.setTitle("ADD_DOCUMENT".localized, forState: .Normal)
+        sendDocument.setTitle("SEND_DOCUMENT".localized, forState: .Normal)
+        createFolder.setTitle("NEW_FOLDER".localized, forState: .Normal)
+        
+        signatures.text = "SIGNATURES".localized
+        createSignature.setTitle("CREATE_SIGNATURE".localized, forState: .Normal)
+
+        cloudServices.text = "SERVICES".localized
+        cloudSignin.setTitle("CLOUD_SERVICES".localized, forState: .Normal)
+
+        manageDocuments.text = "MANAGE_DOCUMENTS".localized
+        filesExplorer.setTitle("FILES_EXPLORER".localized, forState: .Normal)
+        
+        utilities.text = "UTILITIES".localized
+        sendFeedback.setTitle("SEND_FEEDBACK".localized, forState: .Normal)
+        
+        
+    }
     
 }
