@@ -99,6 +99,12 @@ class MainView: UIViewController, MainViewProtocol {
         
     }
     
+    @IBAction func openPDFEditor(sender: AnyObject) {
+    
+        presenter?.launchEditor()
+        
+    }
+    
     // MARK: Private Methods
     private func showAlert(msg:String){
         

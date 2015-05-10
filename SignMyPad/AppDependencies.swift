@@ -27,6 +27,7 @@ class AppDependencies {
     
     func configureDependencies() {
     
+        let pdfEditorWireFrame = PDFEditorWireFrame()
     
     }
 }

@@ -19,5 +19,19 @@ class PDFEditorPresenter: PDFEditorPresenterProtocol, PDFEditorInteractorOutputP
         // Initialization
     
     }
+    
+    // MARK: VIEW -> PRESENTER
+    func initializeEditor() {
+        
+        let path = NSBundle.mainBundle().pathForResource("testA", ofType: "pdf")
+        let editor = PDFViewController(path: path)
+        
+        editor.view.backgroundColor = UIColor.redColor()
+        
+        println(path)
+        
+        view?.renderPDFViewController(editor)
+        
+    }
 
 }

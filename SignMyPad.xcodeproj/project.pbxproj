@@ -153,6 +153,7 @@
 		6BEE4FF51AFE14C500215DCB /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE4FF41AFE14C400215DCB /* UIButtonExtension.swift */; };
 		6BEE4FF81AFE1CAD00215DCB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE4FFA1AFE1CAD00215DCB /* Localizable.strings */; };
 		6BEE4FFD1AFE200700215DCB /* StringExtesnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE4FFC1AFE200700215DCB /* StringExtesnion.swift */; };
+		6BEE50301AFEB61B00215DCB /* testA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE502F1AFEB61B00215DCB /* testA.pdf */; };
 		6BFBCC5B1AF6BA8000E8ECEA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFBCC5A1AF6BA8000E8ECEA /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -319,6 +320,7 @@
 		6BEE4FF41AFE14C400215DCB /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButtonExtension.swift; path = utils/UIButtonExtension.swift; sourceTree = "<group>"; };
 		6BEE4FFB1AFE1CB500215DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6BEE4FFC1AFE200700215DCB /* StringExtesnion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtesnion.swift; path = utils/StringExtesnion.swift; sourceTree = "<group>"; };
+		6BEE502F1AFEB61B00215DCB /* testA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = testA.pdf; path = dev/testA.pdf; sourceTree = "<group>"; };
 		6BFBCC5A1AF6BA8000E8ECEA /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
 		913E5245595705CD288EB0BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		92B33A0DFB5E8AF4286902CA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -398,6 +400,7 @@
 		591762AA1AE90AE5009D3E60 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6BEE502F1AFEB61B00215DCB /* testA.pdf */,
 				59A9035A1AF3D563005FC6DF /* images */,
 				591762AB1AE90AE5009D3E60 /* Info.plist */,
 				6BEE4FFA1AFE1CAD00215DCB /* Localizable.strings */,
@@ -1770,6 +1773,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59A903771AF3D563005FC6DF /* Default-Landscape@1x.png in Resources */,
+				6BEE50301AFEB61B00215DCB /* testA.pdf in Resources */,
 				591762B51AE90AE5009D3E60 /* Main.storyboard in Resources */,
 				6BEE4FF01AFE0E9F00215DCB /* create-folder-icon.png in Resources */,
 				59A9037A1AF3D563005FC6DF /* Default-Portrait@2x.png in Resources */,
