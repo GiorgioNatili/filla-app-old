@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import SwiftSpinner
 
+
 class MainView: UIViewController, MainViewProtocol {
     
     var presenter: MainPresenterProtocol?

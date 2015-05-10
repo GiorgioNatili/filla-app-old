@@ -154,7 +154,7 @@
 		6BEE4FF81AFE1CAD00215DCB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE4FFA1AFE1CAD00215DCB /* Localizable.strings */; };
 		6BEE4FFD1AFE200700215DCB /* StringExtesnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE4FFC1AFE200700215DCB /* StringExtesnion.swift */; };
 		6BEE50301AFEB61B00215DCB /* testA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE502F1AFEB61B00215DCB /* testA.pdf */; };
-		6BFBCC5B1AF6BA8000E8ECEA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFBCC5A1AF6BA8000E8ECEA /* Pods.framework */; };
+		CA7BF219DD03F9F3BC25E0A3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A508B166AFC11E1C9709D702 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -321,9 +321,8 @@
 		6BEE4FFB1AFE1CB500215DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6BEE4FFC1AFE200700215DCB /* StringExtesnion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtesnion.swift; path = utils/StringExtesnion.swift; sourceTree = "<group>"; };
 		6BEE502F1AFEB61B00215DCB /* testA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = testA.pdf; path = dev/testA.pdf; sourceTree = "<group>"; };
-		6BFBCC5A1AF6BA8000E8ECEA /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
 		913E5245595705CD288EB0BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		92B33A0DFB5E8AF4286902CA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A508B166AFC11E1C9709D702 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,9 +330,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BFBCC5B1AF6BA8000E8ECEA /* Pods.framework in Frameworks */,
 				6B2A3D0F1AEF8C9B00D3970C /* Accounts.framework in Frameworks */,
 				6B2A3D0D1AEF8C8A00D3970C /* Social.framework in Frameworks */,
+				CA7BF219DD03F9F3BC25E0A3 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,10 +349,9 @@
 		050803E7567DF8FD8B5DA3E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6BFBCC5A1AF6BA8000E8ECEA /* Pods.framework */,
 				6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */,
 				6B2A3D0C1AEF8C8A00D3970C /* Social.framework */,
-				92B33A0DFB5E8AF4286902CA /* Pods.framework */,
+				A508B166AFC11E1C9709D702 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1825,7 +1823,7 @@
 		};
 		591762CF1AE9181D009D3E60 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -2123,17 +2121,19 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Free";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				COMPRESS_PNG_FILES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Pods/Fabric",
 				);
 				INFOPLIST_FILE = SignMyPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/giorgionatili/Documents/mobile/sign-my-pad/SignMyPad/SignMyPad-Bridging-Header.h";
 				USER_HEADER_SEARCH_PATHS = "Pods/**";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -2144,17 +2144,19 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Free";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				COMPRESS_PNG_FILES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Pods/Fabric",
 				);
 				INFOPLIST_FILE = SignMyPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/giorgionatili/Documents/mobile/sign-my-pad/SignMyPad/SignMyPad-Bridging-Header.h";
 				USER_HEADER_SEARCH_PATHS = "Pods/**";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
