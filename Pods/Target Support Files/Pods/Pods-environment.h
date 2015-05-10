@@ -96,18 +96,6 @@
 #define COCOAPODS_VERSION_MINOR_Fabric_Crashlytics 2
 #define COCOAPODS_VERSION_PATCH_Fabric_Crashlytics 3
 
-// Fabric/MoPub
-#define COCOAPODS_POD_AVAILABLE_Fabric_MoPub
-#define COCOAPODS_VERSION_MAJOR_Fabric_MoPub 1
-#define COCOAPODS_VERSION_MINOR_Fabric_MoPub 2
-#define COCOAPODS_VERSION_PATCH_Fabric_MoPub 3
-
-// Fabric/Twitter
-#define COCOAPODS_POD_AVAILABLE_Fabric_Twitter
-#define COCOAPODS_VERSION_MAJOR_Fabric_Twitter 1
-#define COCOAPODS_VERSION_MINOR_Fabric_Twitter 2
-#define COCOAPODS_VERSION_PATCH_Fabric_Twitter 3
-
 // ILPDFKit
 #define COCOAPODS_POD_AVAILABLE_ILPDFKit
 #define COCOAPODS_VERSION_MAJOR_ILPDFKit 0

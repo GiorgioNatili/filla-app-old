@@ -33,8 +33,6 @@ PODS:
     - Fabric/Core (= 1.2.3)
   - Fabric/Core (1.2.3)
   - Fabric/Crashlytics (1.2.3)
-  - Fabric/MoPub (1.2.3)
-  - Fabric/Twitter (1.2.3)
   - ILPDFKit (0.1.1)
   - SAMCategories (0.4.1)
   - SVProgressHUD (1.1.3)
@@ -47,8 +45,6 @@ DEPENDENCIES:
   - CocoaLumberjack (~> 2.0)
   - Fabric (~> 1.2)
   - Fabric/Crashlytics (~> 1.2)
-  - Fabric/MoPub (~> 1.2)
-  - Fabric/Twitter (~> 1.2)
   - ILPDFKit (~> 0.1.1)
   - SAMCategories (~> 0.4.0)
   - SVProgressHUD (~> 1.1.3)
@@ -66,4 +62,4 @@ SPEC CHECKSUMS:
   SwiftSpinner: 20abe2e2433b8815e1ef39c27630d0910c3c3f35
   SwiftyJSON: 0b3e6c07af17ff745e77e8e9984097b55c956e5c
 
-COCOAPODS: 0.36.4
+COCOAPODS: 0.37.1
