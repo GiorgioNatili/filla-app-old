@@ -40,6 +40,7 @@ protocol MainPresenterProtocol: class {
     */
     func viewDidAppear()
     func generateAndFormatRandom()
+    func launchEditor()
 
 }
 

@@ -20,7 +20,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FUr-CI-aSM" userLabel="Main Area">
                                 <rect key="frame" x="-257" y="20" width="857" height="580"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main application view" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXW-hu-Kbo">
                                 <rect key="frame" x="217" y="290" width="166" height="21"/>
@@ -33,6 +33,9 @@
                                 <state key="normal" title="Open the PDF editor">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="openPDFEditor:" destination="onX-oK-EO4" eventType="touchUpInside" id="4Xb-xD-ShG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxg-Sk-vrB">
                                 <rect key="frame" x="236" y="361" width="129" height="30"/>
@@ -221,7 +224,65 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xH1-tW-BFz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2114" y="1569"/>
+            <point key="canvasLocation" x="1799" y="1577"/>
+        </scene>
+        <!--Editor View-->
+        <scene sceneID="R8k-z1-Dh1">
+            <objects>
+                <viewController storyboardIdentifier="PDFEditorView" id="rFf-Ig-Pwh" customClass="PDFEditorView" customModule="SignMyPad" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KOL-DZ-Fc7"/>
+                        <viewControllerLayoutGuide type="bottom" id="trD-Ub-7wW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Vn-K1-0n2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="upk-BU-MAJ" userLabel="Controller Renderer">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIC-SV-VhO">
+                                <rect key="frame" x="547" y="20" width="37" height="30"/>
+                                <state key="normal" title="close">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissView:" destination="rFf-Ig-Pwh" eventType="touchUpInside" id="Yit-In-sav"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="In1-Dj-Nhc">
+                                <rect key="frame" x="16" y="20" width="32" height="30"/>
+                                <state key="normal" title="save">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveData:" destination="rFf-Ig-Pwh" eventType="touchUpInside" id="LOo-DF-sFK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uIC-SV-VhO" firstAttribute="trailing" secondItem="6Vn-K1-0n2" secondAttribute="trailingMargin" id="A5z-Gw-sf7"/>
+                            <constraint firstItem="In1-Dj-Nhc" firstAttribute="top" secondItem="KOL-DZ-Fc7" secondAttribute="bottom" id="DG7-Tk-kPS"/>
+                            <constraint firstItem="upk-BU-MAJ" firstAttribute="top" secondItem="KOL-DZ-Fc7" secondAttribute="bottom" id="K9y-TN-FdH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="upk-BU-MAJ" secondAttribute="trailing" constant="-16" id="Tru-xW-7Zf"/>
+                            <constraint firstItem="In1-Dj-Nhc" firstAttribute="leading" secondItem="6Vn-K1-0n2" secondAttribute="leadingMargin" id="WHa-90-5iP"/>
+                            <constraint firstItem="uIC-SV-VhO" firstAttribute="top" secondItem="KOL-DZ-Fc7" secondAttribute="bottom" id="Xwi-P4-BJ5"/>
+                            <constraint firstAttribute="centerX" secondItem="upk-BU-MAJ" secondAttribute="centerX" id="mHa-fv-bVC"/>
+                            <constraint firstItem="upk-BU-MAJ" firstAttribute="leading" secondItem="6Vn-K1-0n2" secondAttribute="leadingMargin" constant="-16" id="oa0-gX-IWc"/>
+                            <constraint firstItem="trD-Ub-7wW" firstAttribute="top" secondItem="upk-BU-MAJ" secondAttribute="bottom" id="xdK-ug-QsJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activeViewContainer" destination="upk-BU-MAJ" id="UjW-fP-3Ra"/>
+                        <outlet property="close" destination="uIC-SV-VhO" id="RNF-6w-SlC"/>
+                        <outlet property="save" destination="In1-Dj-Nhc" id="L6b-re-9Oa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oRE-FG-95f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2561" y="1577"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DYg-Ny-HpG">

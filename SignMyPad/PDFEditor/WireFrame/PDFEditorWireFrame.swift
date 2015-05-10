@@ -11,10 +11,13 @@ import UIKit
 
 class PDFEditorWireFrame: PDFEditorWireFrameProtocol {
     
-    static func presentPDFEditorModule(fromView view: AnyObject) {
+    static func presentPDFEditorModule(fromView uiview: AnyObject) {
+        
+        let viewController = uiview as! UIViewController
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         
         // Generating module components
-        var view: PDFEditorViewProtocol = PDFEditorView()
+        var view = mainStoryboard.instantiateViewControllerWithIdentifier("PDFEditorView") as! PDFEditorView
         var presenter: protocol<PDFEditorPresenterProtocol, PDFEditorInteractorOutputProtocol> = PDFEditorPresenter()
         var interactor: PDFEditorInteractorInputProtocol = PDFEditorInteractor()
         var APIDataManager: PDFEditorAPIDataManagerInputProtocol = PDFEditorAPIDataManager()
@@ -29,6 +32,9 @@ class PDFEditorWireFrame: PDFEditorWireFrameProtocol {
         interactor.presenter = presenter
         interactor.APIDataManager = APIDataManager
         interactor.localDatamanager = localDataManager
+        
+        // Presenting
+        viewController.presentViewController(view, animated: true, completion: nil)
         
     }
 }

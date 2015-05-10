@@ -14,6 +14,10 @@ protocol PDFEditorViewProtocol: class {
     /**
     * Add here your methods for communication PRESENTER -> VIEW
     */
+    
+    func renderPDFViewController(controller:PDFViewController)
+    var viewControllers: [UIViewController]  { get set }
+    
 }
 
 protocol PDFEditorWireFrameProtocol: class {
@@ -33,7 +37,9 @@ protocol PDFEditorPresenterProtocol: class {
     /**
     * Add here your methods for communication VIEW -> PRESENTER
     */
-
+    
+    func initializeEditor()
+    
 }
 
 protocol PDFEditorInteractorOutputProtocol: class {
