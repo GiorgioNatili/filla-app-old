@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.5.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Alamofire (1.2.1)
+  - Alamofire (1.2.2)
   - CocoaLumberjack (2.0.0):
     - CocoaLumberjack/Default (= 2.0.0)
     - CocoaLumberjack/Extensions (= 2.0.0)
@@ -53,7 +53,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
-  Alamofire: 1acfdf179aff68b41a48dff70c1ac7fa263e2bcb
+  Alamofire: 11a6022f5089887d92ffb5a3014c97a0a915ab98
   CocoaLumberjack: a6f77d987d65dc7ba86b0f84db7d0b9084f77bcb
   Fabric: 8a5b89c2131962830d92bbc88d482e80665846b2
   ILPDFKit: e11ecca803173252b397bfd3c0c39a0d78c9483e

@@ -163,7 +163,7 @@ class MainView: UIViewController, MainViewProtocol {
         
         let gray = PlatformColors.GRAY.uiColor()
         
-        mainArea.backgroundColor = gray
+        mainArea.backgroundColor = PlatformColors.INDIGO.uiColor()
         
     }
     
