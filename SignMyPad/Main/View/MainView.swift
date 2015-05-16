@@ -139,10 +139,6 @@ class MainView: UIViewController, MainViewProtocol {
         createSignature.setTitleColor(indigo, forState: .Normal)
         cloudSignin.setTitleColor(indigo, forState: .Normal)
         
-        var navigationBarAppearace = UINavigationBar.appearance()
-        navigationBarAppearace.tintColor = PlatformColors.WHITE.uiColor()
-        navigationBarAppearace.barTintColor = PlatformColors.RED.uiColor()
-        
     }
     
     private func updateBackgroundColors() {

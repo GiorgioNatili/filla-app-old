@@ -25,8 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
         
-        UINavigationBar.appearance().barTintColor = UIColor.greenColor()
-        UINavigationBar.appearance().tintColor = UIColor.greenColor()
+        UINavigationBar.appearance().barTintColor = UIColor.redColor()
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         
         window!.makeKeyAndVisible()
         

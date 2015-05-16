@@ -34,8 +34,7 @@ class PDFEditorWireFrame: PDFEditorWireFrameProtocol {
         interactor.localDatamanager = localDataManager
         
         // Presenting
-        viewController.navigationController?.pushViewController(view, animated: true)
-        //viewController.presentViewController(view, animated: true, completion: nil)
+        (viewController as! UINavigationController).pushViewController(view, animated: true)
         
     }
 }
