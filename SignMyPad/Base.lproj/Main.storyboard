@@ -325,29 +325,6 @@
             </objects>
             <point key="canvasLocation" x="3609" y="1596"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Z05-DS-VSn">
-            <objects>
-                <viewController storyboardIdentifier="VC" id="9Ie-LJ-kDn" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9tO-Ex-Qxg"/>
-                        <viewControllerLayoutGuide type="bottom" id="9I5-CC-nIR"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="p4a-bk-LV0">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Bdt-5i-6ZX">
-                                <rect key="frame" x="99" y="167" width="94" height="29"/>
-                            </stepper>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rRO-xg-ZZO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4064" y="1577"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="R9y-hd-g0r">
             <objects>

@@ -34,12 +34,11 @@ class MainWireFrame: MainWireFrameProtocol {
         interactor.APIDataManager = APIDataManager
         interactor.localDatamanager = localDataManager
         
-        
-        var vc = mainStoryboard.instantiateViewControllerWithIdentifier("VC") as! UIViewController
-        
         // Presenting
-        window.rootViewController = view
-        window.rootViewController?.navigationController?.pushViewController(vc, animated: true)
+        let navigationController = UINavigationController()
+        
+        navigationController.pushViewController(view, animated: false)
+        window.rootViewController = navigationController
         
     }
     

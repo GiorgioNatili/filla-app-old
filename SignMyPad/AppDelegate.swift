@@ -21,14 +21,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
         setupStorage()
-        
-        window!.makeKeyAndVisible()
         launchRootViewDependingOnStatus()
         
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
         
         UINavigationBar.appearance().barTintColor = UIColor.greenColor()
         UINavigationBar.appearance().tintColor = UIColor.greenColor()
+        
+        window!.makeKeyAndVisible()
         
         return true
         
