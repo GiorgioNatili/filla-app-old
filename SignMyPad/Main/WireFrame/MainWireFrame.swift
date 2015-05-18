@@ -35,7 +35,7 @@ class MainWireFrame: MainWireFrameProtocol {
         interactor.localDatamanager = localDataManager
         
         // Presenting
-        let navigationController = UINavigationController()
+        let navigationController = UINavigationController(navigationBarClass: LogoNavBar.self, toolbarClass: nil)
         
         navigationController.pushViewController(view, animated: false)
         window.rootViewController = navigationController

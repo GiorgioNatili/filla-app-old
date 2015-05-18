@@ -18,7 +18,6 @@ class PDFEditorView: UIViewController, PDFEditorViewProtocol {
     
     // MARK: - IBOutlets
     @IBOutlet weak var activeViewContainer: UIView!
-    @IBOutlet weak var close: UIButton!
     @IBOutlet weak var save: UIButton!
     
     // MARK: - View Life Cycle
@@ -38,12 +37,6 @@ class PDFEditorView: UIViewController, PDFEditorViewProtocol {
     }
     
     // MARK: - IBActions
-    @IBAction func dismissView(sender: UIButton) {
-    
-        self.dismissViewControllerAnimated(true, completion: {});
-    
-    }
-    
     @IBAction func saveData(sender: UIButton) {
         
         if let activeVC:PDFViewController = activeViewController as? PDFViewController {

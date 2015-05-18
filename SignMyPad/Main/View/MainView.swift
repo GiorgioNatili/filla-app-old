@@ -20,6 +20,11 @@ class MainView: UIViewController, MainViewProtocol {
     @IBOutlet weak var sideMenu: UIView!
     @IBOutlet weak var mainArea: UIView!
     
+    // MARK: - IBOutlets: Navigation Bar
+    @IBOutlet weak var help: UIButton!
+    @IBOutlet weak var ordering: UISegmentedControl!
+    @IBOutlet weak var visualizationOptions: UISegmentedControl!
+    
     // MARK: - IBOutlets: Files
     @IBOutlet weak var manageFiles: UILabel!
     @IBOutlet weak var addDocument: UIButton!
@@ -47,6 +52,11 @@ class MainView: UIViewController, MainViewProtocol {
     
         super.viewDidLoad()
         
+        updateTextColors()
+        updateBackgroundColors()
+        updateControlIcons()
+        updateTexts()
+        
         randomNumber.lineBreakMode = NSLineBreakMode.ByWordWrapping;
         
     }
@@ -54,11 +64,6 @@ class MainView: UIViewController, MainViewProtocol {
     override func viewDidAppear(animated: Bool) {
         
         super.viewDidAppear(animated)
-        
-        updateTextColors()
-        updateBackgroundColors()
-        updateControlIcons()
-        updateTexts()
         
         presenter?.viewDidAppear()
         
@@ -97,6 +102,24 @@ class MainView: UIViewController, MainViewProtocol {
         self.view.window?.addSubview(SwiftSpinner.sharedInstance)
         
         presenter?.generateAndFormatRandom()
+        
+    }
+    
+    @IBAction func orderingChange(sender: UISegmentedControl) {
+        
+        // TODO Communicate with the presenter to rearrange the data
+//        switch sender.selectedSegmentIndex {
+//        case 0:
+//            println("first segement clicked")
+//            break
+//        case 1:
+//            println("second segment clicked")
+//            break
+//        case 2:
+//            println("third segemnet clicked")
+//            break
+//        default:
+           // break
         
     }
     
@@ -159,11 +182,40 @@ class MainView: UIViewController, MainViewProtocol {
         
         let gray = PlatformColors.GRAY.uiColor()
         
-        mainArea.backgroundColor = PlatformColors.INDIGO.uiColor()
+        mainArea.backgroundColor = gray
         
     }
     
     private func updateControlIcons() {
+        
+        visualizationOptions.setImage(UIImage(named: "icons-view"), forSegmentAtIndex: 0)
+        visualizationOptions.setImage(UIImage(named: "list-view"), forSegmentAtIndex: 1)
+        
+        if let nav = navigationController, image = UIImage(named: "logo"){
+            
+            let width = view.bounds.size.width
+            let height = nav.navigationBar.bounds.height
+            
+            let scaled = RBResizeImage(image, CGSize(width: width * 0.3, height: height))
+            let customView = UIView(frame: CGRect(x: 0, y: 0, width: width * 0.3, height: height))
+            let imageView = UIImageView(frame: CGRect(x: ((width * 0.3) - scaled.size.width) / 2, y: 0, width: scaled.size.width, height: scaled.size.height))
+            imageView.image = scaled
+            
+            customView.addSubview(imageView)
+            
+            let margin = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FixedSpace, target: nil, action: nil)
+            margin.width = -16
+            let padding = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FixedSpace, target: nil, action: nil)
+            padding.width = 16
+            
+            let logo:UIBarButtonItem = UIBarButtonItem(customView: customView)
+            let current:UIBarButtonItem = navigationItem.leftBarButtonItem!
+            
+            navigationItem.setLeftBarButtonItems([margin, logo, padding, current], animated: true)
+            
+            (nav.navigationBar as! LogoNavBar).logoPercentage = 0.3
+            
+        }
         
         addDocument.addIcon("add-document")
         sendDocument.addIcon("send-document")
@@ -176,6 +228,11 @@ class MainView: UIViewController, MainViewProtocol {
     
     private func updateTexts() {
         
+        help.setTitle("HELP".localized, forState: .Normal)
+        ordering.setTitle("ORDER_BY_NAME".localized, forSegmentAtIndex: 0)
+        ordering.setTitle("ORDER_BY_DATE_ADDED".localized, forSegmentAtIndex: 1)
+        ordering.setTitle("ORDER_BY_DATE_MODIFIED".localized, forSegmentAtIndex: 2)
+                
         manageFiles.text = "MANAGE_FILES".localized
         addDocument.setTitle("ADD_DOCUMENT".localized, forState: .Normal)
         sendDocument.setTitle("SEND_DOCUMENT".localized, forState: .Normal)

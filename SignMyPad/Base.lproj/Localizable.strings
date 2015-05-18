@@ -6,19 +6,24 @@
   Copyright (c) 2015 Natili, Giorgio. All rights reserved.
 */
 
-"MANAGE_FILES"      = "Manage Files";
-"ADD_DOCUMENT"      = "Add Document";
-"SEND_DOCUMENT"     = "Send Document";
-"NEW_FOLDER"        = "New Folder";
+"HELP"                      = "Help";
+"ORDER_BY_NAME"             = "Name";
+"ORDER_BY_DATE_ADDED"       = "Date Added";
+"ORDER_BY_DATE_MODIFIED"    = "Date Modified";
 
-"SIGNATURES"        = "Signatures";
-"CREATE_SIGNATURE"  = "Create Signature";
+"MANAGE_FILES"              = "Manage Files";
+"ADD_DOCUMENT"              = "Add Document";
+"SEND_DOCUMENT"             = "Send Document";
+"NEW_FOLDER"                = "New Folder";
 
-"SERVICES"          = "Sign in to services";
-"CLOUD_SERVICES"    = "Cloud Services";
+"SIGNATURES"                = "Signatures";
+"CREATE_SIGNATURE"          = "Create Signature";
 
-"MANAGE_DOCUMENTS"  = "Manage Documents";
-"FILES_EXPLORER"    = "Edit Files/Folders";
+"SERVICES"                  = "Sign in to services";
+"CLOUD_SERVICES"            = "Cloud Services";
 
-"UTILITIES"         = "Utilities";
-"SEND_FEEDBACK"     = "Send Feedback";
+"MANAGE_DOCUMENTS"          = "Manage Documents";
+"FILES_EXPLORER"            = "Edit Files/Folders";
+
+"UTILITIES"                 = "Utilities";
+"SEND_FEEDBACK"             = "Send Feedback";
