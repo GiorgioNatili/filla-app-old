@@ -14,6 +14,10 @@ protocol HelpViewProtocol: class {
     /**
     * Add here your methods for communication PRESENTER -> VIEW
     */
+    
+    func showLoader(status: Bool)
+    func showErrorMessage(message: String)
+    
 }
 
 protocol HelpWireFrameProtocol: class {

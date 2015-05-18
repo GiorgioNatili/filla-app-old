@@ -61,5 +61,13 @@ class MainPresenter: MainPresenterProtocol, MainInteractorOutputProtocol {
         PDFEditorWireFrame.presentPDFEditorModule(fromView: window.rootViewController!)
         
     }
+    
+    func launchHelp() {
+        
+        let window = UIApplication.sharedApplication().delegate!.window!!
+        HelpWireFrame.presentHelpModule(fromView: window.rootViewController!)
+        
+    }
+
 
 }

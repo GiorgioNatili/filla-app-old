@@ -259,6 +259,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="openHelp:" destination="onX-oK-EO4" eventType="touchUpInside" id="Be0-I8-91T"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="I6t-Gs-TpF">
@@ -355,6 +358,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oRE-FG-95f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3412" y="1577"/>
+        </scene>
+        <!--Help View-->
+        <scene sceneID="RyI-6v-sKR">
+            <objects>
+                <viewController storyboardIdentifier="HelpView" id="A5T-sM-WBz" customClass="HelpView" customModule="SignMyPad" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sWG-qM-L9t"/>
+                        <viewControllerLayoutGuide type="bottom" id="9x0-mB-Xzn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HUp-gC-1RM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BmU-Pi-Pb7">
+                                <rect key="frame" x="-4" y="20" width="608" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9x0-mB-Xzn" firstAttribute="top" secondItem="BmU-Pi-Pb7" secondAttribute="bottom" id="8LH-6n-WpB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BmU-Pi-Pb7" secondAttribute="trailing" constant="-20" id="h7Z-SV-iPY"/>
+                            <constraint firstItem="BmU-Pi-Pb7" firstAttribute="top" secondItem="sWG-qM-L9t" secondAttribute="bottom" id="qfX-ee-QvK"/>
+                            <constraint firstItem="BmU-Pi-Pb7" firstAttribute="leading" secondItem="HUp-gC-1RM" secondAttribute="leadingMargin" constant="-20" id="yvO-ei-DPv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="helpContent" destination="BmU-Pi-Pb7" id="HIu-Cj-evO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="89Z-qD-Efs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4213" y="1577"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="R9y-hd-g0r">

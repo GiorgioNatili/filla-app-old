@@ -129,6 +129,11 @@ class MainView: UIViewController, MainViewProtocol {
         
     }
     
+    @IBAction func openHelp(sender: AnyObject) {
+        
+        presenter?.launchHelp()
+        
+    }
     // MARK: Private Methods
     private func showAlert(msg:String){
         

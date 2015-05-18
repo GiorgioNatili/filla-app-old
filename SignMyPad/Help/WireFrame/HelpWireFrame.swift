@@ -10,10 +10,13 @@ import Foundation
 
 class HelpWireFrame: HelpWireFrameProtocol {
     
-    static func presentHelpModule(fromView view: AnyObject) {
+    static func presentHelpModule(fromView uiview: AnyObject) {
+        
+        let viewController = uiview as! UIViewController
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         
         // Generating module components
-        var view: HelpViewProtocol = HelpView()
+        var view = mainStoryboard.instantiateViewControllerWithIdentifier("HelpView") as! HelpView
         var presenter: protocol<HelpPresenterProtocol, HelpInteractorOutputProtocol> = HelpPresenter()
         var interactor: HelpInteractorInputProtocol = HelpInteractor()
         var APIDataManager: HelpAPIDataManagerInputProtocol = HelpAPIDataManager()
@@ -28,6 +31,9 @@ class HelpWireFrame: HelpWireFrameProtocol {
         interactor.presenter = presenter
         interactor.APIDataManager = APIDataManager
         interactor.localDatamanager = localDataManager
+        
+        // Presenting
+        (viewController as! UINavigationController).pushViewController(view, animated: true)
         
     }
 }

@@ -6,6 +6,11 @@
   Copyright (c) 2015 Natili, Giorgio. All rights reserved.
 */
 
+"ALERT"                     = "Alert!";
+
+"HELP_LOADING"              = "Recovering some data...";
+"HELP_LOADING_ERROR"        = "Sorry, we are getting problems to load the help, please try again later...";
+
 "HELP"                      = "Help";
 "ORDER_BY_NAME"             = "Name";
 "ORDER_BY_DATE_ADDED"       = "Date Added";
