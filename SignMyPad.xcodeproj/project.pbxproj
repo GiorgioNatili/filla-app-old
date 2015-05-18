@@ -150,6 +150,8 @@
 		6BACDFFD1B09410C0094F94D /* list-view-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BACDFF91B09410C0094F94D /* list-view-selected@2x.png */; };
 		6BACDFFE1B09410C0094F94D /* icons-view@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BACDFFA1B09410C0094F94D /* icons-view@2x.png */; };
 		6BD8EEBD1AF6D6590096C91E /* Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD8EEBC1AF6D6590096C91E /* Timing.swift */; };
+		6BE152711B0A0BCA0074E676 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE152701B0A0BCA0074E676 /* Fabric.framework */; };
+		6BE152751B0A0FD70074E676 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE152741B0A0FD70074E676 /* Crashlytics.framework */; };
 		6BEE4FE61AFCC8BA00215DCB /* PlatformColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE4FE51AFCC8BA00215DCB /* PlatformColors.swift */; };
 		6BEE4FEE1AFE0E9F00215DCB /* add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE4FE81AFE0E9F00215DCB /* add-icon.png */; };
 		6BEE4FEF1AFE0E9F00215DCB /* cloud-signing-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE4FE91AFE0E9F00215DCB /* cloud-signing-icon.png */; };
@@ -324,6 +326,8 @@
 		6BACDFF91B09410C0094F94D /* list-view-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-view-selected@2x.png"; sourceTree = "<group>"; };
 		6BACDFFA1B09410C0094F94D /* icons-view@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-view@2x.png"; sourceTree = "<group>"; };
 		6BD8EEBC1AF6D6590096C91E /* Timing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timing.swift; sourceTree = "<group>"; };
+		6BE152701B0A0BCA0074E676 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		6BE152741B0A0FD70074E676 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		6BEE4FE51AFCC8BA00215DCB /* PlatformColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlatformColors.swift; path = utils/PlatformColors.swift; sourceTree = "<group>"; };
 		6BEE4FE81AFE0E9F00215DCB /* add-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-icon.png"; sourceTree = "<group>"; };
 		6BEE4FE91AFE0E9F00215DCB /* cloud-signing-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud-signing-icon.png"; sourceTree = "<group>"; };
@@ -345,8 +349,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B2A3D0F1AEF8C9B00D3970C /* Accounts.framework in Frameworks */,
+				6BE152751B0A0FD70074E676 /* Crashlytics.framework in Frameworks */,
 				6B2A3D0D1AEF8C8A00D3970C /* Social.framework in Frameworks */,
 				CA7BF219DD03F9F3BC25E0A3 /* Pods.framework in Frameworks */,
+				6BE152711B0A0BCA0074E676 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +369,8 @@
 		050803E7567DF8FD8B5DA3E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6BE152741B0A0FD70074E676 /* Crashlytics.framework */,
+				6BE152701B0A0BCA0074E676 /* Fabric.framework */,
 				6B2A3D0E1AEF8C9B00D3970C /* Accounts.framework */,
 				6B2A3D0C1AEF8C8A00D3970C /* Social.framework */,
 				A508B166AFC11E1C9709D702 /* Pods.framework */,
@@ -1874,7 +1882,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "./Fabric.framework/run 804bf36372dcf949eaf5ff1a40c7efa59fc54a11 b7e040227cebac29fe784912674dbc26153159035b0ca7bc2a9bf84b73b22ccb";
 		};
 		AE46E43A2E129640DA06DC2F /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2169,6 +2177,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/Fabric",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SignMyPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -2192,6 +2201,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/Fabric",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SignMyPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
